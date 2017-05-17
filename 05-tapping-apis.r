@@ -40,14 +40,14 @@ ls("package:aRxiv")
 
 # access API with wrapper
 ?arxiv_search
-arxiv_df <- arxiv_search(query = "forecast AND submittedDate:[2016 TO 2017]", limit = 500, output_format = "data.frame")
+arxiv_df <- arxiv_search(query = "forecast AND submittedDate:[2016 TO 2017]", limit = 200, output_format = "data.frame")
 View(arxiv_df)
 
 arxiv_count('au:"Gary King"')
 query_terms
 
 arxiv_count('abs:"political" AND submittedDate:[2016 TO 2017]')
-polsci_articles <- arxiv_search('abs:"political" AND submittedDate:[2016 TO 2017]', limit = 500)
+polsci_articles <- arxiv_search('abs:"political" AND submittedDate:[2016 TO 2017]', limit = 200)
 
 
 #######################
@@ -106,11 +106,11 @@ browseURL("https://github.com/hrbrmstr/omdbapi")
 ### IT'S YOUR SHOT! ###
 #######################
 
-# 1. familiarize yourself with the OpenWeatherMap API!
+# 3. familiarize yourself with the OpenWeatherMap API!
 browseURL("http://openweathermap.org/current")
-# 2. sign up for the API at the address below and obtain an API key!
+# 4. sign up for the API at the address below and obtain an API key!
 browseURL("http://openweathermap.org/api")
-# 3. make a call to the API to find out the current weather conditions in Chicago!
+# 5. make a call to the API to find out the current weather conditions in Firenze!
 
 
 

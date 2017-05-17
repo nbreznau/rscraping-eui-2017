@@ -1,12 +1,60 @@
 ### -----------------------------
 ### simon munzert
-### workflow
+### workflow and good practice
 ### -----------------------------
 
 ## peparations -------------------
 
 source("00-course-setup.r")
 wd <- getwd()
+
+
+
+## stay friendly on the web ------
+
+# work with informative header fields
+# don't bombard server
+# respect robots.txt
+
+
+# add header fields with httr::GET
+browseURL("http://httpbin.org")
+GET("http://httpbin.org/headers")
+GET("http://httpbin.org/headers", add_headers(From = "my@email.com"))
+GET("http://httpbin.org/headers", add_headers(From = "my@email.com",
+                                              `User-Agent` = R.Version()$version.string))
+
+# example
+url_response <- GET("http://spiegel.de/schlagzeilen", 
+                    add_headers(From = "my@email.com"))
+url_parsed <- url_response  %>% read_html()
+url_parsed %>% html_nodes(".schlagzeilen-headline") %>%  html_text()
+
+
+# add header fields with rvest + httr
+url <- "http://spiegel.de/schlagzeilen"
+session <- html_session(url, add_headers(From = "my@email.com"))
+headlines <- session %>% html_nodes(".schlagzeilen-headline") %>%  html_text()
+
+
+# don't bombard server
+
+for (i in 1:length(urls_list)) {
+  if (!file.exists(paste0(folder, names[i]))) {
+    download.file(urls_list[i], destfile = paste0(folder, names[i]))
+    Sys.sleep(runif(1, 0, 1))
+  }
+}
+
+# respect robots.txt
+browseURL("https://www.google.com/robots.txt")
+browseURL("http://www.nytimes.com/robots.txt")
+
+library(robotstxt)
+# more info see here: https://cran.r-project.org/web/packages/robotstxt/vignettes/using_robotstxt.html
+paths_allowed("/", "http://google.com/", bot = "*")
+paths_allowed("/imgres", "http://google.com/", bot = "*")
+paths_allowed("/imgres", "http://google.com/", bot = "Twitterbot")
 
 
 
@@ -102,33 +150,32 @@ tempdir()
 ### IT'S YOUR SHOT ###
 ######################
 
-# go to the following webpage.
+# 1. go to the following webpage.
 url <- "http://www.cses.org/datacenter/module4/module4.htm"
-browseURL(url)
 
-# the following piece of code identifies all links to resources on the webpage and selects the subset of links that refers to the survey questionnaire PDFs.
+# 2. the following piece of code identifies all links to resources on the webpage and selects the subset of links that refers to the survey questionnaire PDFs.
 library(rvest)
 page_links <- read_html(url) %>% html_nodes("a") %>% html_attr("href")
 survey_pdfs <- str_subset(page_links, "/survey")
 
-# set up folder data/cses-pdfs.
+# 3. set up folder data/cses-pdfs.
 
-# download a sample of 10 of the survey questionnaire PDFs into that folder using a for loop and the download.file() function.
+# 4. download a sample of 10 of the survey questionnaire PDFs into that folder using a for loop and the download.file() function.
 
-# check if the number of files in the folder corresponds with the number of downloads and list the names of the files.
+# 5. check if the number of files in the folder corresponds with the number of downloads and list the names of the files.
 
-# inspect the files. which is the largest one?
+# 6. inspect the files. which is the largest one?
 
-# zip all files into one zip file.
+# 7. zip all files into one zip file.
 
 
 
-### Scheduling scraping tasks on Windows -------
+## Scheduling scraping tasks on Windows -------
 
 browseURL("https://cran.r-project.org/web/packages/taskscheduleR/vignettes/taskscheduleR.html")
 
 
-### Scheduling scraping tasks on a Mac ---------
+## Scheduling scraping tasks on a Mac ---------
 
 browseURL("https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html")
 
@@ -136,9 +183,9 @@ browseURL("https://developer.apple.com/library/content/documentation/MacOSX/Conc
 # 2. add "#!/usr/local/bin/Rscript" to the top of the script
 # 3. create plist file
 # 4. load plist file into launchd scheduler and start it (via Terminal):
-launchctl load ~/Library/LaunchAgents/spiegelheadlines.plist
-launchctl start spiegelheadlines
-launchctl list
+system("launchctl load ~/Library/LaunchAgents/spiegelheadlines.plist")
+system("launchctl start spiegelheadlines")
+system("launchctl list")
 
-launchctl stop spiegelheadlines
-launchctl unload ~/Library/LaunchAgents/spiegelheadlines.plist
+system("launchctl stop spiegelheadlines")
+system("launchctl unload ~/Library/LaunchAgents/spiegelheadlines.plist")

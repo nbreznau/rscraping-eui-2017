@@ -1,0 +1,21 @@
+q = cdu
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = csu
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = spd
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = fdp
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = grüne
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = linke
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = afd
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = schulz
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = merkel
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json q = btw17
+streamtime = 1800
+filename = data/rtweet-data/2017-05-17-17-10.json

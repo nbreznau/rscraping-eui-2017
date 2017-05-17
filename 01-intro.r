@@ -48,11 +48,10 @@ if ( !file.exists("breweries_geo.RData")){
   load("breweries_geo.RData")
 }
 head(pos)
-View(pos)
 
 ## step 3: plot breweries of Germany
 brewery_map <- get_map(location=c(lon = mean(c(min(pos$lon), max(pos$lon))), lat = mean(c(min(pos$lat), max(pos$lat)))), zoom=6, maptype="hybrid")
-p <- ggmap(brewery_map) + geom_point(data=pos, aes(x=lon, y=lat), col="red", size=1)
+p <- ggmap(brewery_map) + geom_point(data=pos, aes(x=lon, y=lat), col="red", size=.8)
 p
 
 ## return to base working drive
@@ -86,6 +85,7 @@ browseURL(url)
 html <- read_html(url)
 anchors <- html_nodes(html, xpath = "//ul/li/a[1]")
 links <- html_attr(anchors, "href")
+links <- links[!is.na(links)]
 
 links_iffer <-
   seq_along(links) >=
@@ -99,8 +99,7 @@ length(links)
 
 
 ##  step 3: extract names
-names <- html_attr(anchors, "title")[links_index]
-names <- str_replace(names, " \\(.*\\)", "")
+names <- links %>% basename %>% sapply(., URLdecode)  %>% str_replace_all("_", " ") %>% str_replace_all(" \\(.*\\)", "") %>% str_trim
 
 
 ## step 4: fetch personal wiki pages

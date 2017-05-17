@@ -34,12 +34,6 @@ x <- "\u00b5"
 x
 writeLines(x)
 
-# inspect text
-x <- c("apple", "banana", "pear")
-str_view(x, "an")
-str_view_all(x, "an")
-str_view_all(x, "a")
-
 
 
 ## string matching ----------
@@ -168,7 +162,9 @@ stri_escape_unicode("\u00b5")
 stri_unescape_unicode("\u00b5")
 stri_rand_lipsum(3)
 stri_rand_shuffle("hello")
-stri_rand_strings(100, 10, pattern = "[mannheim]")
+stri_rand_strings(100, 10, pattern = "[firenze]")
+
+
 
 
 ######################
@@ -190,6 +186,11 @@ email <- "chunkylover53[at]aol[dot]com"
 
 
 ## string manipulation ----------
+
+# inspect text
+x <- stri_rand_lipsum(1)
+str_view(x, "et")
+str_view_all(x, "et")
 
 example.obj
 

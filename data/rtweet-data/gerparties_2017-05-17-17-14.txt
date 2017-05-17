@@ -1,0 +1,3 @@
+q = schulz,merkel,btw17,btw2017
+streamtime = 1800
+filename = data/rtweet-data/gerparties_2017-05-17-17-14.json

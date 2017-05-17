@@ -6,4 +6,4 @@ setwd("/Users/munzerts/github/rscraping-eui-2017")
 url <- "http://www.spiegel.de/schlagzeilen/"
 url_out <- GET(url, add_headers(from = "eddie@datacollection.com"))
 datetime <- str_replace_all(Sys.time(), "[ :]", "-")
-content(url_out, as = "text") %>% write(file = str_c("data/spiegel_headlines/headlines-spiegel-", datetime, ".html"))
+content(url_out, as = "text") %>% write(file = str_c("data/spiegelHeadlines/headlines-spiegel-", datetime, ".html"))

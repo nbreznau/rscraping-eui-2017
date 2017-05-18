@@ -1,6 +1,6 @@
 ### -----------------------------
 ### simon munzert
-### scraping dynamic webpages
+### scraping with selenium
 ### -----------------------------
 
 ## peparations -------------------
@@ -57,13 +57,6 @@ checkForServer() ## deprecated; but gives advice on how to source/start a server
 
 # start server
 startServer()  ## deprecated
-
-
-library(RSelenium)
-library(wdman)
-selServ <- wdman::selenium(verbose = FALSE)
-driver<- rsDriver()
-
 
 # my solution on a Mac: 
   # install latest Java Development Kit (JDK)

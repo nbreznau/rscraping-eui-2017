@@ -283,18 +283,18 @@ plot(density(dat$numViews, from = 0), yaxt="n", ylab="", xlab="Number of views",
 ## dealing with GET forms ----------
 
 # Filling out forms in the browser:
-# fill out the form,
-# push the submit, ok, start or the like! button. 
-# let the browser execute the action specified in the source code of the form and send the data to the server,
-# and let the browser receive the returned resources after the server has evaluated the inputs. 
+  # fill out the form,
+  # push the submit, ok, start or the like! button. 
+  # let the browser execute the action specified in the source code of the form and send the data to the server,
+  # and let the browser receive the returned resources after the server has evaluated the inputs. 
 
 # Using forms in scraping practice:
-# recognize that forms are involved,
-# determine the method used to transfer the data,
-# determine the address to send the data to,
-# determine the inputs to be sent along,
-# build a valid request and send it out, and
-# process the returned resources. 
+  # recognize that forms are involved,
+  # determine the method used to transfer the data,
+  # determine the address to send the data to,
+  # determine the inputs to be sent along,
+  # build a valid request and send it out, and
+  # process the returned resources. 
 
 # set up session
 browseURL("http://www.whoishostingthis.com/tools/user-agent/")

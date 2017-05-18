@@ -15,7 +15,7 @@ EUI Firenze
 
 **Date and Venue**
 
-May 18/19, 2017, October 14, Villa Malafrasca
+May 18/19, 2017, Villa Malafrasca
 
 
 **Instructor** 

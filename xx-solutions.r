@@ -62,11 +62,14 @@ buildings <- tables[[6]]
 
 
 # 6. How many of those buildings are currently built in China? And in which city are most of the tallest buildings currently built?
-table(buildings$`Country/region`) %>% sort
+table(buildings$`Country`) %>% sort
 table(buildings$City) %>% sort
+
+buildings$height <- str_extract(buildings$height, "[[:digit:],.]+") %>% str_replace(",", "") %>% as.numeric()
 
 
 # 7. Use SelectorGadget to identify a CSS selector that helps extract all article author names from Buzzfeed's main page!
+
 # 8. Use rvest to scrape these names!
 
 url <- "https://www.buzzfeed.com/?country=us"

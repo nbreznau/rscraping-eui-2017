@@ -9,6 +9,11 @@ source("00-course-setup.r")
 wd <- getwd()
 
 
+system(paste0("cd ", getwd()))
+system("java -jar selenium-server-standalone-3.0.0-beta4.jar")
+system("java -jar selenium-server-standalone-2.53.1.jar")
+
+
 
 ## web inspection tools ---------
 

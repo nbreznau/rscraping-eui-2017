@@ -19,9 +19,8 @@
 
 ## packages ---------------------
 
-library(stringr) # string processing
-library(rvest) # scraping suite
-library(ggmap) # geocoding
+source("00-course-setup.r")
+
 
 
 ## directory ---------------------
@@ -88,14 +87,14 @@ head(rev_df)
 pos <- data.frame(lon = NA, lat = NA)
 unique_institutions <- unique(rev_df$institution)
 unique_institutions <- unique_institutions[!is.na(unique_institutions)]
-if (!file.exists("institutions2015_geo.RData")){}
+if (!file.exists("institutions2015_geo.RData")){
 for (i in 1:length(unique_institutions)) {
   pos[i,] <- geocode(unique_institutions[i], source = "google", force = "FALSE")
 }
 pos$institution <- unique_institutions
 save(pos, file="institutions2015_geo.RData")
 } else {
-  load("institutions2013_geo.RData")
+  load("institutions2015_geo.RData")
 }
 head(pos)
 

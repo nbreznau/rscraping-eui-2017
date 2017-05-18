@@ -124,11 +124,14 @@ headings_nodes <- html_nodes(url_parsed, css = ".story-heading")
 
 # 4. extract content from nodes
 headings <- html_text(headings_nodes)
-headings <- str_replace_all(headings, "\\n", "") %>% str_trim()
+headings <- str_replace_all(headings, "\\n|\\t", "") %>% str_trim()
 head(headings)
 length(headings)
 str_detect(headings, "Trump") %>% table()
 
+
+
+read_html("https://www.nytimes.com") %>% html_nodes(css = ".story-heading") %>% html_text() -> headlines
 
 
 #######################
@@ -137,6 +140,8 @@ str_detect(headings, "Trump") %>% table()
 
 # 3. revisit the jstatsoft.org website from above and use rvest to extract the names!
 url <- "https://www.jstatsoft.org/about/editorialTeam"
+
+read_html(url) %>% html_nodes(css = "ol.editorialTeam a") %>% html_text()
 
 # 4. bonus: try and extract the full lines including the affiliation, and count how many of the editors are at a statistics or mathematics department or institution!
 
@@ -197,8 +202,8 @@ html_nodes(url_parsed, css = css) %>% html_text
 ### IT'S YOUR SHOT! ###
 #######################
 
-# 1. use SelectorGadget to identify a CSS selector that helps extract all article author names from Buzzfeed's main page!
-# 2. use rvest to scrape these names!
+# 7. use SelectorGadget to identify a CSS selector that helps extract all article author names from Buzzfeed's main page!
+# 8. use rvest to scrape these names!
 
 
 
@@ -372,7 +377,7 @@ html_table(url_parsed)
 ### IT'S YOUR SHOT! ###
 #######################
 
-# Go to http://earthquaketrack.com/ and make a request for data on earthquakes in "Florence, Italy". Try to parse the results into one character vector! Hint: After filling out a form, you might have to look for a follow-up URL and parse it in a second step to arrive at the data you need.
+# 9. Go to http://earthquaketrack.com/ and make a request for data on earthquakes in "Florence, Italy". Try to parse the results into one character vector! Hint: After filling out a form, you might have to look for a follow-up URL and parse it in a second step to arrive at the data you need.
 
 
 

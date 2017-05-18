@@ -58,7 +58,7 @@ str_extract(example.obj, "small")
 str_extract(example.obj, "banana")
 
 # multiple matches
-(out <- str_extract_all(c("text", "manipulation", "basics"), "a")) 
+(out <- str_extract_all(c("text", "manipulation", "basics"), "a"))  %>% unlist()
 
 # case sensitivity
 str_extract(example.obj, "small")
@@ -78,6 +78,7 @@ str_extract(example.obj, "sentence$")
 str_extract(example.obj, "sentence.$")
 
 # pipe operator
+str_extract(example.obj, "tiny|sentence")
 unlist(str_extract_all(example.obj, "tiny|sentence"))
 
 # wildcard
@@ -123,6 +124,9 @@ unlist(str_extract_all(example.obj, ".en{1,5}"))
 unlist(str_extract_all(example.obj, "\\."))
 unlist(str_extract_all(example.obj, fixed(".")))
 
+#unlist(str_extract_all("This is a backslash: \ ", fixed("\"))
+
+
 # meta characters in character classes
 unlist(str_extract_all(example.obj, "[1-2]"))
 unlist(str_extract_all(example.obj, "[12-]"))
@@ -138,31 +142,11 @@ str_match_all(example.obj, "([^ ]+) (sentence)")
 # assertions
 unlist(str_extract_all(example.obj, "(?<=2. ).+")) # positive lookbehind: (?<=...)
 unlist(str_extract_all(example.obj, ".+(?=2)")) # positive lookahead (?=...)
-unlist(str_extract_all(example.obj, "(?<!Blah )tiny.+")) # negative lookbehind: (?<!...)
+unlist(str_extract_all(example.obj, "(?<!Blah )huge.+")) # negative lookbehind: (?<!...)
 unlist(str_extract_all(example.obj, "sentence.+(?!Bla)")) # negative lookahead (?!...)
 
 # do you think you can master regular expressions now?
 browseURL("http://stackoverflow.com/questions/201323/using-a-regular-expression-to-validate-an-email-address/201378#201378") # think again
-
-
-# a note on the stringi package
-# source: [https://goo.gl/XzEQai]
-
-# stringr is built on top of the stringi package. 
-# stringr is convenient because it exposes a minimal set of functions, which have been carefully picked to handle the most common string manipulation functions. 
-# stringi is designed to be comprehensive. It contains almost every function you might ever need: stringi has 234 functions (compare that to stringr's 42)
-# packages work very similarly; translating knowledge is easy (try stri_ instead of str_)
-
-?stri_count_words
-example.obj
-stri_count_words(example.obj)
-stri_stats_latex(example.obj)
-stri_stats_general(example.obj)
-stri_escape_unicode("\u00b5")
-stri_unescape_unicode("\u00b5")
-stri_rand_lipsum(3)
-stri_rand_shuffle("hello")
-stri_rand_strings(100, 10, pattern = "[firenze]")
 
 
 
@@ -173,10 +157,14 @@ stri_rand_strings(100, 10, pattern = "[firenze]")
 
 ## 1. describe the types of strings that conform to the following regular expressions and construct an example that is matched by the regular expression.
 str_extract_all("Phone 150$, PC 690$", "[0-9]+\\$") # example
-"\\b[a-z]{1,4}\\b"
-".*?\\.txt$"
-"\\d{2}/\\d{2}/\\d{4}"
-"<(.+?)>.+?</\\1>"
+str_extract_all("I am looking for words of max length four", "\\b[a-z]{1,4}\\b")
+
+str_extract_all(c("test.dta", "log.txt", "foo.txt "), ".*?\\.txt$")
+str_extract_all(c("test.dta", "this is a log.txt", "foo.txt "), ".*?\\.txt$")
+str_extract_all(c("18/5/2017", "18.05.2017"), "\\d{1,2}/\\d{1,2}/\\d{4}")
+str_extract_all("<br><i>hello</i>", "<(.+?)>.+?</\\1>")
+
+
 
 ## 2. consider the mail address  chunkylover53[at]aol[dot]com.
 # a) transform the string to a standard mail format using regular expressions.
@@ -202,7 +190,7 @@ str_sub(example.obj, start = 35, end = 38)
 
 # replacement
 str_sub(example.obj, 35, 38) <- "huge"
-str_replace(example.obj, pattern = "huge", replacement = "giant")
+str_replace(example.obj, pattern = "sentence", replacement = "giant")
 
 # splitting
 str_split(example.obj, "-") %>% unlist
@@ -239,3 +227,26 @@ str_c("text", c("manipulation", "basics"), sep = " ")
 # approximate matching
 agrep("Donald Trump", "Donald Drumpf", max.distance = list(all = 3))
 agrep("Donald Trump", "Barack Obama", max.distance = list(all = 3))
+
+
+
+# a note on the stringi package
+# source: [https://goo.gl/XzEQai]
+
+# stringr is built on top of the stringi package. 
+# stringr is convenient because it exposes a minimal set of functions, which have been carefully picked to handle the most common string manipulation functions. 
+# stringi is designed to be comprehensive. It contains almost every function you might ever need: stringi has 234 functions (compare that to stringr's 42)
+# packages work very similarly; translating knowledge is easy (try stri_ instead of str_)
+
+?stri_count_words
+example.obj
+stri_count_words(example.obj)
+stri_stats_latex(example.obj)
+stri_stats_general(example.obj)
+stri_escape_unicode("\u00b5")
+stri_unescape_unicode("\u00b5")
+stri_rand_lipsum(3)
+stri_rand_shuffle("hello")
+stri_rand_strings(100, 10, pattern = "[firenze]")
+
+

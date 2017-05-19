@@ -227,7 +227,7 @@ browseURL("http://www.jstatsoft.org/")
 
 # construct list of urls
 baseurl <- "http://www.jstatsoft.org/article/view/v"
-volurl <- paste0("0", seq(1,73,1))
+volurl <- paste0("0", seq(1,77,1))
 volurl[1:9] <- paste0("00", seq(1, 9, 1))
 brurl <- paste0("0", seq(1,9,1))
 urls_list <- paste0(baseurl, volurl)
@@ -239,7 +239,7 @@ folder <- "html_articles/"
 dir.create(folder)
 for (i in 1:length(urls_list)) {
   if (!file.exists(paste0(folder, names[i]))) {
-    download.file(urls_list[i], destfile = paste0(folder, names[i]))
+    download.file(urls_list[i], destfile = paste0(folder, names[i])) # , method = "libcurl" might be needed on windows machine
     Sys.sleep(runif(1, 0, 1))
   }
 }

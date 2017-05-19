@@ -1,0 +1,1840 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="de">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="SPIEGEL ONLINE, Hamburg, Germany" />
+<meta name="copyright" content="SPIEGEL ONLINE, Hamburg, Germany" />
+<meta name="email" content="spiegel_online@spiegel.de" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="Deutschlands f<U+00FC>hrende Nachrichtenseite. Alles Wichtige aus Politik, Wirtschaft, Sport, Kultur, Wissenschaft, Technik und mehr." /><link rel="alternate" type="application/rss+xml" title="SPIEGEL ONLINE RSS Schlagzeilen" href="http://www.spiegel.de/schlagzeilen/index.rss" />
+<link rel="alternate" type="application/rss+xml" title="SPIEGEL ONLINE RSS Top-Meldungen" href="http://www.spiegel.de/schlagzeilen/tops/index.rss" />
+<link rel="canonical" href="http://www.spiegel.de/schlagzeilen/" />
+			<title>Schlagzeilen - SPIEGEL ONLINE</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
+<link rel="apple-touch-icon" sizes="57x57"   href="/static/sys/v12/logo/favicon/touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72"   href="/static/sys/v12/logo/favicon/touch-icon72.png" />
+<link rel="apple-touch-icon" sizes="76x76"   href="/static/sys/v12/logo/favicon/touch-icon76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/static/sys/v12/logo/favicon/touch-icon114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/static/sys/v12/logo/favicon/touch-icon120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/static/sys/v12/logo/favicon/touch-icon144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/static/sys/v12/logo/favicon/touch-icon152.png" />
+<!-- ##SPONTAG: CSS## -->
+	<link rel="stylesheet" type="text/css" href="/layout/css/style-V8-19.css" />
+	<script src="/layout/jscfg/http/global-V8-19.js" type="text/javascript"></script>
+		<script src="/layout/js/http/javascript-V8-19.js" type="text/javascript"></script>
+		<script src="/layout/js/http/interface-V8-19.js" type="text/javascript"></script>
+	<script src="/layout/js/http/netmind-V8-19.js" type="text/javascript"></script>
+		<script type="text/javascript" src="https://script.ioam.de/iam.js"></script>
+	<!--[if lte IE 8]>
+		<script src="/layout/js/http/respond_min-V8-19.js" type="text/javascript"></script>
+	<![endif]-->
+	<script type="text/javascript">
+<!--
+	var ADI = new XADI('');
+	ADI.pvars  	  = {"vpaid": "false"};
+	ADI.campaigns = {
+    "aaa_skyscraper_left": "3505455",
+    "branded_channel_reiter_1": "3517310",
+    "content_ad_1": "3515154",
+    "interne_statistik": "3517306",
+    "layer_ad": "3505452",
+    "mitte_0": "3505451",
+    "mitte_1": "3515157",
+    "mitte_2": "3515158",
+    "mitte_3": "3517338",
+    "mitte_4": "3517339",
+    "oben": "3505454",
+    "skyscraper": "3505453",
+    "sponsor_logo": "3546735",
+    "unten": "3517312",
+    "zaehler": "3517305"
+};
+	ADI.yieldlab  = {};
+	var inlineCampaigns = ['kundenvideo', 'sponsor_logo'];
+// -->
+</script>
+<script type="text/javascript">
+<!--
+	if (!ADI.disabled()) {
+		(function() {
+			var src = (document.location.protocol === 'https:' ? 'https:/' : 'http:/') + '/imagesrv.adition.com/js/srp.js';
+			document.write('<scr' + 'ipt type="text/javascript" src="' + src + '" charset="utf-8"></scr' + 'ipt>');
+		})();
+	};
+	
+//-->
+</script>
+
+<script type="text/javascript">
+<!--
+	ADI.setup((typeof adition != 'undefined' ? adition : null));
+
+	
+
+	if (!ADI.blocked) adition.srq.push(function(api) {
+
+		api.registerAdfarm('ad8.adfarm1.adition.com');
+		
+		var pv = ADI.pvars;
+		for (var v in pv) {
+			api.setProfile(v, pv[v]);
+			
+		}
+
+		var dt = 'desktop';
+	    if( /Mobile/i.test(navigator.userAgent) ) { dt = 'phone'; }
+	    if( /iPad|RIM Tablet|Silk/i.test(navigator.userAgent) ) { dt = 'tablet'; }
+	    if( /Android/i.test(navigator.userAgent) ) {
+	        if( /Mobile/i.test(navigator.userAgent) ){ dt = 'phone'; }
+	        else { dt = 'tablet'; }
+	    }
+		
+
+		api.setProfile('device', dt);
+
+		api.events.onPreRender(onPreRenderCallback);						
+		api.events.onPostRender(onPostRenderCallback);
+
+		if (ADI.previewprofile) {
+			api.setProfile('preview', ADI.previewprofile);
+		}
+		var cs = ADI.campaignsToRender();
+		if (cs.length > 0) {
+			for (var pos in cs) {
+				
+				api.configureRenderSlot(cs[pos].name).setContentunitId(parseInt(cs[pos].value)).setRenderer(inlineCampaigns.indexOf(cs[pos].name) > -1 ? 'inline' : 'iframe');
+			}
+			
+			var yl = api.modules.setLoadingTimeout(2000).configureModule("yieldlab"); 
+			for (var pos in cs) {
+				if (ADI.yieldlab[cs[pos].name]) {
+					
+					yl.mapContentunit(cs[pos].value,ADI.yieldlab[cs[pos].name],172);
+				}
+			}		
+			yl.enable();
+			
+			api.modules.configureModule('criteo').setNid(3335).setContentVariableName('criteoContent').setCookieName('cookieName').enable();
+			api.loadNow().completeRendering();
+		}
+	});
+
+
+	
+
+// -->
+</script> 
+</head>
+
+<body id="schlagzeilen" class="spBereich3004 centerpage dt-www">
+	<iframe src="/static/sys/pixel.gif" name="spon_vdz_countframe" width="0" height="0" frameborder="0" style="display:none;"></iframe><div id="spSZM">
+<!-- SZM VERSION="2.0" -->
+<script type="text/javascript">
+var iam_data = {
+"st":"spiegel", // site/domain
+"cp":"spon-www-293-3004", // code
+"sv":"in"
+}
+
+
+iom.c(iam_data);
+</script>
+<!-- /SZM -->
+</div>
+
+<div style="position:absolute;top: -100px;left: 0px;">
+
+<script type="text/javascript"> 
+<!--
+
+
+var abd = spGetAbdStatus();
+
+spNm({
+	'sp.site': '1',
+	'sp.atyp': '2000',
+	'sp.rubric': '3004',
+	'sp.channel': '293','sp.abd': abd
+});
+
+
+// -->
+</script>
+<noscript>
+	<img src="https://count.spiegel.de/nm_trck.gif?sp.site=9999" width="1" height="1" border="0" align="right" alt="" />
+</noscript>
+</div>
+<div id="spOasTop">
+	<div class="adition" id="oben" data-position="oben">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('oben');
+	</script>
+</div>
+<br class="clearfix" />
+	
+	<div style="position:absolute;top:-100px;left:0px;">
+		<div class="adition" id="zaehler" data-position="zaehler">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('zaehler');
+	</script>
+</div>
+</div><br class="clearfix" />
+</div>
+<div id="wrapper">
+<div id="wrapper-shadow">
+	<div id="wrapper-content">
+		<div id="header" class="spCenterpage">
+			<div class="header-top" id="js-sticky-header">	
+			<div class="clearfix">
+				
+				<div class="meta-top no-js">
+					<i class="js-hamburger hamburger-icon"></i>
+				
+				
+					<a href="/schlagzeilen/" class="current-channel-name">Dienste</a>
+						</div>
+				
+				<ul class="header-logo ">
+					<li><a href="/" class="logo-spon"></a></li>
+					<li><a href="/spiegel/" class="logo-der-spiegel"></a></li>
+					<li><a href="/sptv/" class="logo-spiegel-tv"></a></li>
+				</ul>
+				<div class="search-login-links clearfix">
+						<i class="search-icon"></i>
+							<div class="login-links">
+							<noscript><a href="/meinspiegel/" class="button" >Mein SPIEGEL</a></noscript>
+						</div>
+						<div class="login-context popup-layer-skin"></div>
+					</div>
+					<script type="text/javascript">
+						<!--
+							spUpdateMSLoginLinks();
+						// -->
+					</script>
+				</div></div> <div class="header-main clearfix">
+		
+			<ul class="meta-nav list-inline-block">
+				<li class="top-news">
+					<a href="/schlagzeilen/">
+						Schlagzeilen
+					</a>					
+					<span>&#448;</span>
+				</li>
+				<li><i class="fa fa-sun-o"></i><a href="/wetter/">Wetter</a><span>&#448;</span></li>
+				<li>DAX <!-- html_126726 -->
+<a href="http://boersen.manager-magazin.de/mm/kurse_einzelkurs_uebersicht.htn?i=159096">
+				12.615,36</a><span>&#448;</span></li>
+				<li><a href="http://tvprogramm.spiegel.de/">TV-Programm</a><span>&#448;</span></li>
+				<li>
+					<a href="http://abo.spiegel.de/?b=SPOHNAVABO&amp;utm_source=spon&amp;utm_medium=text&amp;utm_content=SPOHNAVABO&amp;utm_campaign=navigationsleiste" target="_blank">Abo</a></li>
+			</ul>
+			
+			
+			<div class="meta-top no-js">
+				<i class="js-hamburger hamburger-icon"></i>
+			
+			
+				<a href="/schlagzeilen/" class="current-channel-name">Dienste</a>
+					</div>
+			
+			<div class="js-main-navigation clearfix" lang="de">
+	
+	<div class="top-navigation clearfix">
+	
+		<i class="js-hamburger hamburger-icon"></i>
+		
+		<ul class="list-float meta-home clearfix">
+			<li class="list-float-left"><a href="/" class="header-logo-spon">Nachrichten</a></li>
+			<li class="list-float-left"><a href="/schlagzeilen/">Schlagzeilen</a></li>
+		</ul>
+		
+		<ul class="list-float meta-sub-nav clearfix">
+						<li class="list-float-left"><a href="/nachrichtenarchiv/">Nachrichtenarchiv</a></li>
+			<li class="list-float-left"><a href="/dienste/a-902432.html">Newsletter</a></li>
+			<li class="list-float-left"><a href="/dienste/a-634260.html">RSS</a></li>
+			<li class="list-float-left"><a href="/dienste/a-634549.html">Mobil</a></li>
+			<li class="list-float-left"><span class="with-sub-ul">mehr</span>
+				<ul class="sub-ul">
+					<li><div class="nav-channel-arrow-left"></div></li>
+					<li><a href="/story/">Story</a></li>
+					<li><a href="/fotostrecken/">Fotostrecken</a></li>
+					<li><a href="/multimedia/">Infografiken</a></li>
+					<li><a href="/artikel/a-1040308.html">Hilfe</a></li>
+					<li><a href="/impressum">Impressum</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<ul class="nav-1">
+			<li>
+								<a href="/politik/" class="with-sub-ul ">Politik</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/politik/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/politik/deutschland/" title="Deutschland">Deutschland</a></li>
+						
+				<li>
+						<a href="/politik/ausland/" title="Ausland">Ausland</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/eu/" target="_self" title="Europa">Europa</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/meinung/" target="_self" title="Meinung">Meinung</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41792 -->
+</ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/meinung/" class=" ">Meinung</a></li>
+						<li>
+								<a href="/wirtschaft/" class="with-sub-ul ">Wirtschaft</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/wirtschaft/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="http://boersen.manager-magazin.de/spon/" target="_blank" title="B<U+00F6>rse">B<U+00F6>rse</a></li>
+						
+				<li>
+						<a href="/wirtschaft/service/" title="Verbraucher & Service">Verbraucher & Service</a></li>
+						
+				<li>
+						<a href="/wirtschaft/service/versicherung-check-fuer-haftpflicht-hausrat-berufsunfaehigkeit-a-960380.html" title="Versicherungen">Versicherungen</a></li>
+						
+				<li>
+						<a href="/wirtschaft/unternehmen/" title="Unternehmen & M<U+00E4>rkte">Unternehmen & M<U+00E4>rkte</a></li>
+						
+				<li>
+						<a href="/wirtschaft/soziales/" title="Staat & Soziales">Staat & Soziales</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/mittelstand/" target="_self" title="Mittelstand">Mittelstand</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41793 -->
+<li class="spDivideNaviAd">
+<div>
+<div></div>
+</div>
+</li>
+<li>
+<a href="/wirtschaft/service/brutto-netto-rechner-was-von-lohn-und-gehalt-uebrig-bleibt-a-223811.html" title="">Brutto-Netto-Rechner</a>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3076401&kid=1213066&bid=3962693" rel="nofollow" title="Anzeige">Jobsuche</a>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3076393&kid=1213025&bid=3962018" rel="nofollow" title="Anzeige">Immowelt</a>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3076396&kid=2001839&bid=6830716" rel="nofollow" title="Anzeige">Tarifvergleiche</a>
+</li></ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/panorama/" class="with-sub-ul ">Panorama</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/panorama/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/panorama/justiz/" title="Justiz">Justiz</a></li>
+						
+				<li>
+						<a href="/panorama/leute/" title="Leute">Leute</a></li>
+						
+				<li>
+						<a href="/panorama/gesellschaft/" title="Gesellschaft">Gesellschaft</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/story/" target="_self" title="Multimedia-Reportagen">Multimedia-Reportagen</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/elterncouch/" target="_self" title="Elterncouch">Elterncouch</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41794 -->
+<li class="spDivideNaviAd">
+<div>
+<div></div>
+</div>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3098101&kid=1896229&bid=6478263" rel="nofollow" title="Anzeige">LOTTO 6aus49</a>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3076398&kid=1896208&bid=6478218" rel="nofollow" title="Anzeige">Eurojackpot</a>
+</li></ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/sport/" class="with-sub-ul ">Sport</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/sport/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/sport/fussball/fussball-live-liveticker-tabellen-und-statistiken-a-839944.html" title="Fu<U+00DF>ball-Liveticker">Fu<U+00DF>ball-Liveticker</a></li>
+						
+				<li>
+						<a href="/sport/fussball/" title="Fu<U+00DF>ball-News">Fu<U+00DF>ball-News</a></li>
+						
+				<li>
+						<a href="/sport/fussball/champions-league-live-ticker-spielplan-ergebnisse-tabelle-a-851014.html" title="Champions League">Champions League</a></li>
+						
+				<li>
+						<a href="http://tippspiel.spiegel.de" target="_self" title="Fu<U+00DF>ball-Tippspiel">Fu<U+00DF>ball-Tippspiel</a></li>
+						
+				<li>
+						<a href="/sport/formel1/" title="Formel 1">Formel 1</a></li>
+						
+				<li>
+						<a href="/sport/formel1/formel-1-live-ticker-ergebnisse-termine-fahrer-teams-a-958409.html" title="Formel-1-Liveticker">Formel-1-Liveticker</a></li>
+						
+				<li>
+						<a href="http://sportal.spiegel.de/spiegel/ergebnisse/" target="_self" title="Ergebnisse">Ergebnisse</a></li>
+						
+				<li>
+						<a href="http://sportal.spiegel.de/spiegel/liveticker/" target="_self" title="Live-Kalender">Live-Kalender</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41795 -->
+<li class="spDivideNaviAd">
+<div>
+<div></div>
+</div>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3213806&kid=1730455&bid=5921750" title="Anzeige">
+<span style="color:#990000; font-weight: bold; font-size:1.2rem;">Bundesliga</span> pr<U+00E4>sentiert von<br/>Continental</a>
+</li></ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/kultur/" class="with-sub-ul ">Kultur</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/kultur/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/kultur/kino/" title="Kino">Kino</a></li>
+						
+				<li>
+						<a href="/kultur/musik/" title="Musik">Musik</a></li>
+						
+				<li>
+						<a href="/kultur/tv/" title="TV">TV</a></li>
+						
+				<li>
+						<a href="/kultur/literatur/" title="Literatur">Literatur</a></li>
+						
+				<li>
+						<a href="http://gutenberg.spiegel.de" target="_self" title="Gutenberg">Gutenberg</a></li>
+						
+				<li>
+						<a href="/kultur/bestseller-buecher-belletristik-sachbuch-auf-spiegel-liste-a-458623.html" title="Bestseller">Bestseller</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/buchrezensionen/" target="_self" title="Buchrezensionen">Buchrezensionen</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41796 -->
+<li class="spDivideNaviAd">
+<div>
+<div></div>
+</div>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3780444&kid=1926582&bid=6578510" title="Anzeige">H<U+00F6>rb<U+00FC>cher</a>
+</li></ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/video/" class=" ">Video</a></li>
+						<li>
+								<a href="/netzwelt/" class="with-sub-ul ">Netzwelt</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/netzwelt/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/netzwelt/netzpolitik/" title="Netzpolitik">Netzpolitik</a></li>
+						
+				<li>
+						<a href="/netzwelt/web/" title="Web">Web</a></li>
+						
+				<li>
+						<a href="/netzwelt/gadgets/" title="Gadgets">Gadgets</a></li>
+						
+				<li>
+						<a href="/netzwelt/games/" title="Games">Games</a></li>
+						
+				<li>
+						<a href="/netzwelt/apps/" title="Apps">Apps</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41797 -->
+</ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/wissenschaft/" class="with-sub-ul ">Wissenschaft</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/wissenschaft/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/wissenschaft/mensch/" title="Mensch">Mensch</a></li>
+						
+				<li>
+						<a href="/wissenschaft/natur/" title="Natur">Natur</a></li>
+						
+				<li>
+						<a href="/wissenschaft/technik/" title="Technik">Technik</a></li>
+						
+				<li>
+						<a href="/wissenschaft/weltall/" title="Weltall">Weltall</a></li>
+						
+				<li>
+						<a href="/wissenschaft/medizin/" title="Medizin">Medizin</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/daten/" target="_self" title="Datenlese">Datenlese</a></li>
+						
+				<li>
+						<a href="/wissenschaft/uebermorgen/" title="<U+00DC>berMorgen"><U+00DC>berMorgen</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41798 -->
+<li class="spDivideNaviAd">
+<div>
+<div></div>
+</div>
+</li>
+<li>
+<a href="/wissenschaft/mensch/sudoku-online-kostenlos-spielen-a-994416.html" title="">Sudoku</a>
+</li>
+<li>
+<a href="/wissenschaft/mensch/kenken-kostenlos-online-spielen-a-994418.html" title="">Kenken</a>
+</li>
+<li>
+<a href="/wissenschaft/mensch/zahlenraetsel-street-online-und-kostenlos-spielen-a-994419.html" title="">Street</a>
+</li></ul>
+		</li>
+	</ul>
+												</li>
+						</ul><ul class="nav-2">
+					<li>
+								<a href="/gesundheit/" class="with-sub-ul ">Gesundheit</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/gesundheit/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/gesundheit/diagnose/" title="Diagnose & Therapie">Diagnose & Therapie</a></li>
+						
+				<li>
+						<a href="/gesundheit/ernaehrung/" title="Ern<U+00E4>hrung & Fitness">Ern<U+00E4>hrung & Fitness</a></li>
+						
+				<li>
+						<a href="/gesundheit/psychologie/" title="Psychologie">Psychologie</a></li>
+						
+				<li>
+						<a href="/gesundheit/sex/" title="Sex & Partnerschaft">Sex & Partnerschaft</a></li>
+						
+				<li>
+						<a href="/gesundheit/schwangerschaft/" title="Schwangerschaft & Kind">Schwangerschaft & Kind</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_103236 -->
+<li><a title="" href="/gesundheit/ernaehrung/bmi-rechner-so-ermitteln-sie-ihren-body-mass-index-a-824673.html">BMI-Rechner</a></li>
+<li><a title="" href="/gesundheit/ernaehrung/kalorienrechner-so-ermitteln-sie-ihren-optimalen-kalorienverbrauch-a-832713.html">Kalorienrechner</a></li>
+<li><a title="Anzeige" href="http://ad8.adfarm1.adition.com/redi?sid=3088031&kid=1214230&bid=3966013">Arztsuche</a></li></ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/einestages/" class="with-sub-ul ">einestages</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/einestages/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/einestages/thema/zeitzeugen/" target="_self" title="Zeitzeugen">Zeitzeugen</a></li>
+						
+				<li>
+						<a href="/einestages/thema/erster_weltkrieg/" target="_self" title="Erster Weltkrieg">Erster Weltkrieg</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/einestages/thema/zweiter_weltkrieg/" target="_self" title="Zweiter Weltkrieg">Zweiter Weltkrieg</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/einestages/thema/ddr/" target="_self" title="DDR">DDR</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/einestages/thema/fotografie/" target="_self" title="Fotografie">Fotografie</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/einestages/thema/film/" target="_self" title="Film">Film</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/einestages/thema/musik/" target="_self" title="Musik">Musik</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/einestages/archiv.html" target="_self" title="Archiv">Archiv</a></li>
+						
+				</ul>
+	</li>
+
+	</ul>
+												</li>
+						<li>
+								<a href="/karriere/" class=" ">KarriereSPIEGEL</a></li>
+						<li>
+								<a href="/lebenundlernen/" class="with-sub-ul ">Leben und Lernen</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/lebenundlernen/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/lebenundlernen/schule/" title="Schule">Schule</a></li>
+						
+				<li>
+						<a href="/lebenundlernen/uni/" title="Uni">Uni</a></li>
+						
+				<li>
+						<a href="/lebenundlernen/job/" title="Job">Job</a></li>
+						
+				</ul>
+	</li>
+
+	</ul>
+												</li>
+						<li>
+								<a href="/bento/" class=" ">bento</a></li>
+						<li>
+								<a href="/reise/" class="with-sub-ul ">Reise</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/reise/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/reise/staedte/" title="St<U+00E4>dtereisen">St<U+00E4>dtereisen</a></li>
+						
+				<li>
+						<a href="/reise/deutschland/" title="Deutschland">Deutschland</a></li>
+						
+				<li>
+						<a href="/reise/europa/" title="Europa">Europa</a></li>
+						
+				<li>
+						<a href="/reise/fernweh/" title="Fernweh">Fernweh</a></li>
+						
+				<li>
+						<a href="http://schneeundmehr.spiegel.de/" target="_self" title="Skiatlas">Skiatlas</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41800 -->
+<li class="spDivideNaviAd">
+<div>
+<div></div>
+</div>
+</li>
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3826899&kid=1991618&bid=6797068" title="Anzeige">Deals der Woche</a>
+</li></ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/auto/" class="with-sub-ul ">Auto</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/auto/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/auto/fahrberichte/" title="Tests">Tests</a></li>
+						
+				<li>
+						<a href="/auto/fahrkultur/" title="Fahrkultur">Fahrkultur</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_41801 -->
+<li class="spDivideNaviAd">
+<div>
+<div></div>
+</div>
+</li>
+
+<li>
+<a href="http://ad8.adfarm1.adition.com/redi?sid=3076396&kid=2001780&bid=6830667" rel="nofollow" title="Anzeige">Kfz-Versicherung</a>
+</li></ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/stil/" class="with-sub-ul ">Stil</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/stil/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="http://www.spiegel.de/thema/stil_design/" target="_self" title="Design">Design</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/stil_mode/" target="_self" title="Mode">Mode</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/stil_kochen/" target="_self" title="Kochen">Kochen</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/stil_reisen/" target="_self" title="Reisen">Reisen</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.de/thema/stil_hotels/" target="_self" title="Hotels">Hotels</a></li>
+						
+				</ul>
+	</li>
+
+	<li class="list-float-left">
+			<ul class="nav-channel-partner-entry">
+				<!-- html_114081 -->
+</ul>
+		</li>
+	</ul>
+												</li>
+						<li>
+								<a href="/international/" class="with-sub-ul ">English</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/international/">Front Page</a></li>
+
+			<li>
+						<a href="/international/world/" title="World">World</a></li>
+						
+				<li>
+						<a href="/international/europe/" title="Europe">Europe</a></li>
+						
+				<li>
+						<a href="/international/germany/" title="Germany">Germany</a></li>
+						
+				<li>
+						<a href="/international/business/" title="Business">Business</a></li>
+						
+				<li>
+						<a href="/international/zeitgeist/" title="Zeitgeist">Zeitgeist</a></li>
+						
+				<li>
+						<a href="/international/tomorrow/" title="BeyondTomorrow">BeyondTomorrow</a></li>
+						
+				<li>
+						<a href="/international/a-1072062.html" title="Newsletter">Newsletter</a></li>
+						
+				</ul>
+	</li>
+
+	</ul>
+												</li>
+						</ul><ul class="nav-3">
+					<li>
+								<a href="/spiegelplus/" class="with-sub-ul ">SPIEGEL Plus</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/spiegelplus/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/spiegelplus/deutschland/" title="SPIEGEL Plus Deutschland">SPIEGEL Plus Deutschland</a></li>
+						
+				<li>
+						<a href="/spiegelplus/wirtschaft/" title="SPIEGEL Plus Wirtschaft">SPIEGEL Plus Wirtschaft</a></li>
+						
+				<li>
+						<a href="/spiegelplus/gesellschaft/" title="SPIEGEL Plus Gesellschaft">SPIEGEL Plus Gesellschaft</a></li>
+						
+				<li>
+						<a href="/spiegelplus/ausland/" title="SPIEGEL Plus Ausland">SPIEGEL Plus Ausland</a></li>
+						
+				<li>
+						<a href="/spiegelplus/sport/" title="SPIEGEL Plus Sport">SPIEGEL Plus Sport</a></li>
+						
+				<li>
+						<a href="/spiegelplus/wissenschaft/" title="SPIEGEL Plus Wissenschaft">SPIEGEL Plus Wissenschaft</a></li>
+						
+				<li>
+						<a href="/spiegelplus/kultur/" title="SPIEGEL Plus Kultur">SPIEGEL Plus Kultur</a></li>
+						
+				</ul>
+	</li>
+
+	</ul>
+												</li>
+						<li>
+								<a href="/spiegellive/" target="_blank" class=" ">DER SPIEGEL live</a></li>
+						<li>
+								<span class="with-sub-ul">DER SPIEGEL</span>
+								<ul class="js-channel-sub-nav">
+									<li>
+										<div class="nav-channel-arrow-left"></div>
+									</li>
+									<!-- html_100312 -->
+<li>
+<a href="/spiegel/">
+<span class="nav-channel-sub-entry">
+<b>DER SPIEGEL<br/>(digitales Magazin)</b>
+</span>
+</a>
+</li>
+
+<li>
+<a href="/spiegel/print/">
+<span class="nav-channel-sub-entry">Titelbilder & Heftarchive</span>
+</a>
+</li>
+
+<li>
+<a href="http://abo.spiegel.de/?b=SPOHNAVABO&utm_source=spon&utm_medium=text&utm_content=SPOHNAVABO&utm_campaign=navigationsleiste" target="_blank">
+<span class="nav-channel-sub-entry">Abo-Angebote</span>
+</a>
+</li>
+
+<li>
+<a href="/shop/">
+<span class="nav-channel-sub-entry">Shop</span>
+</a>
+</li>
+
+<li>
+<a href="/thema/spiegelblog/">
+<span class="nav-channel-sub-entry">SPIEGELblog</span>
+</a>
+</li></ul>
+							</li>
+						<li>
+								<a href="/sptv/" class="with-sub-ul ">SPIEGEL TV</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/sptv/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/sptv/magazin/" title="SPIEGEL TV Magazin">SPIEGEL TV Magazin</a></li>
+						
+				<li>
+						<a href="/sptv/reportage/" title="SPIEGEL TV Reportage">SPIEGEL TV Reportage</a></li>
+						
+				<li>
+						<a href="/sptv/programm/" title="SPIEGEL TV Programm">SPIEGEL TV Programm</a></li>
+						
+				<li>
+						<a href="http://www.spiegel.tv" target="_blank" title="SPIEGEL.TV">SPIEGEL.TV</a></li>
+						
+				</ul>
+	</li>
+
+	</ul>
+												</li>
+						<li>
+								<a href="/forum/" class="with-sub-ul ">Forum</a><ul class="js-channel-sub-nav list-float clearfix">
+	
+	<li class="list-float-left">
+		<ul class="nav-channel-sub-entry">
+			<li><div class="nav-channel-arrow-left"></div></li>
+			
+			<li><a href="/forum/">&Uuml;bersicht</a></li>
+
+			<li>
+						<a href="/forum/votes/a-589480.html" title="Votes">Votes</a></li>
+						
+				<li>
+						<a href="/extra/spon-forum-so-wollen-wir-debattieren-a-1032920.html" title="Netiquette">Netiquette</a></li>
+						
+				</ul>
+	</li>
+
+	</ul>
+												</li>
+						<li>
+								<a href="/thema/" class=" ">Themen</a></li>
+						<li>
+				<span class="with-sub-ul">Service</span>
+				<ul class="js-channel-sub-nav">
+					<li>
+						<div class="nav-channel-arrow-left"></div>
+					</li>
+					<!-- html_126935 -->
+<li><a href="http://wetter.spiegel.de/"><span class="nav-channel-sub-entry">Wetter</span></a>
+</li>
+
+<li><a href="http://boersen.manager-magazin.de"><span class="nav-channel-sub-entry">B<U+00F6>rse</span></a></li>
+
+<li><a href="http://tvprogramm.spiegel.de/"><span class="nav-channel-sub-entry">TV-Programm</span></a></li>
+
+<li><a href="/auto/aktuell/benzinpreisvergleich-die-guenstigste-tankstelle-in-ihrer-naehe-a-185826.html"><span class="nav-channel-sub-entry">Benzinpreis</span></a></li>
+
+<li><a href="/auto/aktuell/bussgeldrechner-was-zu-schnelles-fahren-kostet-a-244772.html"><span class="nav-channel-sub-entry">Bu<U+00DF>geldrechner</span></a></li>
+
+<li><a href="http://werkstattvergleich.spiegel.de"><span class="nav-channel-sub-entry">Werkstattvergleich</span></a></li>
+
+<li><a href="http://www.amazon.de/b/ref=amb_link_51544565_1?ie=UTF8&node=4206085031&pf_rd_m=A3JWKAKR8XB7XF&pf_rd_s=center-1&pf_rd_r=0Y7KSJRQ0GD1TQVBZFBX&pf_rd_t=1401&pf_rd_p=515157807&pf_rd_i=1000127753&tag=wwwspiegelde-21"><span class="nav-channel-sub-entry">B<U+00FC>cher bestellen</span></a></li>
+
+<li><a href="http://ad8.adfarm1.adition.com/redi?sid=3076405&kid=1212883&bid=3961306"><span class="nav-channel-sub-entry">DSL-Vergleich</span></a></li>
+
+<li><a href="/lebenundlernen/schule/ferien-schulferien-und-feiertage-a-193925.html"><span class="nav-channel-sub-entry">Ferientermine</span></a></li>
+
+<li><a href="http://ad8.adfarm1.adition.com/redi?sid=3076403&kid=1212850&bid=3961217"><span class="nav-channel-sub-entry">Gasanbietervergleich</span></a></li>
+
+<li><a href="http://ad8.adfarm1.adition.com/redi?sid=3076404&kid=1212872&bid=3961268"><span class="nav-channel-sub-entry">Stromanbietervergleich</span></a></li>
+
+<li><a href="https://ratgeber.co2online.de/index.php?berater=ratgeberauswahl&portal_id=spiegel_online"><span class="nav-channel-sub-entry">Energiesparratgeber</span></a></li>
+
+<li><a href="http://ad8.adfarm1.adition.com/redi?sid=3076397&kid=1212362&bid=3958971"><span class="nav-channel-sub-entry">Energievergleiche</span></a></li>
+
+<li><a href="http://www.personalmarkt.de/source-links/spiegel/serviceangebotebox.html"><span class="nav-channel-sub-entry">Gehaltscheck</span></a></li>
+
+<li><a href="/lebenundlernen/uni/studium-tipps-und-hilfe-fuer-uni-und-studentenleben-a-640620.html"><span class="nav-channel-sub-entry">Uni-Tools</span></a></li>
+
+<li><a href="http://boersen.manager-magazin.de/spon/devisen_uebersicht.htn#rechner"><span class="nav-channel-sub-entry">W<U+00E4>hrungsrechner</span></a></li>
+
+<li><a href="/wirtschaft/service/versicherung-check-fuer-haftpflicht-hausrat-berufsunfaehigkeit-a-960380.html "><span class="nav-channel-sub-entry">Versicherungen</span></a></li></ul>
+			</li>
+
+			<!-- html_130389 -->
+</ul>
+	</div><div class="header-search" id="js-header-search">
+		<div class="header-search-inner-wrap">
+			<span id="js-close-button">Abbrechen</span>
+			
+			
+			<form action="/suche/index.html" name="suchformbox" class="search-form-multiple form-large" method="get" onsubmit="submitFormWithPage(1);">
+				<div class="search-input-submit clearfix">
+						<fieldset class="search-form-input">
+						    <input type="text" name="suchbegriff" value=""/>
+						    <input type="hidden" name="pageNumber" value="1"/>
+						</fieldset>
+						
+						<fieldset class="search-form-submit">
+							<input value="Suchen" onclick="submitFormWithPage(1)" title="Suchen" type="submit" />
+						 </fieldset>
+						 
+					</div>
+						
+						<fieldset>
+							<span class="select-fa">
+							     <select name="suchzeitraum" id="spSearchDate"
+							             onchange="document.suchformbox['fromDate'].focus(); spSynchDatumBis(document.suchformbox);">
+							         <option value="" selected="selected">Zeitraum</option>
+							
+							        <option value="all"	>alles</option>
+							        <option value="week" >letzte Woche</option>
+							        <option value="month" >letzter Monat</option>
+							        <option value="year" >letztes Jahr</option>
+							        <option value="ab2005" >seit 2005</option>
+							        <option value="2005" >vor 2005</option>
+							        <option value="2000" >vor 2000</option>
+							        <option value="1995" >vor 1995</option>
+							        <option value="1990" >vor 1990</option>
+							        <option value="1980" >vor 1980</option>
+							        <option value="1970" >vor 1970</option>
+							        <option value="1960" >vor 1960</option>
+							    </select>
+						    </span>
+						    
+						    <span class="select-fa">
+							    <select name="suchbereich" id="spSearchAttr">
+							        <option value="header,title,lead" ><U+00DC>berschrift und Vorspann</option>
+							        <option value="dokumenttext" selected="selected">Volltext</option>
+							        <option value="autor" >Autor</option>
+							    </select>
+						   </span>
+						   
+						    <input tabindex="4" name="fromDate" id="spSearchFromDate"
+						           onchange="document.suchformbox['suchzeitraum'].selectedIndex=0;"
+						           value=""
+						           maxlength="10" type="hidden" />
+						    <input tabindex="5" name="toDate" id="spSearchToDate"
+						           onchange="document.suchformbox['suchzeitraum'].selectedIndex=0;"
+						           value="" maxlength="10" type="hidden" />
+	
+							</fieldset>
+							
+							</form>
+
+		             <script type="text/javascript">
+	                    if (!document.all) { enableAllFields(); }
+		             </script>
+
+		</div> </div>
+</div> <div id="js-popup-layer" class="clearfix"></div>
+
+<!-- html_111811 -->
+<div id="breadcrumb">
+
+	<ul class="breadcrumb-history list-float clearfix">
+				<li class="list-float-left">
+		<a href="/">Nachrichten</a></li>
+<li class="list-float-left">
+		<span>&gt;</span><h1 class="so-hdln">Schlagzeilen</h1>
+			</li>
+</ul>
+		<div class="nav-extra">
+			<div class="adition" id="branded_channel_reiter_1" data-position="branded_channel_reiter_1">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('branded_channel_reiter_1');
+	</script>
+</div>
+</div>
+	</div> <br class="clearfix" /></div>
+
+		<div id="content-main" class="grid-article">
+			<div class="adition" id="mitte_0" data-position="mitte_0">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('mitte_0');
+	</script>
+</div>
+<br class="clearfix" />
+
+			<div id="spMainContent" class="column-both schlagzeilen schlagzeilen-topics">
+				
+				<div class="clearfix">
+	<div class="schlagzeilen-nav-box">
+		<h5>ANZEIGE:</h5>
+		<ul class="list-float clearfix">
+			<li class="list-float-left"><a href="/schlagzeilen/index.html" class="is-active">2 Tage</a></li>
+					<li class="list-float-left"><a href="/schlagzeilen/index-siebentage.html">7 Tage</a></li>
+				</ul>
+	</div>	
+	<div class="schlagzeilen-nav-box">
+		<h5>SORTIEREN:</h5>
+		<ul class="list-float clearfix">
+			<li class="list-float-left"><a href="/schlagzeilen/index.html"   class="is-active">Datum</a></li>
+					<li class="list-float-left"><a href="/schlagzeilen/ressort/index.html" >Ressort</a></li>			
+					<li class="list-float-left"><a href="/schlagzeilen/thema/index.html"  >alphabetisch</a></li>
+				</ul>
+	</div>
+	<div class="schlagzeilen-nav-box schlagzeilen-view">
+		<h5>DER ANDERE BLICK:</h5>
+		<ul class="list-float clearfix">
+			<li class="list-float-left"><a href="/schlagzeilen/foto/index.html">Fototicker</a></li>
+			<li class="list-float-left"><a href="/schlagzeilen/tops/index.html"  >Top-Meldungen</a></li>
+			<li class="list-float-left"><a href="javascript:spTagInDreiMinutenLink()">Der Tag in 3 Minuten</a></li>
+		</ul>
+	</div>
+</div>
+<div class="schlagzeilen-content schlagzeilen-overview">
+					<div class="module-title schlagzeilen-date-headline">Freitag, 19. Mai 2017</div>
+						<a href="/sport/sonst/dopingopfer-hilfe-gesetz-erhaelt-fristverlaengerung-bis-2018-a-1148493.html" title="Dopingopfer: Bundestag verl<U+00E4>ngert Hilfefrist"><span class="schlagzeilen-headline-intro">Dopingopfer:</span><span class="schlagzeilen-headline"> Bundestag verl<U+00E4>ngert Hilfefrist</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;14:14)</span><br />
+								<a href="/sport/fussball/bibiana-steinhaus-rueckt-als-schiedsrichterin-in-die-bundesliga-auf-a-1148489.html" title="Schiedsrichterin: Steinhaus r<U+00FC>ckt in die Bundesliga auf"><span class="schlagzeilen-headline-intro">Schiedsrichterin:</span><span class="schlagzeilen-headline"> Steinhaus r<U+00FC>ckt in die Bundesliga auf</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;14:05)</span><br />
+								<a href="/fotostrecke/fotostrecke-147655.html" title="Fotostrecke: Fett durch Fast Food - Affe auf Di<U+00E4>t"><span class="schlagzeilen-headline-intro">Fotostrecke:</span><span class="schlagzeilen-headline"> Fett durch Fast Food - Affe auf Di<U+00E4>t</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;13:58)</span><br />
+								<a href="/sport/sonst/rika-fujiwara-macht-bei-tennisspiel-liegestuetzen-zwischen-ballwechseln-a-1148486.html" title="Kurioses Tennisspiel: Liegest<U+00FC>tzen zwischen den Ballwechseln"><span class="schlagzeilen-headline-intro">Kurioses Tennisspiel:</span><span class="schlagzeilen-headline"> Liegest<U+00FC>tzen zwischen den Ballwechseln</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;13:49)</span><br />
+								<a href="/panorama/justiz/bonn-31-jaehriger-wegen-vergewaltigung-einer-camperin-angeklagt-a-1148483.html" title="Bonn: 31-J<U+00E4>hriger wegen Vergewaltigung einer Camperin angeklagt"><span class="schlagzeilen-headline-intro">Bonn:</span><span class="schlagzeilen-headline"> 31-J<U+00E4>hriger wegen Vergewaltigung einer Camperin angeklagt</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;13:41)</span><br />
+								<a href="/politik/deutschland/nordrhein-westfalen-cdu-und-fdp-vereinbaren-koalitionsgespraeche-a-1148478.html" title="Schwarz-Gelb in NRW: CDU und FDP vereinbaren Koalitionsgespr<U+00E4>che"><span class="schlagzeilen-headline-intro">Schwarz-Gelb in NRW:</span><span class="schlagzeilen-headline"> CDU und FDP vereinbaren Koalitionsgespr<U+00E4>che</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;13:24)</span><br />
+								<a href="/kultur/gesellschaft/tuerkei-haftbefehle-gegen-soezcue-journalisten-a-1148460.html" title="T<U+00FC>rkei: Haftbefehle gegen &quot;S<U+00F6>zc<U+00FC>&quot;-Journalisten"><span class="schlagzeilen-headline-intro">T<U+00FC>rkei:</span><span class="schlagzeilen-headline"> Haftbefehle gegen "S<U+00F6>zc<U+00FC>"-Journalisten</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;13:11)</span><br />
+								<a href="/auto/aktuell/mietwagen-zu-diesen-regeln-haben-sich-die-grossen-anbieter-verpflichtet-a-1146152.html" title="Selbstverpflichtung von Anbietern: Was bringen die neuen Mietwagenregeln?"><span class="schlagzeilen-headline-intro">Selbstverpflichtung von Anbietern:</span><span class="schlagzeilen-headline"> Was bringen die neuen Mietwagenregeln?</span></a>&nbsp;<span class="headline-date">(Auto,&nbsp;13:06)</span><br />
+								<a href="/wissenschaft/weltall/hubble-bild-zwergplanet-225088-2007-or10-hat-einen-mond-a-1148435.html" title="Sonnensystem: Ferner Zwergplanet hat eigenen Mond"><span class="schlagzeilen-headline-intro">Sonnensystem:</span><span class="schlagzeilen-headline"> Ferner Zwergplanet hat eigenen Mond</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;13:05)</span><br />
+								<a href="/politik/ausland/nordkorea-usa-schicken-flugzeugtraeger-uss-ronald-reagan-a-1148451.html" title="Atomstreit mit Pj<U+00F6>ngjang: USA schicken zweiten Flugzeugtr<U+00E4>ger nach Korea"><span class="schlagzeilen-headline-intro">Atomstreit mit Pj<U+00F6>ngjang:</span><span class="schlagzeilen-headline"> USA schicken zweiten Flugzeugtr<U+00E4>ger nach Korea</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;13:01)</span><br />
+								<a href="/netzwelt/web/google-i-o-googles-naechste-virtual-reality-brille-wird-kein-schnaeppchen-a-1148413.html" title="Virtual-Reality-Gadget: Googles n<U+00E4>chste Brille wird kein Schn<U+00E4>ppchen"><span class="schlagzeilen-headline-intro">Virtual-Reality-Gadget:</span><span class="schlagzeilen-headline"> Googles n<U+00E4>chste Brille wird kein Schn<U+00E4>ppchen</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;12:52)</span><br />
+								<a href="/panorama/justiz/new-york-times-square-fahrer-wegen-mordes-angeklagt-a-1148434.html" title="New York: Times-Square-Fahrer wegen Mordes angeklagt"><span class="schlagzeilen-headline-intro">New York:</span><span class="schlagzeilen-headline"> Times-Square-Fahrer wegen Mordes angeklagt</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;12:51)</span><br />
+								<a href="/wirtschaft/unternehmen/kartellamt-billigt-zusammenarbeit-von-edeka-und-budnikowsky-a-1148467.html" title="Budnikowsky-Kooperation: Kartellamt erlaubt Edekas Drogeriepl<U+00E4>ne"><span class="schlagzeilen-headline-intro">Budnikowsky-Kooperation:</span><span class="schlagzeilen-headline"> Kartellamt erlaubt Edekas Drogeriepl<U+00E4>ne</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;12:44)</span><br />
+								<a href="/panorama/justiz/muenchen-freund-mit-kreissaege-getoetet-zwoelfeinhalb-jahre-haft-fuer-studentin-a-1148456.html" title="M<U+00FC>nchen: Freund mit Kreiss<U+00E4>ge get<U+00F6>tet - zw<U+00F6>lfeinhalb Jahre Haft f<U+00FC>r Studentin"><span class="schlagzeilen-headline-intro">M<U+00FC>nchen:</span><span class="schlagzeilen-headline"> Freund mit Kreiss<U+00E4>ge get<U+00F6>tet - zw<U+00F6>lfeinhalb Jahre Haft f<U+00FC>r Studentin</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;12:34)</span><br />
+								<a href="/politik/deutschland/martin-schulz-holt-sich-im-wahlkampf-hilfe-von-matthias-machnig-a-1148437.html" title="SPD-Kampagne: Wahlkampf-Profi Machnig<U+00A0>soll Schulz helfen"><span class="schlagzeilen-headline-intro">SPD-Kampagne:</span><span class="schlagzeilen-headline"> Wahlkampf-Profi Machnig<U+00A0>soll Schulz helfen</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;12:28)</span><br />
+								<a href="/netzwelt/web/wannacry-erpresser-werben-um-loesegeldzahlung-bei-opfern-a-1148398.html" title="Neue Nachricht an Opfer: &quot;WannaCry&quot;-Erpresser betteln um L<U+00F6>segeld"><span class="schlagzeilen-headline-intro">Neue Nachricht an Opfer:</span><span class="schlagzeilen-headline"> "WannaCry"-Erpresser betteln um L<U+00F6>segeld</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;12:24)</span><br />
+								<a href="/politik/deutschland/fdp-feiert-mehr-eintritte-2017-als-im-gesamten-vorjahr-a-1148452.html" title="Comeback der Liberalen: FDP feiert Mitgliederzuwachs"><span class="schlagzeilen-headline-intro">Comeback der Liberalen:</span><span class="schlagzeilen-headline"> FDP feiert Mitgliederzuwachs</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;12:23)</span><br />
+								<a href="/wirtschaft/soziales/handelsstreit-usa-werfen-kanada-unfaire-subventionen-vor-a-1148443.html" title="Subventionen f<U+00FC>r Flugzeuge: USA<U+00A0>leiten<U+00A0>Wettbewerbsverfahren gegen<U+00A0>Kanada<U+00A0>ein"><span class="schlagzeilen-headline-intro">Subventionen f<U+00FC>r Flugzeuge:</span><span class="schlagzeilen-headline"> USA<U+00A0>leiten<U+00A0>Wettbewerbsverfahren gegen<U+00A0>Kanada<U+00A0>ein</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;12:07)</span><br />
+								<a href="/reise/aktuell/laptops-im-handgepaeck-bundesregierung-richtet-sich-auf-verbot-ein-a-1148432.html" title="Handgep<U+00E4>ck im Flugzeug: Bundesregierung richtet sich auf Laptop-Verbot ein"><span class="schlagzeilen-headline-intro">Handgep<U+00E4>ck im Flugzeug:</span><span class="schlagzeilen-headline"> Bundesregierung richtet sich auf Laptop-Verbot ein</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;12:01)</span><br />
+								<a href="/sport/sonst/jan-ullrich-zieht-sich-bei-rund-um-koeln-zurueck-a-1148440.html" title="Ex-Radstar: Ullrich zieht sich bei &quot;Rund um K<U+00F6>ln&quot;<U+00A0>wieder zur<U+00FC>ck"><span class="schlagzeilen-headline-intro">Ex-Radstar:</span><span class="schlagzeilen-headline"> Ullrich zieht sich bei "Rund um K<U+00F6>ln"<U+00A0>wieder zur<U+00FC>ck</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;11:47)</span><br />
+								<a href="/panorama/justiz/aachen-sieben-maenner-nach-brutaler-attacke-auf-fussballplatz-in-juelich-verurteilt-a-1148422.html" title="Brutale Attacke in J<U+00FC>lich: Sieben Fu<U+00DF>ballplatz-Schl<U+00E4>ger zu Haftstrafen verurteilt"><span class="schlagzeilen-headline-intro">Brutale Attacke in J<U+00FC>lich:</span><span class="schlagzeilen-headline"> Sieben Fu<U+00DF>ballplatz-Schl<U+00E4>ger zu Haftstrafen verurteilt</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;11:45)</span><br />
+								<a href="/gesundheit/diagnose/g20-gesundheitsminister-simulieren-epidemie-a-1148433.html" title="Treffen in Berlin: G20-Gesundheitsminister simulieren Epidemie"><span class="schlagzeilen-headline-intro">Treffen in Berlin:</span><span class="schlagzeilen-headline"> G20-Gesundheitsminister simulieren Epidemie</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;11:42)</span><br />
+								<a href="/reise/aktuell/fluege-in-die-usa-die-wichtigsten-fragen-zum-laptop-verbot-a-1148441.html" title="Fl<U+00FC>ge in die USA: Die wichtigsten Fragen zum Laptop-Verbot"><span class="schlagzeilen-headline-intro">Fl<U+00FC>ge in die USA:</span><span class="schlagzeilen-headline"> Die wichtigsten Fragen zum Laptop-Verbot</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;11:39)</span><br />
+								<a href="/sport/fussball/confed-cup-2017-in-russland-spielplan-gruppen-ergebnisse-a-1142944.html" title="Confederations Cup 2017: Gruppen, Spielplan und Termine in der <U+00DC>bersicht"><span class="schlagzeilen-headline-intro">Confederations Cup 2017:</span><span class="schlagzeilen-headline"> Gruppen, Spielplan und Termine in der <U+00DC>bersicht</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;11:37)</span><br />
+								<a href="/wirtschaft/deutschland-gegen-euro-bonds-oekonomie-mit-haekelschutz-a-1148353.html" title="Deutschland gegen Euro-Bonds: <U+00D6>konomie mit H<U+00E4>kelschutz"><span class="schlagzeilen-headline-intro">Deutschland gegen Euro-Bonds:</span><span class="schlagzeilen-headline"> <U+00D6>konomie mit H<U+00E4>kelschutz</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;11:35)</span><br />
+								<a href="/einestages/schalke-04-und-borussia-dortmund-1997-triumph-in-champions-league-und-uefa-cup-a-1148221.html" title="Schalke und Dortmund 1997: Die Jubelwoche im Ruhrgebiet"><span class="schlagzeilen-headline-intro">Schalke und Dortmund 1997:</span><span class="schlagzeilen-headline"> Die Jubelwoche im Ruhrgebiet</span></a>&nbsp;<span class="headline-date">(einestages,&nbsp;11:29)</span><br />
+								<a href="/gesundheit/ernaehrung/alkohol-werbung-ein-prosit-auf-die-lobbyisten-von-erab-a-1148227.html" title="Kaum regulierte Werbung: Wie die Alkohol-Lobby die Politik einlullt"><span class="schlagzeilen-headline-intro">Kaum regulierte Werbung:</span><span class="schlagzeilen-headline"> Wie die Alkohol-Lobby die Politik einlullt</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;11:27)</span><br />
+								<a href="/wirtschaft/unternehmen/tesla-arbeiter-berichten-von-ueblen-arbeitsbedingungen-a-1148397.html" title="Elektroautos: Psychischer Druck - Tesla-Arbeiter beklagen Arbeitsbedingungen"><span class="schlagzeilen-headline-intro">Elektroautos:</span><span class="schlagzeilen-headline"> Psychischer Druck - Tesla-Arbeiter beklagen Arbeitsbedingungen</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;11:18)</span><br />
+								<a href="/kultur/gesellschaft/jean-michel-basquiat-110-millionen-dollar-bei-sotheby-s-fuer-ein-bild-gezahlt-a-1148410.html" title="Rekord: Basquiat-Gem<U+00E4>lde f<U+00FC>r 110 Millionen Dollar versteigert"><span class="schlagzeilen-headline-intro">Rekord:</span><span class="schlagzeilen-headline"> Basquiat-Gem<U+00E4>lde f<U+00FC>r 110 Millionen Dollar versteigert</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;11:15)</span><br />
+								<a href="/netzwelt/netzpolitik/julian-assange-schweden-stellt-ermittlungen-ein-a-1148429.html" title="WikiLeaks-Gr<U+00FC>nder: Schweden stellt Ermittlungen<U+00A0>gegen Assange ein"><span class="schlagzeilen-headline-intro">WikiLeaks-Gr<U+00FC>nder:</span><span class="schlagzeilen-headline"> Schweden stellt Ermittlungen<U+00A0>gegen Assange ein</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;11:12)</span><br />
+								<a href="/sport/sonst/baseballer-kevin-pillar-nach-schwulenfeindlichem-spruch-gesperrt-a-1148421.html" title="Baseball-Profi Pillar: Sperre nach schwulenfeindlichem Spruch"><span class="schlagzeilen-headline-intro">Baseball-Profi Pillar:</span><span class="schlagzeilen-headline"> Sperre nach schwulenfeindlichem Spruch</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;11:04)</span><br />
+								<a href="/politik/ausland/frankreich-emmanuel-macron-verschaerft-regeln-fuer-journalisten-a-1148399.html" title="Frankreich: Macron schottet sich von Journalisten ab"><span class="schlagzeilen-headline-intro">Frankreich:</span><span class="schlagzeilen-headline"> Macron schottet sich von Journalisten ab</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;11:01)</span><br />
+								<a href="/sport/fussball/dfb-haelt-noch-an-rennbahngelaende-fuer-akademie-fest-a-1148419.html" title="Streit um Akademie: DFB h<U+00E4>lt (noch) an Rennbahngel<U+00E4>nde fest"><span class="schlagzeilen-headline-intro">Streit um Akademie:</span><span class="schlagzeilen-headline"> DFB h<U+00E4>lt (noch) an Rennbahngel<U+00E4>nde fest</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;10:56)</span><br />
+								<a href="/reise/aktuell/campingboom-mit-zelt-oder-bus-in-den-urlaub-a-1148400.html" title="Campingurlaub boomt: Auf die Pl<U+00E4>tze, fertig, los!"><span class="schlagzeilen-headline-intro">Campingurlaub boomt:</span><span class="schlagzeilen-headline"> Auf die Pl<U+00E4>tze, fertig, los!</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;10:52)</span><br />
+								<a href="/sport/fussball/hamburger-sv-vfl-wolfsburg-ansetzung-von-manuel-graefe-sorgt-fuer-kritik-a-1148415.html" title="Relegationsendspiel in Hamburg: Ex-Schiedsrichter kritisieren Ansetzung von Gr<U+00E4>fe"><span class="schlagzeilen-headline-intro">Relegationsendspiel in Hamburg:</span><span class="schlagzeilen-headline"> Ex-Schiedsrichter kritisieren Ansetzung von Gr<U+00E4>fe</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;10:40)</span><br />
+								<a href="/panorama/autobahn-2-bei-eilsleben-starkregen-in-sachsen-anhalt-gefluegel-lkw-umgekippt-a-1148411.html" title="Starkregen in Sachsen-Anhalt: Gefl<U+00FC>gel-Lkw kippt auf A2 um"><span class="schlagzeilen-headline-intro">Starkregen in Sachsen-Anhalt:</span><span class="schlagzeilen-headline"> Gefl<U+00FC>gel-Lkw kippt auf A2 um</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;10:35)</span><br />
+								<a href="/gesundheit/diagnose/gesundheitsversorgung-deutschland-belegt-weltweit-platz-20-a-1148313.html" title="Weltweiter Vergleich: Deutschlands Gesundheitssystem landet auf<U+00A0>Platz 20"><span class="schlagzeilen-headline-intro">Weltweiter Vergleich:</span><span class="schlagzeilen-headline"> Deutschlands Gesundheitssystem landet auf<U+00A0>Platz 20</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;10:33)</span><br />
+								<a href="/fotostrecke/fotostrecke-147637.html" title="Pippas Hochzeit: So Middleton-m<U+00E4><U+00DF>ig"><span class="schlagzeilen-headline-intro">Pippas Hochzeit:</span><span class="schlagzeilen-headline"> So Middleton-m<U+00E4><U+00DF>ig</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;10:29)</span><br />
+								<a href="/wirtschaft/soziales/alexis-tsipras-erneuert-forderung-nach-schuldenschnitt-a-1148412.html" title="Griechischer Ministerpr<U+00E4>sident Tsipras: &quot;Der Ball liegt jetzt bei den Gl<U+00E4>ubigern&quot;"><span class="schlagzeilen-headline-intro">Griechischer Ministerpr<U+00E4>sident Tsipras:</span><span class="schlagzeilen-headline"> "Der Ball liegt jetzt bei den Gl<U+00E4>ubigern"</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;10:28)</span><br />
+								<a href="/netzwelt/netzpolitik/elektronischer-personalausweis-eid-bundestag-erlaubt-zugriff-auf-ausweis-fotos-a-1148394.html" title="Neues Personalausweis-Gesetz: Bundestag erlaubt massenhaften Zugriff auf Passfotos"><span class="schlagzeilen-headline-intro">Neues Personalausweis-Gesetz:</span><span class="schlagzeilen-headline"> Bundestag erlaubt massenhaften Zugriff auf Passfotos</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;10:23)</span><br />
+								<a href="/lebenundlernen/schule/fidget-spinners-neuer-hype-an-schulen-a-1148076.html" title="Fidget Spinners: Ich glaub, mein Finger kreiselt"><span class="schlagzeilen-headline-intro">Fidget Spinners:</span><span class="schlagzeilen-headline"> Ich glaub, mein Finger kreiselt</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;10:18)</span><br />
+								<a href="/auto/aktuell/takata-airbags-bmw-toyota-mazda-und-subaru-erzielen-vergleich-in-den-usa-a-1148409.html" title="Takata-Airbags: Autohersteller erzielen Vergleich im Airbag-Streit"><span class="schlagzeilen-headline-intro">Takata-Airbags:</span><span class="schlagzeilen-headline"> Autohersteller erzielen Vergleich im Airbag-Streit</span></a>&nbsp;<span class="headline-date">(Auto,&nbsp;10:16)</span><br />
+								<a href="/sport/fussball/luca-toni-und-hellas-verona-schaffen-aufstieg-in-die-serie-a-a-1148404.html" title="Italienischer Fu<U+00DF>ball: Luca Toni kehrt in die Serie A zur<U+00FC>ck"><span class="schlagzeilen-headline-intro">Italienischer Fu<U+00DF>ball:</span><span class="schlagzeilen-headline"> Luca Toni kehrt in die Serie A zur<U+00FC>ck</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;10:02)</span><br />
+								<a href="/politik/ausland/iran-vor-der-wahl-alle-fragen-und-antworten-a-1148057.html" title="Neuer Pr<U+00E4>sident: Iran w<U+00E4>hlt - was steht auf dem Spiel?"><span class="schlagzeilen-headline-intro">Neuer Pr<U+00E4>sident:</span><span class="schlagzeilen-headline"> Iran w<U+00E4>hlt - was steht auf dem Spiel?</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;09:50)</span><br />
+								<a href="/wirtschaft/drohnen-europaeische-firmen-verdienen-am-antiterrorkampf-mit-a-1148296.html" title="Drohneneins<U+00E4>tze: &quot;Den Knopf dr<U+00FC>cken die anderen&quot;"><span class="schlagzeilen-headline-intro">Drohneneins<U+00E4>tze:</span><span class="schlagzeilen-headline"> "Den Knopf dr<U+00FC>cken die anderen"</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;09:48)</span><br />
+								<a href="/spiegel/mobbing-im-internet-jeder-achte-jugendliche-ist-betroffen-a-1147744.html" title="Cybergewalt: &quot;Bis unter die Bettdecke&quot;" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147744" data-lp-position="null"><span class="schlagzeilen-headline-intro">Cybergewalt:</span><span class="schlagzeilen-headline"> "Bis unter die Bettdecke"</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;09:44)</span><br />
+								<a href="/kultur/kino/cannes-netflix-film-okja-bei-den-filmfestspielen-unterbrochen-nach-buhrufen-a-1148393.html" title="Festival in Cannes: Buhrufer unterbrechen Netflix-Filmpremiere"><span class="schlagzeilen-headline-intro">Festival in Cannes:</span><span class="schlagzeilen-headline"> Buhrufer unterbrechen Netflix-Filmpremiere</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;09:41)</span><br />
+								<a href="/wissenschaft/mensch/archaeologie-im-jemen-selbst-mumien-sind-vom-krieg-betroffen-a-1148396.html" title="Arch<U+00E4>ologie im Jemen: Selbst Mumien sind vom Krieg betroffen"><span class="schlagzeilen-headline-intro">Arch<U+00E4>ologie im Jemen:</span><span class="schlagzeilen-headline"> Selbst Mumien sind vom Krieg betroffen</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;09:38)</span><br />
+								<a href="/kultur/tv/wotan-wilke-moehring-der-tatort-star-ueber-echte-kerle-und-falsche-maennlichkeit-a-1148242.html" title="&quot;Tatort&quot;-Star: Wotan Wilke M<U+00F6>hring <U+00FC>ber M<U+00E4>nnlichkeit und Blockfl<U+00F6>tespielen"><span class="schlagzeilen-headline-intro">"Tatort"-Star:</span><span class="schlagzeilen-headline"> Wotan Wilke M<U+00F6>hring <U+00FC>ber M<U+00E4>nnlichkeit und Blockfl<U+00F6>tespielen</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;09:31)</span><br />
+								<a href="/politik/ausland/donald-trump-auf-auslandsreise-donald-entdeckt-die-welt-a-1148384.html" title="Trumps erste Auslandsreise: Donald entdeckt die Welt"><span class="schlagzeilen-headline-intro">Trumps erste Auslandsreise:</span><span class="schlagzeilen-headline"> Donald entdeckt die Welt</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;08:40)</span><br />
+								<a href="/sport/wintersport/marco-sturm-soll-eishockey-bundestrainer-bleiben-a-1148390.html" title="Eishockey-WM: DEB will Sturm als Bundestrainer halten"><span class="schlagzeilen-headline-intro">Eishockey-WM:</span><span class="schlagzeilen-headline"> DEB will Sturm als Bundestrainer halten</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;08:37)</span><br />
+								<a href="/sport/sonst/boxen-mario-daser-vor-kampf-gegen-ola-afolabi-die-kiesgroesse-a-1148216.html" title="Profiboxer Mario Daser: Die<U+00A0>Kiesgr<U+00F6><U+00DF>e"><span class="schlagzeilen-headline-intro">Profiboxer Mario Daser:</span><span class="schlagzeilen-headline"> Die<U+00A0>Kiesgr<U+00F6><U+00DF>e</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;08:18)</span><br />
+								<a href="/politik/deutschland/winfried-kretschmann-gruene-in-nordrhein-westfalen-nach-wahlniederlage-a-1148387.html" title="Kretschmann kritisiert NRW-Gr<U+00FC>ne: &quot;Gesinnungsethischer <U+00DC>berschuss&quot;"><span class="schlagzeilen-headline-intro">Kretschmann kritisiert NRW-Gr<U+00FC>ne:</span><span class="schlagzeilen-headline"> "Gesinnungsethischer <U+00DC>berschuss"</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;08:05)</span><br />
+								<a href="/panorama/leute/sting-trifft-familien-verschleppter-studenten-in-mexiko-a-1148386.html" title="T-Shirt-Botschaft bei Konzert in Mexiko: Sting und die verschwundenen 43"><span class="schlagzeilen-headline-intro">T-Shirt-Botschaft bei Konzert in Mexiko:</span><span class="schlagzeilen-headline"> Sting und die verschwundenen 43</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;07:22)</span><br />
+								<a href="/politik/ausland/brasilien-praesident-michel-temer-droht-wegen-korruptionsskandal-das-aus-a-1148385.html" title="Korruptionsskandal: Temer st<U+00FC>rzt Brasilien in die n<U+00E4>chste Krise"><span class="schlagzeilen-headline-intro">Korruptionsskandal:</span><span class="schlagzeilen-headline"> Temer st<U+00FC>rzt Brasilien in die n<U+00E4>chste Krise</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;07:17)</span><br />
+								<a href="/politik/deutschland/nachrichten-am-morgen-die-news-in-echtzeit-a-1147189.html" title="Newsblog: Das war Der Morgen @SPIEGELONLINE am 19.5.2017"><span class="schlagzeilen-headline-intro">Newsblog:</span><span class="schlagzeilen-headline"> Das war Der Morgen @SPIEGELONLINE am 19.5.2017</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;06:22)</span><br />
+								<a href="/politik/ausland/news-donald-trump-iran-wahl-hassan-rohani-julian-assange-a-1148379.html" title="Die Lage am Freitag: Fettn<U+00E4>pfchen und heiles Porzellan"><span class="schlagzeilen-headline-intro">Die Lage am Freitag:</span><span class="schlagzeilen-headline"> Fettn<U+00E4>pfchen und heiles Porzellan</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;05:41)</span><br />
+								<a href="/stil/haus-d-in-bregenz-wohntraum-mit-seeblick-a-1148331.html" title="Architektenhaus in Bregenz: Bergpanorama mit Seeblick"><span class="schlagzeilen-headline-intro">Architektenhaus in Bregenz:</span><span class="schlagzeilen-headline"> Bergpanorama mit Seeblick</span></a>&nbsp;<span class="headline-date">(Stil,&nbsp;05:20)</span><br />
+								<a href="/reise/aktuell/ausstellung-die-fotografierte-ferne-in-berlin-venedig-knipsen-weiter-a-1148107.html" title="Ausstellung &quot;Die fotografierte Ferne&quot;: Venedig, knipsen, weiter"><span class="schlagzeilen-headline-intro">Ausstellung "Die fotografierte Ferne":</span><span class="schlagzeilen-headline"> Venedig, knipsen, weiter</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;05:16)</span><br />
+								<a href="/politik/ausland/jemen-wie-laesst-sich-der-buergerkrieg-stoppen-a-1147944.html" title="B<U+00FC>rgerkrieg im Jemen: &quot;Sie wollen uns aushungern&quot;" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147944" data-lp-position="null"><span class="schlagzeilen-headline-intro">B<U+00FC>rgerkrieg im Jemen:</span><span class="schlagzeilen-headline"> "Sie wollen uns aushungern"</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;05:09)</span><br />
+								<a href="/netzwelt/netzpolitik/heiko-maas-union-verstaerkt-kritik-an-gesetz-gegen-hassrede-a-1148363.html" title="Soziale Netzwerke: Union verst<U+00E4>rkt Kritik an Maas' Internetgesetz"><span class="schlagzeilen-headline-intro">Soziale Netzwerke:</span><span class="schlagzeilen-headline"> Union verst<U+00E4>rkt Kritik an Maas' Internetgesetz</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;05:06)</span><br />
+								<a href="/politik/deutschland/bundeswehr-fall-franco-a-ex-bamf-chef-raeumt-mitverantwortung-ein-a-1148383.html" title="Fall Franco A.: Ex-Bamf-Chef Weise r<U+00E4>umt Mitverantwortung ein"><span class="schlagzeilen-headline-intro">Fall Franco A.:</span><span class="schlagzeilen-headline"> Ex-Bamf-Chef Weise r<U+00E4>umt Mitverantwortung ein</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;04:59)</span><br />
+								<a href="/panorama/berlin-pandapaar-fuer-berliner-zoo-gefunden-a-1148382.html" title="Mengmeng und Jiao Qing: Pandapaar f<U+00FC>r Berliner Zoo gefunden"><span class="schlagzeilen-headline-intro">Mengmeng und Jiao Qing:</span><span class="schlagzeilen-headline"> Pandapaar f<U+00FC>r Berliner Zoo gefunden</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;03:52)</span><br />
+								<a href="/kultur/tv/maybrit-illner-zum-wahlkampf-wo-ist-das-linke-projekt-a-1148381.html" title="&quot;Illner&quot; zum Wahlkampf: &quot;Wo ist das linke Projekt?&quot;"><span class="schlagzeilen-headline-intro">"Illner" zum Wahlkampf:</span><span class="schlagzeilen-headline"> "Wo ist das linke Projekt?"</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;03:10)</span><br />
+								<a href="/panorama/justiz/mississippi-autodiebe-entfuehren-sechsjaehrigen-und-toeten-ihn-dann-a-1148380.html" title="Mississippi: Autodiebe entf<U+00FC>hren Sechsj<U+00E4>hrigen und t<U+00F6>ten ihn"><span class="schlagzeilen-headline-intro">Mississippi:</span><span class="schlagzeilen-headline"> Autodiebe entf<U+00FC>hren Sechsj<U+00E4>hrigen und t<U+00F6>ten ihn</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;02:45)</span><br />
+								<div class="module-title schlagzeilen-date-headline">Donnerstag, 18. Mai 2017</div>
+						<a href="/politik/ausland/griechenland-parlament-verabschiedet-weiteres-sparpaket-a-1148378.html" title="Reformen: Griechisches Parlament verabschiedet neues Sparpaket"><span class="schlagzeilen-headline-intro">Reformen:</span><span class="schlagzeilen-headline"> Griechisches Parlament verabschiedet neues Sparpaket</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;23:47)</span><br />
+								<a href="/politik/ausland/donald-trump-ueber-russland-untersuchung-sonderermittler-schaedlich-fuer-usa-a-1148377.html" title="Russland-Aff<U+00E4>re: Trump nennt Sonderermittler sch<U+00E4>dlich f<U+00FC>r USA"><span class="schlagzeilen-headline-intro">Russland-Aff<U+00E4>re:</span><span class="schlagzeilen-headline"> Trump nennt Sonderermittler sch<U+00E4>dlich f<U+00FC>r USA</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;23:34)</span><br />
+								<a href="/sport/fussball/tottenham-hotspur-genug-punkte-fuer-die-meisterschaft-vor-einem-jahr-a-1148376.html" title="Tottenham Hotspur: Genug Punkte f<U+00FC>r die Meisterschaft - vor einem Jahr"><span class="schlagzeilen-headline-intro">Tottenham Hotspur:</span><span class="schlagzeilen-headline"> Genug Punkte f<U+00FC>r die Meisterschaft - vor einem Jahr</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;23:12)</span><br />
+								<a href="/sport/wintersport/eishockey-wm-2017-deutschland-scheitert-im-viertelfinale-an-kanada-a-1148370.html" title="Eishockey-WM: Deutschland scheitert im Viertelfinale an Kanada"><span class="schlagzeilen-headline-intro">Eishockey-WM:</span><span class="schlagzeilen-headline"> Deutschland scheitert im Viertelfinale an Kanada</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;22:34)</span><br />
+								<a href="/politik/deutschland/asylrecht-bundestag-beschliesst-verschaerfung-a-1148375.html" title="Umstrittenes Gesetz: Bundestag beschlie<U+00DF>t Versch<U+00E4>rfung des Asylrechts"><span class="schlagzeilen-headline-intro">Umstrittenes Gesetz:</span><span class="schlagzeilen-headline"> Bundestag beschlie<U+00DF>t Versch<U+00E4>rfung des Asylrechts</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;22:30)</span><br />
+								<a href="/politik/ausland/brasilien-oberstes-gericht-genehmigt-ermittlungen-gegen-praesident-michel-temer-a-1148373.html" title="Brasilien: Oberstes Gericht genehmigt Ermittlungen gegen Pr<U+00E4>sident Temer"><span class="schlagzeilen-headline-intro">Brasilien:</span><span class="schlagzeilen-headline"> Oberstes Gericht genehmigt Ermittlungen gegen Pr<U+00E4>sident Temer</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;21:56)</span><br />
+								<a href="/politik/ausland/venezuela-henrique-capriles-wird-reisepass-entzogen-a-1148374.html" title="Venezuela: Beh<U+00F6>rden entziehen Oppositionsf<U+00FC>hrer Capriles den Reisepass"><span class="schlagzeilen-headline-intro">Venezuela:</span><span class="schlagzeilen-headline"> Beh<U+00F6>rden entziehen Oppositionsf<U+00FC>hrer Capriles den Reisepass</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;21:37)</span><br />
+								<a href="/wirtschaft/unternehmen/deutsche-bank-paul-achleitner-wegen-boni-streit-in-der-kritik-a-1148371.html" title="Boni-Streit bei der Deutschen Bank: Achleitner wird kritisiert - und wiedergew<U+00E4>hlt"><span class="schlagzeilen-headline-intro">Boni-Streit bei der Deutschen Bank:</span><span class="schlagzeilen-headline"> Achleitner wird kritisiert - und wiedergew<U+00E4>hlt</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;21:26)</span><br />
+								<a href="/politik/ausland/syrien-anti-is-koalition-bombardiert-konvoi-regierungstreuer-kraefte-a-1148372.html" title="Syrien: Anti-IS-Koalition bombardiert regierungstreue Milizen"><span class="schlagzeilen-headline-intro">Syrien:</span><span class="schlagzeilen-headline"> Anti-IS-Koalition bombardiert regierungstreue Milizen</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;21:13)</span><br />
+								<a href="/gesundheit/diagnose/hiv-tests-nach-outing-forscher-dokumentieren-charlie-sheen-effekt-a-1148249.html" title="HIV-Tests nach Outing: Forscher dokumentieren Charlie-Sheen-Effekt"><span class="schlagzeilen-headline-intro">HIV-Tests nach Outing:</span><span class="schlagzeilen-headline"> Forscher dokumentieren Charlie-Sheen-Effekt</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;20:40)</span><br />
+								<a href="/kultur/literatur/larry-brown-mit-fay-ein-roman-wie-ein-countrysong-a-1148041.html" title="S<U+00FC>dstaaten-Roman &quot;Fay&quot;: Die<U+00A0>Femme fatale als junges M<U+00E4>dchen"><span class="schlagzeilen-headline-intro">S<U+00FC>dstaaten-Roman "Fay":</span><span class="schlagzeilen-headline"> Die<U+00A0>Femme fatale als junges M<U+00E4>dchen</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;20:39)</span><br />
+								<a href="/netzwelt/web/chelsea-manning-twittert-erstes-foto-a-1148368.html" title="US-Whistleblowerin: Chelsea Manning twittert erstes Foto nach Freilassung"><span class="schlagzeilen-headline-intro">US-Whistleblowerin:</span><span class="schlagzeilen-headline"> Chelsea Manning twittert erstes Foto nach Freilassung</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;20:04)</span><br />
+								<a href="/sport/wintersport/liveticker-zur-eishockey-wm-viertelfinale-zwischen-deutschland-und-kanada-a-1148369.html" title="+++ Liveticker Eishockey-WM +++: Deutschland ist wieder dran"><span class="schlagzeilen-headline-intro">+++ Liveticker Eishockey-WM +++:</span><span class="schlagzeilen-headline"> Deutschland ist wieder dran</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;19:57)</span><br />
+								<a href="/wirtschaft/unternehmen/genmais-spd-erklaert-gesetz-zum-anbauverbot-fuer-gescheitert-a-1148362.html" title="Anbauverbot: SPD erkl<U+00E4>rt Genmaisgesetz f<U+00FC>r gescheitert"><span class="schlagzeilen-headline-intro">Anbauverbot:</span><span class="schlagzeilen-headline"> SPD erkl<U+00E4>rt Genmaisgesetz f<U+00FC>r gescheitert</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;19:45)</span><br />
+								<a href="/politik/deutschland/martin-schulz-und-seine-bildungsvorschlaege-der-milliarden-weltmeister-plan-a-1148337.html" title="Bildungsvorschl<U+00E4>ge von Martin Schulz: Der Milliarden-Weltmeister-Plan"><span class="schlagzeilen-headline-intro">Bildungsvorschl<U+00E4>ge von Martin Schulz:</span><span class="schlagzeilen-headline"> Der Milliarden-Weltmeister-Plan</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;19:37)</span><br />
+								<a href="/politik/ausland/briten-geben-widerstand-gegen-eu-hauptquartier-auf-a-1148356.html" title="Kommandozentrale: Briten beenden Blockade gegen EU-Hauptquartier"><span class="schlagzeilen-headline-intro">Kommandozentrale:</span><span class="schlagzeilen-headline"> Briten beenden Blockade gegen EU-Hauptquartier</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;19:28)</span><br />
+								<a href="/wirtschaft/soziales/griechenland-rentner-und-arbeitnehmer-verzweifeln-am-neuen-sparpaket-a-1148304.html" title="Proteste gegen Sparpaket in Griechenland: &quot;Mir bleibt nur eins - weniger zu essen&quot;"><span class="schlagzeilen-headline-intro">Proteste gegen Sparpaket in Griechenland:</span><span class="schlagzeilen-headline"> "Mir bleibt nur eins - weniger zu essen"</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;19:11)</span><br />
+								<a href="/politik/deutschland/incirlik-sigmar-gabriel-droht-mit-abzug-von-deutschen-nato-soldaten-a-1148355.html" title="Streit <U+00FC>ber Incirlik: Gabriel droht mit Ende der Awacs-Mission in der T<U+00FC>rkei"><span class="schlagzeilen-headline-intro">Streit <U+00FC>ber Incirlik:</span><span class="schlagzeilen-headline"> Gabriel droht mit Ende der Awacs-Mission in der T<U+00FC>rkei</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;18:36)</span><br />
+								<a href="/kultur/kino/cannes-2017-almodovar-gegen-netflix-sowie-wonderstruck-und-loveless-a-1148332.html" title="Cannes-Tagebuch 1: Noch mal mit Gef<U+00FC>hl"><span class="schlagzeilen-headline-intro">Cannes-Tagebuch 1:</span><span class="schlagzeilen-headline"> Noch mal mit Gef<U+00FC>hl</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;18:28)</span><br />
+								<a href="/panorama/gesellschaft/new-york-auto-faehrt-auf-buergersteig-verletzte-a-1148360.html" title="New York: Auto f<U+00E4>hrt am Times Square auf B<U+00FC>rgersteig - eine Tote, mehrere Verletzte"><span class="schlagzeilen-headline-intro">New York:</span><span class="schlagzeilen-headline"> Auto f<U+00E4>hrt am Times Square auf B<U+00FC>rgersteig - eine Tote, mehrere Verletzte</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;18:26)</span><br />
+								<a href="/wirtschaft/unternehmen/berlin-sprinkleranlage-im-ber-soll-erst-ende-des-jahres-fertig-werden-a-1148354.html" title="Hauptstadtflughafen: Sprinkleranlage im BER soll<U+00A0>erst Ende<U+00A0>des Jahres fertig werden"><span class="schlagzeilen-headline-intro">Hauptstadtflughafen:</span><span class="schlagzeilen-headline"> Sprinkleranlage im BER soll<U+00A0>erst Ende<U+00A0>des Jahres fertig werden</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;18:14)</span><br />
+								<a href="/panorama/justiz/nsu-prozess-wie-gutachter-joachim-bauer-beate-zschaepe-beschreibt-a-1148316.html" title="NSU-Prozess: Gutachter in Erkl<U+00E4>rungsnot"><span class="schlagzeilen-headline-intro">NSU-Prozess:</span><span class="schlagzeilen-headline"> Gutachter in Erkl<U+00E4>rungsnot </span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;18:07)</span><br />
+								<a href="/kultur/tv/snatch-als-stream-mit-rupert-grinch-in-der-hauptrolle-a-1148128.html" title="Thriller-Kom<U+00F6>die: Die erste Folge von &quot;Snatch&quot; kostenlos im Stream"><span class="schlagzeilen-headline-intro">Thriller-Kom<U+00F6>die:</span><span class="schlagzeilen-headline"> Die erste Folge von "Snatch" kostenlos im Stream</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;18:02)</span><br />
+								<a href="/politik/deutschland/anis-amri-und-das-versagen-des-staats-18-monate-50-behoerden-und-dann-ein-anschlag-a-1148305.html" title="Versagen<U+00A0>im Fall Anis Amri: 18 Monate, 50 Beh<U+00F6>rden und dann ein Anschlag"><span class="schlagzeilen-headline-intro">Versagen<U+00A0>im Fall Anis Amri:</span><span class="schlagzeilen-headline"> 18 Monate, 50 Beh<U+00F6>rden und dann ein Anschlag</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;17:51)</span><br />
+								<a href="/panorama/leute/frauke-petry-bekommt-kind-afd-parteichefin-und-marcus-pretzell-sind-eltern-a-1148325.html" title="AfD: Storch meldet Geburt von Frauke Petrys Kind"><span class="schlagzeilen-headline-intro">AfD:</span><span class="schlagzeilen-headline"> Storch meldet Geburt von Frauke Petrys Kind</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;17:47)</span><br />
+								<a href="/netzwelt/apps/was-facebook-mit-ihren-whatsapp-daten-macht-a-1148318.html" title="Strafzahlung an die EU: Was Facebook mit Ihren WhatsApp-Daten macht"><span class="schlagzeilen-headline-intro">Strafzahlung an die EU:</span><span class="schlagzeilen-headline"> Was Facebook mit Ihren WhatsApp-Daten macht</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;17:45)</span><br />
+								<a href="/kultur/kino/regisseur-bertrand-bonello-und-sein-neuen-film-nocturama-a-1148214.html" title="Regisseur Bertrand Bonello: &quot;Auf einmal ist da diese Wut&quot;"><span class="schlagzeilen-headline-intro">Regisseur Bertrand Bonello:</span><span class="schlagzeilen-headline"> "Auf einmal ist da diese Wut"</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;17:28)</span><br />
+								<a href="/sport/sonst/peter-draisaitl-im-interview-in-deutschland-wird-alles-vom-fussball-erschlagen-a-1148293.html" title="Eishockey-Legende Peter Draisaitl: &quot;In Deutschland wird alles vom Fu<U+00DF>ball erschlagen&quot;"><span class="schlagzeilen-headline-intro">Eishockey-Legende Peter Draisaitl:</span><span class="schlagzeilen-headline"> "In Deutschland wird alles vom Fu<U+00DF>ball erschlagen"</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;17:28)</span><br />
+								<a href="/politik/deutschland/angela-merkel-nun-bis-2021-wie-die-spd-wieder-nach-vorn-kommen-kann-podcast-a-1148162.html" title="Podcast &quot;Stimmenfang&quot;: Macht Merkel jetzt durch bis 2021?"><span class="schlagzeilen-headline-intro">Podcast "Stimmenfang":</span><span class="schlagzeilen-headline"> Macht Merkel jetzt durch bis 2021?</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;17:27)</span><br />
+								<a href="/lebenundlernen/schule/martin-schulz-will-deutschland-zum-bildungsweltmeister-machen-a-1148335.html" title="SPD-Pl<U+00E4>ne: Schulz pl<U+00E4>diert f<U+00FC>r Abitur nach neun Jahren"><span class="schlagzeilen-headline-intro">SPD-Pl<U+00E4>ne:</span><span class="schlagzeilen-headline"> Schulz pl<U+00E4>diert f<U+00FC>r Abitur nach neun Jahren</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;17:22)</span><br />
+								<a href="/kultur/musik/chris-cornell-hohepriester-des-grunge-ein-nachruf-a-1148245.html" title="Zum Tod von Chris Cornell: Mein Hohepriester des Grunge"><span class="schlagzeilen-headline-intro">Zum Tod von Chris Cornell:</span><span class="schlagzeilen-headline"> Mein Hohepriester des Grunge</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;17:21)</span><br />
+								<a href="/wissenschaft/natur/orang-utans-stillen-jahrelang-a-1148326.html" title="Menschenaffen: Orang-Utans stillen jahrelang"><span class="schlagzeilen-headline-intro">Menschenaffen:</span><span class="schlagzeilen-headline"> Orang-Utans stillen jahrelang</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;17:20)</span><br />
+								<a href="/politik/deutschland/ralf-stegner-spd-funktionaere-fordern-ruecktritt-a-1148336.html" title="Schleswig-Holstein: SPD-Funktion<U+00E4>re wollen Stegner nicht mehr"><span class="schlagzeilen-headline-intro">Schleswig-Holstein:</span><span class="schlagzeilen-headline"> SPD-Funktion<U+00E4>re wollen Stegner nicht mehr</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;17:12)</span><br />
+								<a href="/karriere/richter-verschlaeft-die-verhandlung-urteil-ungueltig-a-1148328.html" title="Baden-W<U+00FC>rttemberg: Richter verschl<U+00E4>ft die Verhandlung - Urteil ung<U+00FC>ltig"><span class="schlagzeilen-headline-intro">Baden-W<U+00FC>rttemberg:</span><span class="schlagzeilen-headline"> Richter verschl<U+00E4>ft die Verhandlung - Urteil ung<U+00FC>ltig</span></a>&nbsp;<span class="headline-date">(KarriereSPIEGEL,&nbsp;17:01)</span><br />
+								<a href="/spiegel/botaniker-erforschen-die-intelligenz-von-pflanzen-a-1147693.html" title="Intelligente Pflanzen: Erbsenhirn" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147693" data-lp-position="null"><span class="schlagzeilen-headline-intro">Intelligente Pflanzen:</span><span class="schlagzeilen-headline"> Erbsenhirn</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;16:40)</span><br />
+								<a href="/politik/ausland/deniz-yuecel-deutscher-generalkonsul-besucht-inhaftierten-journalisten-a-1148319.html" title="Inhaftierter Journalist in der T<U+00FC>rkei: Deutscher Generalkonsul<U+00A0>besuchte Y<U+00FC>cel"><span class="schlagzeilen-headline-intro">Inhaftierter Journalist in der T<U+00FC>rkei:</span><span class="schlagzeilen-headline"> Deutscher Generalkonsul<U+00A0>besuchte Y<U+00FC>cel</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;16:29)</span><br />
+								<a href="/politik/ausland/donald-trump-hebt-ihn-die-russland-affaere-aus-dem-amt-a-1148264.html" title="Krise im Wei<U+00DF>en Haus: Was Trump jetzt gef<U+00E4>hrlich werden kann"><span class="schlagzeilen-headline-intro">Krise im Wei<U+00DF>en Haus:</span><span class="schlagzeilen-headline"> Was Trump jetzt gef<U+00E4>hrlich werden kann</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;16:26)</span><br />
+								<a href="/wirtschaft/unternehmen/korruptionsskandal-brasiliens-boerse-stuerzt-um-zehn-prozent-ab-a-1148315.html" title="Neue Enth<U+00FC>llungen im Korruptionsskandal: Brasiliens B<U+00F6>rse st<U+00FC>rzt um zehn Prozent ab"><span class="schlagzeilen-headline-intro">Neue Enth<U+00FC>llungen im Korruptionsskandal:</span><span class="schlagzeilen-headline"> Brasiliens B<U+00F6>rse st<U+00FC>rzt um zehn Prozent ab</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;16:24)</span><br />
+								<a href="/sport/sonst/giro-d-italia-simon-geschke-von-mannschaftsbus-vergessen-a-1148320.html" title="Giro d'Italia: Mannschaftsbus f<U+00E4>hrt ohne Geschke zum Start"><span class="schlagzeilen-headline-intro">Giro d'Italia:</span><span class="schlagzeilen-headline"> Mannschaftsbus f<U+00E4>hrt ohne Geschke zum Start</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;16:14)</span><br />
+								<a href="/politik/ausland/bundeswehr-macht-aufklaerungsfotos-in-syrien-und-weiss-nicht-was-mit-ihnen-passiert-a-1148283.html" title="Deutsche Beteiligung an Anti-IS-Koalition: Die Fotolieferanten von der Bundeswehr"><span class="schlagzeilen-headline-intro">Deutsche Beteiligung an Anti-IS-Koalition:</span><span class="schlagzeilen-headline"> Die Fotolieferanten von der Bundeswehr</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;16:06)</span><br />
+								<a href="/panorama/gesellschaft/zivilcourage-was-tun-wenn-andere-eltern-ihr-kind-anschreien-a-1146352.html" title="Elterncouch: Soll ich mich einmischen, wenn eine Mutter austickt?"><span class="schlagzeilen-headline-intro">Elterncouch:</span><span class="schlagzeilen-headline"> Soll ich mich einmischen, wenn eine Mutter austickt?</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;16:02)</span><br />
+								<a href="/sport/wintersport/liveticker-zur-eishockey-wm-usa-wollen-gegen-finnland-ins-halbfinale-a-1148314.html" title="+++ Liveticker Eishockey-WM +++: Start der K.o.-Phase - USA wollen ins Halbfinale"><span class="schlagzeilen-headline-intro">+++ Liveticker Eishockey-WM +++:</span><span class="schlagzeilen-headline"> Start der K.o.-Phase - USA wollen ins Halbfinale</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;15:59)</span><br />
+								<a href="/lebenundlernen/schule/usa-105-jaehrige-bekommt-ehrenzeugnis-von-high-school-a-1148300.html" title="Wunsch erf<U+00FC>llt: 105-J<U+00E4>hrige kriegt<U+00A0>Highschool-Zeugnis"><span class="schlagzeilen-headline-intro">Wunsch erf<U+00FC>llt:</span><span class="schlagzeilen-headline"> 105-J<U+00E4>hrige kriegt<U+00A0>Highschool-Zeugnis </span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;15:55)</span><br />
+								<a href="/sport/wintersport/team-kanada-als-favorit-bei-eishockey-wm-gegen-deutschland-a-1148254.html" title="DEB-Gegner Kanada: Favorit im Sinne der Anklage"><span class="schlagzeilen-headline-intro">DEB-Gegner Kanada:</span><span class="schlagzeilen-headline"> Favorit im Sinne der Anklage</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;15:48)</span><br />
+								<a href="/panorama/justiz/dresden-oldschool-society-zwei-weitere-rechtsextreme-angeklagt-a-1148308.html" title="Rechtsextreme Terrorgruppe: Weitere Mitglieder der &quot;Oldschool Society&quot; in Dresden angeklagt"><span class="schlagzeilen-headline-intro">Rechtsextreme Terrorgruppe:</span><span class="schlagzeilen-headline"> Weitere Mitglieder der "Oldschool Society" in Dresden angeklagt</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;15:41)</span><br />
+								<a href="http://www.bento.de/gefuehle/disney-prinzessinnen-zeigen-muell-und-vergewaltigung-fotoprojekt-zu-problemen-der-welt-1374087/#refsponi" target="_blank" title="Fotografie: Diese Prinzessin k<U+00FC>sst jetzt niemanden mehr" class="article-icon bento"><span class="schlagzeilen-headline-intro">Fotografie:</span><span class="schlagzeilen-headline"> Diese Prinzessin k<U+00FC>sst jetzt niemanden mehr</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;15:30)</span><br />
+								<a href="/politik/ausland/eu-parlament-fordert-stopp-von-israels-siedlungspolitik-in-palaestinensergebieten-a-1148310.html" title="Pal<U+00E4>stinensergebiete: EU-Parlament fordert Stopp von Israels Siedlungspolitik"><span class="schlagzeilen-headline-intro">Pal<U+00E4>stinensergebiete:</span><span class="schlagzeilen-headline"> EU-Parlament fordert Stopp von Israels Siedlungspolitik</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;15:29)</span><br />
+								<a href="/politik/ausland/russland-wie-die-jugend-von-protesten-mit-musikclips-abgehalten-werden-soll-a-1148063.html" title="Anti-Protest-Song in Russland: &quot;Kleiner,<U+00A0>misch<U+00A0>dich nicht in die Politik ein&quot;"><span class="schlagzeilen-headline-intro">Anti-Protest-Song in Russland:</span><span class="schlagzeilen-headline"> "Kleiner,<U+00A0>misch<U+00A0>dich nicht in die Politik ein"</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;15:19)</span><br />
+								<a href="/karriere/buero-als-baellebad-so-ueberrascht-ein-chef-seine-mitarbeiter-a-1147875.html" title="<U+00DC>berraschungsaktion: Chef verwandelt B<U+00FC>ro in B<U+00E4>llebad"><span class="schlagzeilen-headline-intro"><U+00DC>berraschungsaktion:</span><span class="schlagzeilen-headline"> Chef verwandelt B<U+00FC>ro in B<U+00E4>llebad</span></a>&nbsp;<span class="headline-date">(KarriereSPIEGEL,&nbsp;15:13)</span><br />
+								<a href="/kultur/kino/jahrhundertfrauen-von-mike-mills-wie-koeniginnen-filmrezension-a-1147789.html" title="Drei-Generationen-Portr<U+00E4>t: Sag Menstruation!"><span class="schlagzeilen-headline-intro">Drei-Generationen-Portr<U+00E4>t:</span><span class="schlagzeilen-headline"> Sag Menstruation!</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;15:04)</span><br />
+								<a href="/kultur/gesellschaft/roger-ailes-ehemaliger-fox-news-chef-ist-tot-a-1148299.html" title="Trump-Vertrauter: Fox-News-Gr<U+00FC>nder Roger Ailes ist tot"><span class="schlagzeilen-headline-intro">Trump-Vertrauter:</span><span class="schlagzeilen-headline"> Fox-News-Gr<U+00FC>nder Roger Ailes ist tot</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;15:02)</span><br />
+								<a href="/panorama/leute/jennifer-lawrence-ueber-party-video-ist-mir-doch-egal-a-1148267.html" title="Jennifer Lawrence im Nachtklub: Na und?"><span class="schlagzeilen-headline-intro">Jennifer Lawrence im Nachtklub:</span><span class="schlagzeilen-headline"> Na und?</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;14:52)</span><br />
+								<a href="/politik/ausland/donald-trump-soll-geheime-informationen-weitergegeben-haben-kolumne-a-1148257.html" title="Sympathie f<U+00FC>r Trump: Der Wuschelkopf im Wei<U+00DF>en Haus"><span class="schlagzeilen-headline-intro">Sympathie f<U+00FC>r Trump:</span><span class="schlagzeilen-headline"> Der Wuschelkopf im Wei<U+00DF>en Haus</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;14:47)</span><br />
+								<a href="/politik/ausland/iran-wahl-junge-iraner-berichten-wenn-du-die-grenzen-ueberschreitest-brechen-sie-dich-a-1147776.html" title="Junge Iraner vor der Wahl: &quot;Wenn du die Grenzen <U+00FC>berschreitest, brechen sie dich&quot;"><span class="schlagzeilen-headline-intro">Junge Iraner vor der Wahl:</span><span class="schlagzeilen-headline"> "Wenn du die Grenzen <U+00FC>berschreitest, brechen sie dich"</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;14:16)</span><br />
+								<a href="/sport/fussball/bremen-vs-dfl-die-auseinandersetzung-wird-weitergehen-a-1148286.html" title="Polizeikostenstreit im Fu<U+00DF>ball: Bremen dr<U+00E4>ngt weiter auf Beteiligung der DFL"><span class="schlagzeilen-headline-intro">Polizeikostenstreit im Fu<U+00DF>ball:</span><span class="schlagzeilen-headline"> Bremen dr<U+00E4>ngt weiter auf Beteiligung der DFL</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;14:13)</span><br />
+								<a href="/panorama/leute/fack-ju-goehte-3-mats-hummels-und-joshua-kimmich-spielen-mit-a-1148273.html" title="Fu<U+00DF>ballstars in Teeniekom<U+00F6>die: FC Bayern G<U+00F6>hte"><span class="schlagzeilen-headline-intro">Fu<U+00DF>ballstars in Teeniekom<U+00F6>die:</span><span class="schlagzeilen-headline"> FC Bayern G<U+00F6>hte</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;14:04)</span><br />
+								<a href="/politik/deutschland/bundestagswahl-2017-drei-lehren-fuer-das-grosse-finale-a-1148095.html" title="Bundestagswahlkampf: Drei Lehren f<U+00FC>r das gro<U+00DF>e Finale"><span class="schlagzeilen-headline-intro">Bundestagswahlkampf:</span><span class="schlagzeilen-headline"> Drei Lehren f<U+00FC>r das gro<U+00DF>e Finale</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;13:44)</span><br />
+								<a href="/kultur/musik/chris-cornell-sein-leben-in-zehn-songs-von-soundgarden-solo-audioslave-und-temple-of-the-dog-a-1148236.html" title="Trauer um Chris Cornell: Sein Leben in zehn Songs"><span class="schlagzeilen-headline-intro">Trauer um Chris Cornell :</span><span class="schlagzeilen-headline"> Sein Leben in zehn Songs</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;13:34)</span><br />
+								<a href="/wirtschaft/soziales/atomkraftwerke-eu-prognostiziert-aera-der-uralten-meiler-a-1148178.html" title="EU-Prognose: Europas Atomstrom<U+00A0>kommt bald<U+00A0>aus Uraltmeilern"><span class="schlagzeilen-headline-intro">EU-Prognose:</span><span class="schlagzeilen-headline"> Europas Atomstrom<U+00A0>kommt bald<U+00A0>aus Uraltmeilern</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;13:23)</span><br />
+								<a href="/sport/wintersport/eishockey-wm-marco-sturm-will-gegen-kanada-gewinnen-a-1148281.html" title="Eishockey-WM: Bundestrainer Sturm glaubt an Wunder gegen Kanada"><span class="schlagzeilen-headline-intro">Eishockey-WM:</span><span class="schlagzeilen-headline"> Bundestrainer Sturm glaubt an Wunder gegen Kanada</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;13:18)</span><br />
+								<a href="/politik/ausland/donald-trump-team-hatte-18-mal-kontakt-mit-russland-a-1148265.html" title="Medienberichte: Trump-Team<U+00A0>hatte angeblich<U+00A0>mehr als ein Dutzend Mal Kontakt mit Russland"><span class="schlagzeilen-headline-intro">Medienberichte:</span><span class="schlagzeilen-headline"> Trump-Team<U+00A0>hatte angeblich<U+00A0>mehr als ein Dutzend Mal Kontakt mit Russland</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;13:10)</span><br />
+								<a href="/lebenundlernen/schule/alkoholkonsum-bei-jugendlichen-komasaufen-wird-uncool-a-1148240.html" title="Umfrage unter Jugendlichen: Komasaufen wird uncool"><span class="schlagzeilen-headline-intro">Umfrage unter Jugendlichen:</span><span class="schlagzeilen-headline"> Komasaufen wird uncool</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;12:39)</span><br />
+								<a href="/wirtschaft/soziales/japan-erlebt-die-laengste-wachstumsphase-seit-elf-jahren-a-1148269.html" title="Wirtschaftslage: L<U+00E4>ngste Wachstumsphase in Japan seit elf Jahren"><span class="schlagzeilen-headline-intro">Wirtschaftslage:</span><span class="schlagzeilen-headline"> L<U+00E4>ngste Wachstumsphase in Japan seit elf Jahren</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;12:38)</span><br />
+								<a href="/spiegel/bloggerin-katrin-lange-ueber-ihr-dicksein-a-1147712.html" title="Liebe deinen K<U+00F6>rper: &quot;Ich bin fett&quot;" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147712" data-lp-position="null"><span class="schlagzeilen-headline-intro">Liebe deinen K<U+00F6>rper:</span><span class="schlagzeilen-headline"> "Ich bin fett"</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;12:37)</span><br />
+								<a href="/panorama/justiz/nsu-prozess-justiz-stoppt-pralinen-lieferung-an-zschaepe-a-1148256.html" title="Besuch im Gef<U+00E4>ngnis: Gutachter brachte Pralinen f<U+00FC>r Zsch<U+00E4>pe mit"><span class="schlagzeilen-headline-intro">Besuch im Gef<U+00E4>ngnis:</span><span class="schlagzeilen-headline"> Gutachter brachte Pralinen f<U+00FC>r Zsch<U+00E4>pe mit</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;12:33)</span><br />
+								<a href="/reise/europa/klettersteige-fuer-faule-hausbachfall-bis-hoachwool-a-1145919.html" title="Klettersteige f<U+00FC>r Faule: Nervenkitzel von Anfang an"><span class="schlagzeilen-headline-intro">Klettersteige f<U+00FC>r Faule:</span><span class="schlagzeilen-headline"> Nervenkitzel von Anfang an</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;12:21)</span><br />
+								<a href="/politik/ausland/donald-trump-sonderermittler-robert-mueller-das-sind-seine-aufgaben-a-1148209.html" title="US-Justiz: Das d<U+00FC>rfen<U+00A0>Sonderermittler"><span class="schlagzeilen-headline-intro">US-Justiz:</span><span class="schlagzeilen-headline"> Das d<U+00FC>rfen<U+00A0>Sonderermittler</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;12:14)</span><br />
+								<a href="/wirtschaft/soziales/uber-dienste-werden-zum-fall-fuer-den-europaeischen-gerichtshof-a-1148250.html" title="Deutschlandtochter des US-Unternehmens: Uber-Dienste werden zum Fall f<U+00FC>r den Europ<U+00E4>ischen Gerichtshof"><span class="schlagzeilen-headline-intro">Deutschlandtochter des US-Unternehmens:</span><span class="schlagzeilen-headline"> Uber-Dienste werden zum Fall f<U+00FC>r den Europ<U+00E4>ischen Gerichtshof</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;12:09)</span><br />
+								<a href="http://www.bento.de/gefuehle/urlaub-warum-ich-keine-lust-habe-mich-fuer-mein-urlaubsziel-zu-rechtfertigen-1370972/#refsponi" target="_blank" title="Urlaub: Lasst mich doch einfach langweilig verreisen" class="article-icon bento"><span class="schlagzeilen-headline-intro">Urlaub:</span><span class="schlagzeilen-headline"> Lasst mich doch einfach langweilig verreisen</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;11:52)</span><br />
+								<a href="/wirtschaft/soziales/die-zahl-der-teilzeit-und-leiharbeiter-nimmt-zu-a-1148248.html" title="Arbeitsmarkt: Zahl der Teilzeit- und Leiharbeitsjobs steigt"><span class="schlagzeilen-headline-intro">Arbeitsmarkt:</span><span class="schlagzeilen-headline"> Zahl der Teilzeit- und Leiharbeitsjobs steigt</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;11:52)</span><br />
+								<a href="/panorama/leute/miley-cyrus-bereut-wrecking-ball-nacktvideo-a-1148231.html" title="Miley Cyrus: &quot;Ich bin f<U+00FC>r immer die Nackte<U+00A0>auf der Abrissbirne&quot;"><span class="schlagzeilen-headline-intro">Miley Cyrus:</span><span class="schlagzeilen-headline"> "Ich bin f<U+00FC>r immer die Nackte<U+00A0>auf der Abrissbirne"</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;11:52)</span><br />
+								<a href="/einestages/transsexuellen-ikone-romy-haag-goettin-des-berliner-nachtlebens-a-1145891.html" title="Transsexuellen-Ikone Romy Haag: &quot;Ich wollte nie ein Freak sein, ich wollte Respekt&quot;"><span class="schlagzeilen-headline-intro">Transsexuellen-Ikone Romy Haag:</span><span class="schlagzeilen-headline"> "Ich wollte nie ein Freak sein, ich wollte Respekt"</span></a>&nbsp;<span class="headline-date">(einestages,&nbsp;11:36)</span><br />
+								<a href="/auto/fahrkultur/lastenrad-sblocs-e-kurier-im-test-a-1144095.html" title="Kompaktes Lastenrad f<U+00FC>r Gro<U+00DF>st<U+00E4>dter: Gutes Rad ist teuer"><span class="schlagzeilen-headline-intro">Kompaktes Lastenrad f<U+00FC>r Gro<U+00DF>st<U+00E4>dter:</span><span class="schlagzeilen-headline"> Gutes Rad ist teuer</span></a>&nbsp;<span class="headline-date">(Auto,&nbsp;11:31)</span><br />
+								<a href="/lebenundlernen/uni/grossbritannien-immer-weniger-jugendliche-lassen-sich-als-waehler-registrieren-a-1147821.html" title="Parlamentswahl: Viele junge Briten werden nicht w<U+00E4>hlen d<U+00FC>rfen"><span class="schlagzeilen-headline-intro">Parlamentswahl:</span><span class="schlagzeilen-headline"> Viele junge Briten werden nicht w<U+00E4>hlen d<U+00FC>rfen</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;11:03)</span><br />
+								<a href="/gesundheit/diagnose/uruguay-apotheken-verkaufen-cannabis-zu-niedrigpreisen-a-1148213.html" title="Legalisierungsprozess: Uruguays Apotheken verkaufen Cannabis"><span class="schlagzeilen-headline-intro">Legalisierungsprozess:</span><span class="schlagzeilen-headline"> Uruguays Apotheken verkaufen Cannabis</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;11:02)</span><br />
+								<a href="/politik/ausland/mevluet-cavusoglu-deutschland-kann-truppen-aus-incirlik-abziehen-a-1148229.html" title="T<U+00FC>rkischer Minister zum Streit um Incirlik: &quot;Wenn die Deutschen gehen wollen, ist das ihre Sache&quot;"><span class="schlagzeilen-headline-intro">T<U+00FC>rkischer Minister zum Streit um Incirlik:</span><span class="schlagzeilen-headline"> "Wenn die Deutschen gehen wollen, ist das ihre Sache"</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;11:02)</span><br />
+								<a href="/gesundheit/diagnose/woher-schwindel-kommt-und-was-man-tun-kann-a-1148172.html" title="Aus der Balance geraten: Woher Schwindel kommt und was man tun kann"><span class="schlagzeilen-headline-intro">Aus der Balance geraten:</span><span class="schlagzeilen-headline"> Woher Schwindel kommt und was man tun kann</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;11:01)</span><br />
+								<a href="/wirtschaft/unternehmen/deutsche-bank-aufsichtsratschef-fordert-geld-von-ex-vorstandsmitgliedern-a-1148228.html" title="Hauptversammlung: Deutsche Bank will Geld von Ex-Vorst<U+00E4>nden behalten"><span class="schlagzeilen-headline-intro">Hauptversammlung:</span><span class="schlagzeilen-headline"> Deutsche Bank will Geld von Ex-Vorst<U+00E4>nden behalten</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;10:46)</span><br />
+								<a href="/sport/fussball/bayer-leverkusen-rudi-voeller-und-michael-schade-machen-weiter-a-1148235.html" title="Krise bei Bayer Leverkusen: V<U+00F6>ller darf die n<U+00E4>chste Saison planen"><span class="schlagzeilen-headline-intro">Krise bei Bayer Leverkusen:</span><span class="schlagzeilen-headline"> V<U+00F6>ller darf die n<U+00E4>chste Saison planen</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;10:44)</span><br />
+								<a href="/panorama/justiz/texas-mann-verklagt-date-bekanntschaft-auf-17-31-dollar-a-1148217.html" title="Texas: Frau schreibt SMS beim Date - Mann verklagt sie"><span class="schlagzeilen-headline-intro">Texas:</span><span class="schlagzeilen-headline"> Frau schreibt SMS beim Date - Mann verklagt sie</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;10:16)</span><br />
+								<a href="/sport/sonst/stabhochspringer-tim-lobinger-an-leukaemie-erkrankt-a-1148224.html" title="Ehemaliger Stabhochspringer: Lobinger an Leuk<U+00E4>mie erkrankt"><span class="schlagzeilen-headline-intro">Ehemaliger Stabhochspringer:</span><span class="schlagzeilen-headline"> Lobinger an Leuk<U+00E4>mie erkrankt</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;10:09)</span><br />
+								<a href="/karriere/trunkenheit-boeller-auf-spielplatz-keine-eignung-fuer-polizeidienst-a-1148220.html" title="Abgelehnte Bewerber klagen: Betrunken auf dem Fahrrad - Polizeikarriere futsch"><span class="schlagzeilen-headline-intro">Abgelehnte Bewerber klagen:</span><span class="schlagzeilen-headline"> Betrunken auf dem Fahrrad - Polizeikarriere futsch</span></a>&nbsp;<span class="headline-date">(KarriereSPIEGEL,&nbsp;10:09)</span><br />
+								<a href="/reise/aktuell/laptop-verbot-auf-fluegen-neue-gespraechsrunde-a-1148215.html" title="EU-USA-Gespr<U+00E4>che: De Maizi<U+00E8>re schlie<U+00DF>t Laptop-Verbot f<U+00FC>r Handgep<U+00E4>ck nicht aus"><span class="schlagzeilen-headline-intro">EU-USA-Gespr<U+00E4>che:</span><span class="schlagzeilen-headline"> De Maizi<U+00E8>re schlie<U+00DF>t Laptop-Verbot f<U+00FC>r Handgep<U+00E4>ck nicht aus</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;10:06)</span><br />
+								<a href="/politik/ausland/usa-ex-fbi-chef-robert-mueller-wird-sonderermittler-a-1148206.html" title="Robert Mueller: Ein Mann, der Trump gef<U+00E4>hrlich werden k<U+00F6>nnte"><span class="schlagzeilen-headline-intro">Robert Mueller:</span><span class="schlagzeilen-headline"> Ein Mann, der Trump gef<U+00E4>hrlich werden k<U+00F6>nnte</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;10:01)</span><br />
+								<a href="/kultur/musik/chris-cornell-der-soundgarden-saenger-ist-tot-a-1148219.html" title="S<U+00E4>nger von Soundgarden: Chris Cornell ist tot"><span class="schlagzeilen-headline-intro">S<U+00E4>nger von Soundgarden:</span><span class="schlagzeilen-headline"> Chris Cornell ist tot</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;09:55)</span><br />
+								<a href="/politik/ausland/iran-praesident-hassan-rohani-bangt-um-seine-wiederwahl-a-1147904.html" title="Pr<U+00E4>sidentenwahl in Iran: Zwischen Selfie und Gottesstaat" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147904" data-lp-position="null"><span class="schlagzeilen-headline-intro">Pr<U+00E4>sidentenwahl in Iran:</span><span class="schlagzeilen-headline"> Zwischen Selfie und Gottesstaat</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;09:39)</span><br />
+								<a href="/politik/deutschland/afd-frauke-petry-will-jens-maier-aus-partei-ausschliessen-a-1148203.html" title="Machtprobe: Petry will scharfen AfD-Rechtsausleger aus Partei ausschlie<U+00DF>en"><span class="schlagzeilen-headline-intro">Machtprobe:</span><span class="schlagzeilen-headline"> Petry will scharfen AfD-Rechtsausleger aus Partei ausschlie<U+00DF>en</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;09:35)</span><br />
+								<a href="/netzwelt/netzpolitik/eu-kommission-belegt-facebook-mit-110-millionen-euro-strafe-a-1148212.html" title="WhatsApp-<U+00DC>bernahme: EU-Kommission<U+00A0>belegt Facebook<U+00A0>mit 110-Millionen-Euro-Strafe"><span class="schlagzeilen-headline-intro">WhatsApp-<U+00DC>bernahme:</span><span class="schlagzeilen-headline"> EU-Kommission<U+00A0>belegt Facebook<U+00A0>mit 110-Millionen-Euro-Strafe</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;09:10)</span><br />
+								<a href="/sport/fussball/premier-league-david-wagner-und-huddersfield-town-stehen-im-playoff-finale-a-1148210.html" title="Aufstieg in die Premier League: Wagner f<U+00FC>hrt Huddersfield ins Playoff-Finale"><span class="schlagzeilen-headline-intro">Aufstieg in die Premier League:</span><span class="schlagzeilen-headline"> Wagner f<U+00FC>hrt Huddersfield ins Playoff-Finale</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;08:52)</span><br />
+								<a href="/wirtschaft/soziales/donald-trump-boersen-kurse-fallen-wegen-politischer-krise-a-1148205.html" title="Dow Jones, Dax<U+00A0>und Co.: Warum Trumps Krise die B<U+00F6>rsen belastet"><span class="schlagzeilen-headline-intro">Dow Jones, Dax<U+00A0>und Co.:</span><span class="schlagzeilen-headline"> Warum Trumps Krise die B<U+00F6>rsen belastet</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;08:40)</span><br />
+								<a href="/politik/ausland/brasilien-michel-temer-soll-zahlung-von-schmiergeld-zugestimmt-haben-a-1148207.html" title="Brasilien: Pr<U+00E4>sident Temer soll Schmiergeldzahlung zugestimmt haben"><span class="schlagzeilen-headline-intro">Brasilien:</span><span class="schlagzeilen-headline"> Pr<U+00E4>sident Temer soll Schmiergeldzahlung zugestimmt haben</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;08:28)</span><br />
+								<a href="/wissenschaft/natur/blutstammzellen-des-menschen-erstmals-im-labor-gezuechtet-a-1148154.html" title="K<U+00FC>nstliches Blut: Forscher z<U+00FC>chten erstmals menschliche Blutstammzellen"><span class="schlagzeilen-headline-intro">K<U+00FC>nstliches Blut:</span><span class="schlagzeilen-headline"> Forscher z<U+00FC>chten erstmals menschliche Blutstammzellen</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;08:26)</span><br />
+								<a href="/politik/ausland/donald-trump-sonderermittler-in-russland-affaere-ist-sein-albtraum-a-1148194.html" title="Sonderermittler in Russland-Aff<U+00E4>re: Trumps Albtraum"><span class="schlagzeilen-headline-intro">Sonderermittler in Russland-Aff<U+00E4>re:</span><span class="schlagzeilen-headline"> Trumps Albtraum</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;08:25)</span><br />
+								<a href="/panorama/leute/ozzy-und-sharon-osbourne-krise-ueberstanden-ehe-erneuert-a-1148202.html" title="Vers<U+00F6>hnung der Osbournes: Verliebt vergibt"><span class="schlagzeilen-headline-intro">Vers<U+00F6>hnung der Osbournes:</span><span class="schlagzeilen-headline"> Verliebt vergibt</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;08:25)</span><br />
+								<a href="/panorama/justiz/tulsa-usa-polizistin-erschiesst-schwarzen-freispruch-a-1148198.html" title="Tulsa in Oklahoma: Polizistin erschie<U+00DF>t unbewaffneten Schwarzen - Freispruch"><span class="schlagzeilen-headline-intro">Tulsa in Oklahoma:</span><span class="schlagzeilen-headline"> Polizistin erschie<U+00DF>t unbewaffneten Schwarzen - Freispruch</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;08:19)</span><br />
+								<a href="/wirtschaft/unternehmen/us-regierung-will-gegen-fiat-chrysler-klagen-a-1148195.html" title="Manipulierte Abgaswerte: US-Regierung droht<U+00A0>Fiat Chrysler mit Klage"><span class="schlagzeilen-headline-intro">Manipulierte Abgaswerte:</span><span class="schlagzeilen-headline"> US-Regierung droht<U+00A0>Fiat Chrysler mit Klage</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;08:16)</span><br />
+								<a href="/politik/ausland/theresa-may-britische-firmen-sollen-mehr-fuer-nicht-eu-auslaender-zahlen-a-1148199.html" title="Wahlprogramm der Tories: May will Besch<U+00E4>ftigung von Ausl<U+00E4>ndern<U+00A0>verteuern"><span class="schlagzeilen-headline-intro">Wahlprogramm der Tories:</span><span class="schlagzeilen-headline"> May will Besch<U+00E4>ftigung von Ausl<U+00E4>ndern<U+00A0>verteuern</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;08:15)</span><br />
+								<a href="/politik/ausland/donald-trump-fraktionschef-der-republikaner-vermutete-zahlungen-von-wladimir-putin-a-1148197.html" title="Aufgezeichnetes Gespr<U+00E4>ch von Republikanern: &quot;Es gibt zwei Leute, die Putin bezahlt: Rohrabacher und Trump&quot;"><span class="schlagzeilen-headline-intro">Aufgezeichnetes Gespr<U+00E4>ch von Republikanern:</span><span class="schlagzeilen-headline"> "Es gibt zwei Leute, die Putin bezahlt: Rohrabacher und Trump"</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;07:27)</span><br />
+								<a href="/politik/ausland/irland-premierminister-enda-kenny-kuendigt-rueckzug-an-a-1148201.html" title="Irland: Premierminister Enda Kenny k<U+00FC>ndigt R<U+00FC>ckzug an"><span class="schlagzeilen-headline-intro">Irland:</span><span class="schlagzeilen-headline"> Premierminister Enda Kenny k<U+00FC>ndigt R<U+00FC>ckzug an</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;07:11)</span><br />
+								<a href="/panorama/gesellschaft/rechtsextremismus-in-ostdeutschland-studie-untersucht-freital-und-heidenau-a-1147970.html" title="Fremdenhass in Ostdeutschland: Das Peripherie-Problem"><span class="schlagzeilen-headline-intro">Fremdenhass in Ostdeutschland:</span><span class="schlagzeilen-headline"> Das Peripherie-Problem</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;06:46)</span><br />
+								<a href="/panorama/babenhausen-und-zeulenroda-tote-bei-unfaellen-mit-zuegen-a-1148196.html" title="Hessen und Th<U+00FC>ringen: Drei Tote bei Unf<U+00E4>llen mit Regionalz<U+00FC>gen"><span class="schlagzeilen-headline-intro">Hessen und Th<U+00FC>ringen:</span><span class="schlagzeilen-headline"> Drei Tote bei Unf<U+00E4>llen mit Regionalz<U+00FC>gen</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;06:28)</span><br />
+								<a href="/politik/deutschland/nachrichten-am-morgen-die-news-in-echtzeit-a-1147188.html" title="Newsblog: Das war Der Morgen @SPIEGELONLINE am 18.5.2017"><span class="schlagzeilen-headline-intro">Newsblog:</span><span class="schlagzeilen-headline"> Das war Der Morgen @SPIEGELONLINE am 18.5.2017</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;06:13)</span><br />
+								<a href="/politik/ausland/sigmar-gabriel-will-us-hilfe-im-incirlik-streit-mit-der-tuerkei-a-1148193.html" title="Besuch in Washington: Gabriel will US-Hilfe im Incirlik-Streit"><span class="schlagzeilen-headline-intro">Besuch in Washington:</span><span class="schlagzeilen-headline"> Gabriel will US-Hilfe im Incirlik-Streit</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;06:09)</span><br />
+								<a href="/politik/deutschland/news-berlin-anis-amri-donald-trump-incirlik-deniz-yuecel-a-1148192.html" title="Die Lage am Donnerstag: Beh<U+00F6>rde gegen Beh<U+00F6>rde, Staat gegen Staat"><span class="schlagzeilen-headline-intro">Die Lage am Donnerstag:</span><span class="schlagzeilen-headline"> Beh<U+00F6>rde gegen Beh<U+00F6>rde, Staat gegen Staat</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;05:53)</span><br />
+								<a href="/auto/fahrberichte/opel-crossland-x-im-test-die-mischung-stimmt-a-1148052.html" title="Autogramm Opel Crossland X: Die Mischung stimmt"><span class="schlagzeilen-headline-intro">Autogramm Opel Crossland X:</span><span class="schlagzeilen-headline"> Die Mischung stimmt</span></a>&nbsp;<span class="headline-date">(Auto,&nbsp;05:30)</span><br />
+								<a href="/reise/europa/russland-zehn-insider-tipps-fuer-eine-russland-reise-a-1147827.html" title="Reisen mit Insiderwissen: Zehn Tipps f<U+00FC>r Russland"><span class="schlagzeilen-headline-intro">Reisen mit Insiderwissen :</span><span class="schlagzeilen-headline"> Zehn Tipps f<U+00FC>r Russland</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;05:26)</span><br />
+								<a href="/spiegel/peter-ducke-der-unbekannteste-deutsche-fussballer-von-weltrang-a-1141035.html" title="Verhinderter Fu<U+00DF>ball-Weltstar Ducke: H<U+00E4>tte, h<U+00E4>tte -<U+00A0>Goldkette" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1141035" data-lp-position="null"><span class="schlagzeilen-headline-intro">Verhinderter Fu<U+00DF>ball-Weltstar Ducke:</span><span class="schlagzeilen-headline"> H<U+00E4>tte, h<U+00E4>tte -<U+00A0>Goldkette</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;05:08)</span><br />
+								<a href="http://www.bento.de/future/queraufsteiger-gustav-war-frueher-journalist-und-ist-heute-grundschullehrer-1357357/#refsponi" target="_blank" title="Karriere: Ich wollte G<U+00FC>nther Jauch 2.0 werden" class="article-icon bento"><span class="schlagzeilen-headline-intro">Karriere:</span><span class="schlagzeilen-headline"> "Ich wollte G<U+00FC>nther Jauch 2.0 werden"</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;05:06)</span><br />
+								<a href="/kultur/tv/sandra-maischberger-zum-wahlkampf-angela-merkel-kann-sich-zuruecklehnen-a-1148191.html" title="&quot;Maischberger&quot; zum Wahlkampf: &quot;Merkel kann sich zur<U+00FC>cklehnen&quot;"><span class="schlagzeilen-headline-intro">"Maischberger" zum Wahlkampf:</span><span class="schlagzeilen-headline"> "Merkel kann sich zur<U+00FC>cklehnen"</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;04:10)</span><br />
+								<a href="/sport/fussball/juventus-turin-gewinnt-coppa-italia-und-traeumt-vom-triple-a-1148189.html" title="Triumph im italienischen<U+00A0>Pokal: Juventus macht ersten Schritt Richtung Triple"><span class="schlagzeilen-headline-intro">Triumph im italienischen<U+00A0>Pokal:</span><span class="schlagzeilen-headline"> Juventus macht ersten Schritt Richtung Triple</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;02:05)</span><br />
+								<a href="/politik/ausland/donald-trump-robert-mueller-wird-sonderermittler-fuer-russland-untersuchung-a-1148188.html" title="USA: Sonderermittler<U+00A0>soll Trumps Russland-Connection untersuchen"><span class="schlagzeilen-headline-intro">USA:</span><span class="schlagzeilen-headline"> Sonderermittler<U+00A0>soll Trumps Russland-Connection untersuchen</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;00:12)</span><br />
+								<div class="module-title schlagzeilen-date-headline">Mittwoch, 17. Mai 2017</div>
+						<a href="/sport/fussball/as-monaco-ist-franzoesischer-fussballmeister-a-1148119.html" title="Ligue 1: AS Monaco feiert achten Meistertitel"><span class="schlagzeilen-headline-intro">Ligue 1:</span><span class="schlagzeilen-headline"> AS Monaco feiert achten Meistertitel</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;23:46)</span><br />
+								<a href="/sport/fussball/primera-division-real-madrid-nach-sieg-ueber-celta-vigo-kurz-vor-der-meisterschaft-a-1148116.html" title="Primera Divisi<U+00F3>n: Real Madrid kurz vor der Meisterschaft"><span class="schlagzeilen-headline-intro">Primera Divisi<U+00F3>n:</span><span class="schlagzeilen-headline"> Real Madrid kurz vor der Meisterschaft</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;23:22)</span><br />
+								<a href="/netzwelt/netzpolitik/union-station-hauptbahnhof-in-washington-streamt-porno-a-1148187.html" title="Vermutlicher Hackerangriff: Hauptbahnhof in Washington zeigt Porno"><span class="schlagzeilen-headline-intro">Vermutlicher Hackerangriff:</span><span class="schlagzeilen-headline"> Hauptbahnhof in Washington zeigt Porno</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;23:04)</span><br />
+								<a href="/panorama/gesellschaft/fluechtlinge-zahl-minderjaehriger-fluechtlinge-laut-unicef-fast-verfuenffacht-a-1148133.html" title="Unicef-Bericht: Zahl unbegleiteter minderj<U+00E4>hriger Fl<U+00FC>chtlinge verf<U+00FC>nffacht sich"><span class="schlagzeilen-headline-intro">Unicef-Bericht:</span><span class="schlagzeilen-headline"> Zahl unbegleiteter minderj<U+00E4>hriger Fl<U+00FC>chtlinge verf<U+00FC>nffacht sich</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;22:39)</span><br />
+								<a href="/netzwelt/web/entwicklerkonferenz-i-o-kuenstliche-intelligenz-immer-ueberall-a-1148185.html" title="Entwicklerkonferenz i/o: K<U+00FC>nstliche Intelligenz, immer, <U+00FC>berall"><span class="schlagzeilen-headline-intro">Entwicklerkonferenz i/o:</span><span class="schlagzeilen-headline"> K<U+00FC>nstliche Intelligenz, immer, <U+00FC>berall</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;22:37)</span><br />
+								<a href="/panorama/justiz/mali-islamisten-steinigen-liebespaar-a-1148186.html" title="Mali: Liebespaar zu Tode gesteinigt"><span class="schlagzeilen-headline-intro">Mali:</span><span class="schlagzeilen-headline"> Liebespaar zu Tode gesteinigt</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;22:20)</span><br />
+								<a href="/wirtschaft/unternehmen/boerse-investoren-stossen-us-aktien-ab-wegen-donald-trump-a-1148184.html" title="Chaos im Wei<U+00DF>en Haus: Investoren sto<U+00DF>en US-Aktien ab"><span class="schlagzeilen-headline-intro">Chaos im Wei<U+00DF>en Haus:</span><span class="schlagzeilen-headline"> Investoren sto<U+00DF>en US-Aktien ab</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;21:52)</span><br />
+								<a href="/netzwelt/apps/whatsapp-kaempft-erneut-mit-ausfaellen-a-1148183.html" title="Messenger-Dienst: WhatsApp k<U+00E4>mpft erneut mit Ausf<U+00E4>llen"><span class="schlagzeilen-headline-intro">Messenger-Dienst:</span><span class="schlagzeilen-headline"> WhatsApp k<U+00E4>mpft erneut mit Ausf<U+00E4>llen</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;21:31)</span><br />
+								<a href="/sport/sonst/bremen-vs-dfl-polizeikosten-beim-fussball-a-1148182.html" title="Urteil zu Polizeikosten beim Fu<U+00DF>ball: Fortsetzung folgt"><span class="schlagzeilen-headline-intro">Urteil zu Polizeikosten beim Fu<U+00DF>ball:</span><span class="schlagzeilen-headline"> Fortsetzung folgt</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;21:18)</span><br />
+								<a href="/politik/ausland/donald-trump-rede-wirkt-wie-aus-natuerlich-blond-a-1148181.html" title="Trump-Rede: Wie in &quot;Nat<U+00FC>rlich blond&quot;"><span class="schlagzeilen-headline-intro">Trump-Rede:</span><span class="schlagzeilen-headline"> Wie in "Nat<U+00FC>rlich blond"</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;21:16)</span><br />
+								<a href="/politik/ausland/donald-trump-demokraten-wollen-praesidenten-in-die-enge-treiben-a-1148176.html" title="Aff<U+00E4>ren um FBI und Russland: Demokraten wollen Trump in die Enge treiben"><span class="schlagzeilen-headline-intro">Aff<U+00E4>ren um FBI und Russland:</span><span class="schlagzeilen-headline"> Demokraten wollen Trump in die Enge treiben</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;20:56)</span><br />
+								<a href="/panorama/leute/brad-pitt-philosophiert-mit-stephen-colbert-a-1148174.html" title="Colberts &quot;Late Show&quot;: Philosophieren mit Brad Pitt"><span class="schlagzeilen-headline-intro">Colberts "Late Show":</span><span class="schlagzeilen-headline"> Philosophieren mit Brad Pitt</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;20:07)</span><br />
+								<a href="/wirtschaft/soziales/autobahn-gmbh-kann-kommen-koalition-raeumt-streit-ab-a-1148179.html" title="Bund-L<U+00E4>nder-Finanzreform: Koalition r<U+00E4>umt Streit <U+00FC>ber Autobahn-GmbH ab"><span class="schlagzeilen-headline-intro">Bund-L<U+00E4>nder-Finanzreform:</span><span class="schlagzeilen-headline"> Koalition r<U+00E4>umt Streit <U+00FC>ber Autobahn-GmbH ab</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;20:00)</span><br />
+								<a href="/panorama/wetter-sommer-zwischenspiel-endet-mit-heissestem-tag-a-1148177.html" title="Mehr als 30 Grad: Sommer-Zwischenspiel endet mit hei<U+00DF>estem Tag"><span class="schlagzeilen-headline-intro">Mehr als 30 Grad:</span><span class="schlagzeilen-headline"> Sommer-Zwischenspiel endet mit hei<U+00DF>estem Tag</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;19:59)</span><br />
+								<a href="/einestages/spionage-beim-nwdr-operation-gehlen-jagte-kommunisten-a-1148037.html" title="Spione und Journalisten: Kommunistenjagd beim Rundfunk"><span class="schlagzeilen-headline-intro">Spione und Journalisten:</span><span class="schlagzeilen-headline"> Kommunistenjagd beim Rundfunk</span></a>&nbsp;<span class="headline-date">(einestages,&nbsp;19:13)</span><br />
+								<a href="/netzwelt/web/wannacry-cyberangriff-und-nordkorea-spekulationen-wer-war-es-denn-jetzt-a-1148094.html" title="Weltweiter Hackerangriff: So arbeiten die &quot;WannaCry&quot;-J<U+00E4>ger"><span class="schlagzeilen-headline-intro">Weltweiter Hackerangriff:</span><span class="schlagzeilen-headline"> So arbeiten die "WannaCry"-J<U+00E4>ger</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;19:11)</span><br />
+								<a href="/politik/deutschland/fall-franco-a-bei-der-bundeswehr-wie-weit-geht-das-bamf-versagen-a-1148098.html" title="Franco A. und das Bamf: Wie leicht kann man sich ins Asylverfahren einschleichen?"><span class="schlagzeilen-headline-intro">Franco A. und das Bamf:</span><span class="schlagzeilen-headline"> Wie leicht kann man sich ins Asylverfahren einschleichen?</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;18:54)</span><br />
+								<a href="/politik/deutschland/martin-schulz-greift-ursula-von-der-leyen-und-thomas-de-maiziere-an-a-1148143.html" title="Schulz-Attacke: Dann eben auf Merkels Minister"><span class="schlagzeilen-headline-intro">Schulz-Attacke:</span><span class="schlagzeilen-headline"> Dann eben auf Merkels Minister</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;18:36)</span><br />
+								<a href="/panorama/justiz/nsu-prozess-mutter-von-beate-zschaepe-muss-erneut-vor-gericht-erscheinen-a-1148166.html" title="NSU-Prozess: Zsch<U+00E4>pes Mutter muss erneut vor Gericht erscheinen"><span class="schlagzeilen-headline-intro">NSU-Prozess:</span><span class="schlagzeilen-headline"> Zsch<U+00E4>pes Mutter muss erneut vor Gericht erscheinen</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;18:33)</span><br />
+								<a href="/netzwelt/netzpolitik/chelsea-manning-ist-frei-noch-kein-happy-end-kommentar-a-1148157.html" title="Chelsea Manning: L<U+00E4>ngst kein<U+00A0>Happy End"><span class="schlagzeilen-headline-intro">Chelsea Manning:</span><span class="schlagzeilen-headline"> L<U+00E4>ngst kein<U+00A0>Happy End</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;18:27)</span><br />
+								<a href="/panorama/justiz/bewaehrungsstrafen-nach-tumulten-in-hameln-a-1148167.html" title="Todessturz<U+00A0>aus Gerichtsgeb<U+00E4>ude: Bew<U+00E4>hrungsstrafen nach Tumulten in Hameln"><span class="schlagzeilen-headline-intro">Todessturz<U+00A0>aus Gerichtsgeb<U+00E4>ude:</span><span class="schlagzeilen-headline"> Bew<U+00E4>hrungsstrafen nach Tumulten in Hameln</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;18:25)</span><br />
+								<a href="/panorama/justiz/prozess-in-hanau-kannibalismus-verdacht-erhaertet-sich-a-1148171.html" title="Hessen: Gesicht verst<U+00FC>mmelt - Kannibalismus-Verdacht erh<U+00E4>rtet sich"><span class="schlagzeilen-headline-intro">Hessen:</span><span class="schlagzeilen-headline"> Gesicht verst<U+00FC>mmelt - Kannibalismus-Verdacht erh<U+00E4>rtet sich</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;18:23)</span><br />
+								<a href="/kultur/tv/regisseur-daniel-harrich-im-interview-ueber-pharma-thriller-gift-a-1147948.html" title="ARD-Filme <U+00FC>ber fehlerhafte Medikamente: &quot;F<U+00E4>lschungen haben deutsche Apotheken l<U+00E4>ngst erreicht&quot;"><span class="schlagzeilen-headline-intro">ARD-Filme <U+00FC>ber fehlerhafte Medikamente:</span><span class="schlagzeilen-headline"> "F<U+00E4>lschungen haben deutsche Apotheken l<U+00E4>ngst erreicht"</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;18:11)</span><br />
+								<a href="/wirtschaft/unternehmen/volkswagen-was-es-mit-den-ermittlungen-gegen-vw-chef-mueller-auf-sich-hat-a-1148158.html" title="Dieselskandal: Die schwierige Beweisf<U+00FC>hrung gegen VW-Chef M<U+00FC>ller"><span class="schlagzeilen-headline-intro">Dieselskandal:</span><span class="schlagzeilen-headline"> Die schwierige Beweisf<U+00FC>hrung gegen VW-Chef M<U+00FC>ller</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;18:04)</span><br />
+								<a href="/lebenundlernen/job/kita-ausbau-es-gibt-mehr-plaetze-aber-auch-mehr-bewerber-a-1148117.html" title="Betreuungsl<U+00FC>cke: &quot;Es gibt mehr Pl<U+00E4>tze - aber auch mehr Kinder&quot;"><span class="schlagzeilen-headline-intro">Betreuungsl<U+00FC>cke:</span><span class="schlagzeilen-headline"> "Es gibt mehr Pl<U+00E4>tze - aber auch mehr Kinder"</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;17:57)</span><br />
+								<a href="/politik/ausland/oesterreich-sebastian-kurz-und-christian-kern-wollen-kanzler-werden-a-1148110.html" title="Kurz gegen Kern in <U+00D6>sterreich: K. und K."><span class="schlagzeilen-headline-intro">Kurz gegen Kern in <U+00D6>sterreich:</span><span class="schlagzeilen-headline"> K. und K.</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;17:35)</span><br />
+								<a href="/gesundheit/diagnose/who-report-2007-2017-ein-jahrzehnt-mehr-gesundheit-a-1148078.html" title="WHO zieht Gesundheitsbilanz: Die Verfettung der Welt"><span class="schlagzeilen-headline-intro">WHO zieht Gesundheitsbilanz:</span><span class="schlagzeilen-headline"> Die Verfettung der Welt</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;17:32)</span><br />
+								<a href="http://www.bento.de/gefuehle/warten-wie-es-erfolgreicher-kreativer-und-gluecklicher-macht-1359765/#refsponi" target="_blank" title="Psychologie: Warte mal bitte" class="article-icon bento"><span class="schlagzeilen-headline-intro">Psychologie:</span><span class="schlagzeilen-headline"> Warte mal bitte</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;17:14)</span><br />
+								<a href="/spiegel/tabuthema-depressive-eltern-mamas-duesterer-schatten-a-1147699.html" title="Tabuthema depressive Eltern: Wenn Mama in D<U+00FC>sternis versinkt" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147699" data-lp-position="null"><span class="schlagzeilen-headline-intro">Tabuthema depressive Eltern:</span><span class="schlagzeilen-headline"> Wenn Mama in D<U+00FC>sternis versinkt</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;17:13)</span><br />
+								<a href="/panorama/leute/philipp-lahm-wird-wieder-vater-a-1148159.html" title="Bayern-Profi: Philipp Lahm wird wieder Vater"><span class="schlagzeilen-headline-intro">Bayern-Profi:</span><span class="schlagzeilen-headline"> Philipp Lahm wird wieder Vater</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;17:09)</span><br />
+								<a href="/politik/deutschland/anis-amri-berliner-senat-erstattet-anzeige-wegen-strafvereitelung-im-lka-a-1148163.html" title="Anschlag in Berlin: Senat erstattet Anzeige wegen Strafvereitelung im LKA"><span class="schlagzeilen-headline-intro">Anschlag in Berlin:</span><span class="schlagzeilen-headline"> Senat erstattet Anzeige wegen Strafvereitelung im LKA</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;17:09)</span><br />
+								<a href="https://daily.spiegel.de/#refsponi" target="_self" title=""><span class="schlagzeilen-headline"> </span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;17:00)</span><br />
+								<a href="/politik/ausland/budapest-ungarn-nimmt-horst-mahler-in-abschiebehaft-a-1148140.html" title="Ungarn: Horst Mahler in Abschiebehaft"><span class="schlagzeilen-headline-intro">Ungarn:</span><span class="schlagzeilen-headline"> Horst Mahler in Abschiebehaft</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;16:53)</span><br />
+								<a href="/kultur/kino/cannes-2017-netflix-fluechtlinge-und-vier-mal-nicole-kidman-a-1147745.html" title="Filmfestspiele: Cannes 2017 - was Kinofans wissen m<U+00FC>ssen"><span class="schlagzeilen-headline-intro">Filmfestspiele:</span><span class="schlagzeilen-headline"> Cannes 2017 - was Kinofans wissen m<U+00FC>ssen</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;16:45)</span><br />
+								<a href="/sport/fussball/kerem-demirbay-verwirrung-um-angebliche-tuerkei-zusage-a-1148150.html" title="Nach DFB-Nominierung: Verwirrung um angebliche T<U+00FC>rkei-Zusage von Demirbay"><span class="schlagzeilen-headline-intro">Nach DFB-Nominierung:</span><span class="schlagzeilen-headline"> Verwirrung um angebliche T<U+00FC>rkei-Zusage von Demirbay</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;16:40)</span><br />
+								<a href="/sport/fussball/dfl-gewinnt-kostenstreit-mit-bremen-a-1148149.html" title="Urteil<U+00A0>zu Polizeieins<U+00E4>tzen: DFL gewinnt Kostenstreit mit Bremen"><span class="schlagzeilen-headline-intro">Urteil<U+00A0>zu Polizeieins<U+00E4>tzen:</span><span class="schlagzeilen-headline"> DFL gewinnt Kostenstreit mit Bremen</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;16:15)</span><br />
+								<a href="/lebenundlernen/schule/berlin-lehrer-darf-handy-uebers-wochenende-einkassieren-a-1148137.html" title="Urteil: Lehrer darf Handy <U+00FC>bers Wochenende einkassieren"><span class="schlagzeilen-headline-intro">Urteil:</span><span class="schlagzeilen-headline"> Lehrer darf Handy <U+00FC>bers Wochenende einkassieren</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;16:11)</span><br />
+								<a href="/sport/fussball/joshua-kimmich-wechselgeruechte-um-bayern-star-garantie-fuer-den-gefrusteten-a-1148123.html" title="Bayern-Star Joshua Kimmich: Garantie f<U+00FC>r den Gefrusteten"><span class="schlagzeilen-headline-intro">Bayern-Star Joshua Kimmich:</span><span class="schlagzeilen-headline"> Garantie f<U+00FC>r den Gefrusteten</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;16:10)</span><br />
+								<a href="/politik/ausland/fall-deniz-yuecel-tuerkei-erlaubt-erneuten-besuch-in-haft-a-1148120.html" title="Inhaftierter Journalist in der T<U+00FC>rkei: Deutscher Generalkonsul darf Y<U+00FC>cel wieder besuchen"><span class="schlagzeilen-headline-intro">Inhaftierter Journalist in der T<U+00FC>rkei :</span><span class="schlagzeilen-headline"> Deutscher Generalkonsul darf Y<U+00FC>cel wieder besuchen</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;16:04)</span><br />
+								<a href="/wissenschaft/natur/eierstock-aus-gelatine-maeuse-erhalten-organ-aus-3d-drucker-a-1148105.html" title="Organe aus dem 3D-Drucker: M<U+00E4>use zeugen Nachwuchs mit k<U+00FC>nstlichen Eierst<U+00F6>cken"><span class="schlagzeilen-headline-intro">Organe aus dem 3D-Drucker:</span><span class="schlagzeilen-headline"> M<U+00E4>use zeugen Nachwuchs mit k<U+00FC>nstlichen Eierst<U+00F6>cken</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;15:45)</span><br />
+								<a href="/politik/ausland/frankreich-yves-le-drian-wird-aussenminister-sylvie-goulard-verteidigungsministerin-a-1148142.html" title="Frankreichs neues Kabinett: Au<U+00DF>enminister Le Drian, Verteidigungsministerin Goulard"><span class="schlagzeilen-headline-intro">Frankreichs neues Kabinett:</span><span class="schlagzeilen-headline"> Au<U+00DF>enminister Le Drian, Verteidigungsministerin Goulard</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;15:43)</span><br />
+								<a href="/sport/fussball/confed-cup-2017-was-der-dfb-kader-ueber-das-turnier-aussagt-a-1148113.html" title="DFB-Kader f<U+00FC>r den Confed Cup: Land und Leute kennenlernen"><span class="schlagzeilen-headline-intro">DFB-Kader f<U+00FC>r den Confed Cup:</span><span class="schlagzeilen-headline"> Land und Leute kennenlernen</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;15:40)</span><br />
+								<a href="/politik/ausland/ungarn-eu-parlament-will-rechtsstaatlichkeit-pruefen-lassen-a-1148112.html" title="Regierung Orb<U+00E1>n: EU-Parlament<U+00A0>will Ungarns Rechtsstaatlichkeit pr<U+00FC>fen"><span class="schlagzeilen-headline-intro">Regierung Orb<U+00E1>n:</span><span class="schlagzeilen-headline"> EU-Parlament<U+00A0>will Ungarns Rechtsstaatlichkeit pr<U+00FC>fen</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;15:33)</span><br />
+								<a href="/sport/fussball/you-ll-never-walk-alone-kinofilm-widmet-sich-der-fussball-hymne-a-1147747.html" title="Kino-Film &quot;You'll never walk alone&quot;: Die Geschichte des ber<U+00FC>hmtesten Fanlieds der Welt"><span class="schlagzeilen-headline-intro">Kino-Film "You'll never walk alone":</span><span class="schlagzeilen-headline"> Die Geschichte des ber<U+00FC>hmtesten Fanlieds der Welt</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;15:24)</span><br />
+								<a href="/netzwelt/web/demokratie-und-digitale-gesellschaft-drei-hilflosigkeiten-und-ein-hoffnungsfall-a-1148082.html" title="Digitaldemokratie: Drei Hilflosigkeiten und ein Hoffnungsfall"><span class="schlagzeilen-headline-intro">Digitaldemokratie:</span><span class="schlagzeilen-headline"> Drei Hilflosigkeiten und ein Hoffnungsfall</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;15:22)</span><br />
+								<a href="/wirtschaft/unternehmen/audi-rupert-stadler-bleibt-bis-ende-2022-audi-chef-a-1148138.html" title="Trotz Dieselaff<U+00E4>re: Rupert Stadler bleibt bis Ende 2022 Audi-Chef"><span class="schlagzeilen-headline-intro">Trotz Dieselaff<U+00E4>re:</span><span class="schlagzeilen-headline"> Rupert Stadler bleibt bis Ende 2022 Audi-Chef</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;15:20)</span><br />
+								<a href="/panorama/leute/javier-valdez-nachruf-auf-mexikos-mutigsten-journalisten-a-1148034.html" title="Zum Tod von Javier Valdez: T<U+00E4>nzer auf Mexikos Minenfeld"><span class="schlagzeilen-headline-intro">Zum Tod von Javier Valdez:</span><span class="schlagzeilen-headline"> T<U+00E4>nzer auf Mexikos Minenfeld</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;15:13)</span><br />
+								<a href="/panorama/justiz/niedersachsen-ehemann-soll-mutter-von-fuenf-kindern-erstochen-haben-a-1148115.html" title="Niedersachsen: Ehemann soll Mutter von f<U+00FC>nf Kindern erstochen haben"><span class="schlagzeilen-headline-intro">Niedersachsen:</span><span class="schlagzeilen-headline"> Ehemann soll Mutter von f<U+00FC>nf Kindern erstochen haben</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;14:20)</span><br />
+								<a href="/wissenschaft/natur/nasa-loest-raetsel-der-gleissenden-blitze-a-1147954.html" title="Naturph<U+00E4>nomen: Nasa l<U+00F6>st R<U+00E4>tsel der glei<U+00DF>enden Blitze"><span class="schlagzeilen-headline-intro">Naturph<U+00E4>nomen:</span><span class="schlagzeilen-headline"> Nasa l<U+00F6>st R<U+00E4>tsel der glei<U+00DF>enden Blitze</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;14:20)</span><br />
+								<a href="/einestages/david-beckham-in-king-arthur-und-andere-fussballer-in-filmen-a-1147878.html" title="Fu<U+00DF>baller als Schauspieler: Kicker? Kino? Katastrophe!"><span class="schlagzeilen-headline-intro">Fu<U+00DF>baller als Schauspieler:</span><span class="schlagzeilen-headline"> Kicker? Kino? Katastrophe!</span></a>&nbsp;<span class="headline-date">(einestages,&nbsp;14:07)</span><br />
+								<a href="/politik/ausland/donald-trump-wladimir-putin-bietet-mitschrift-von-lawrow-treffen-an-a-1148106.html" title="USA: Putin bietet Mitschrift von<U+00A0>Trump-Lawrow-Treffen an"><span class="schlagzeilen-headline-intro">USA:</span><span class="schlagzeilen-headline"> Putin bietet Mitschrift von<U+00A0>Trump-Lawrow-Treffen an</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;13:57)</span><br />
+								<a href="/panorama/leute/halle-berry-in-freiheit-a-1148088.html" title="H<U+00FC>llenlos auf Instagram: Halle Berry in Freiheit"><span class="schlagzeilen-headline-intro">H<U+00FC>llenlos auf Instagram:</span><span class="schlagzeilen-headline"> Halle Berry in Freiheit</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;13:54)</span><br />
+								<a href="/wirtschaft/brasilien-oelbohrungen-in-amazonas-naehe-bedrohen-naturparadies-a-1147805.html" title="Brasilien: <U+00D6>lbohrungen bedrohen Naturparadies"><span class="schlagzeilen-headline-intro">Brasilien:</span><span class="schlagzeilen-headline"> <U+00D6>lbohrungen bedrohen Naturparadies</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;13:53)</span><br />
+								<a href="/netzwelt/web/google-i-o-das-gibt-es-neues-auf-googles-entwicklerkonferenz-a-1148033.html" title="Prognose zur I/O: Das gibt es Neues auf Googles Programmierer-Festival"><span class="schlagzeilen-headline-intro">Prognose zur I/O:</span><span class="schlagzeilen-headline"> Das gibt es Neues auf Googles Programmierer-Festival</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;13:51)</span><br />
+								<a href="/netzwelt/netzpolitik/chelsea-manning-whistleblowerin-ist-laut-bbc-frei-a-1148103.html" title="US-Whistleblowerin: Chelsea Manning ist frei"><span class="schlagzeilen-headline-intro">US-Whistleblowerin:</span><span class="schlagzeilen-headline"> Chelsea Manning ist frei</span></a>&nbsp;<span class="headline-date">(Netzwelt,&nbsp;13:47)</span><br />
+								<a href="/politik/deutschland/bundeswehr-martin-schulz-attackiert-ursula-von-der-leyen-a-1148079.html" title="Bundeswehrskandal: Schulz attackiert von der Leyen"><span class="schlagzeilen-headline-intro">Bundeswehrskandal:</span><span class="schlagzeilen-headline"> Schulz attackiert von der Leyen </span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;13:44)</span><br />
+								<a href="/wirtschaft/service/oktoberfest-wiesn-chef-scheitert-mit-bierpreisbremse-a-1148104.html" title="Oktoberfest: Wiesn-Chef scheitert mit Bierpreisbremse"><span class="schlagzeilen-headline-intro">Oktoberfest:</span><span class="schlagzeilen-headline"> Wiesn-Chef scheitert mit Bierpreisbremse</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;13:38)</span><br />
+								<a href="/auto/aktuell/abgasaffaere-eu-kommission-leitet-verfahren-gegen-italien-ein-a-1148100.html" title="Abgasaff<U+00E4>re: EU-Kommission leitet Verfahren gegen Italien ein"><span class="schlagzeilen-headline-intro">Abgasaff<U+00E4>re:</span><span class="schlagzeilen-headline"> EU-Kommission leitet Verfahren gegen Italien ein</span></a>&nbsp;<span class="headline-date">(Auto,&nbsp;13:28)</span><br />
+								<a href="/sport/fussball/dfb-kader-beim-confed-cup-loew-nominiert-sechs-neulinge-a-1148042.html" title="DFB-Kader: L<U+00F6>w nominiert sechs Neulinge f<U+00FC>r Confed Cup"><span class="schlagzeilen-headline-intro">DFB-Kader:</span><span class="schlagzeilen-headline"> L<U+00F6>w nominiert sechs Neulinge f<U+00FC>r Confed Cup</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;13:21)</span><br />
+								<a href="/politik/ausland/nordkorea-suedkoreas-praesident-moon-jae-in-warnt-vor-eskalation-a-1148072.html" title="Atomkonflikt mit Nordkorea: S<U+00FC>dkoreas Pr<U+00E4>sident warnt vor Eskalation"><span class="schlagzeilen-headline-intro">Atomkonflikt mit Nordkorea:</span><span class="schlagzeilen-headline"> S<U+00FC>dkoreas Pr<U+00E4>sident warnt vor Eskalation</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;13:12)</span><br />
+								<a href="/wirtschaft/soziales/maut-eu-kommission-stoppt-verfahren-gegen-deutschland-a-1148099.html" title="Autobahngeb<U+00FC>hr: EU-Kommission stoppt Mautverfahren gegen Deutschland"><span class="schlagzeilen-headline-intro">Autobahngeb<U+00FC>hr:</span><span class="schlagzeilen-headline"> EU-Kommission stoppt Mautverfahren gegen Deutschland</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;13:10)</span><br />
+								<a href="/wissenschaft/natur/tyrannosaurus-rex-biss-mit-30-tonnen-pro-quadratzentimeter-a-1148077.html" title="Dinosaurier: T. rex zerkleinerte Beute unter hohem Druck"><span class="schlagzeilen-headline-intro">Dinosaurier:</span><span class="schlagzeilen-headline"> T. rex zerkleinerte Beute unter hohem Druck</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;13:07)</span><br />
+								<a href="/kultur/tv/jan-boehmermann-neo-magazin-royale-kuenftig-ohne-hans-meiser-a-1148048.html" title="&quot;Neo Magazin Royale&quot;: ZDF best<U+00E4>tigt<U+00A0>Trennung von Hans Meiser"><span class="schlagzeilen-headline-intro">"Neo Magazin Royale":</span><span class="schlagzeilen-headline"> ZDF best<U+00E4>tigt<U+00A0>Trennung von Hans Meiser</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;13:03)</span><br />
+								<a href="/panorama/justiz/nsu-prozess-pflichtverteidiger-von-beate-zschaepe-beantragen-neues-psychiatrisches-gutachten-a-1148096.html" title="NSU-Prozess: Zsch<U+00E4>pe-Verteidiger beantragen neues psychiatrisches Gutachten"><span class="schlagzeilen-headline-intro">NSU-Prozess:</span><span class="schlagzeilen-headline"> Zsch<U+00E4>pe-Verteidiger beantragen neues psychiatrisches Gutachten</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;12:54)</span><br />
+								<a href="/wissenschaft/natur/titanic-mikroben-zerfressen-wrack-des-schiffes-a-1148043.html" title="Bedrohtes<U+00A0>Weltkulturerbe: Mikroben<U+00A0>zerfressen &quot;Titanic&quot;-Wrack"><span class="schlagzeilen-headline-intro">Bedrohtes<U+00A0>Weltkulturerbe:</span><span class="schlagzeilen-headline"> Mikroben<U+00A0>zerfressen "Titanic"-Wrack</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;12:41)</span><br />
+								<a href="/spiegel/fifa-weltverband-zahlte-generalsekretaerin-fatma-samoura-die-putzkosten-a-1147522.html" title="Fifa-Generalsekret<U+00E4>rin: 30.000 Franken f<U+00FC>r den Putztrupp - wie kann man das nicht bemerken?" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147522" data-lp-position="null"><span class="schlagzeilen-headline-intro">Fifa-Generalsekret<U+00E4>rin:</span><span class="schlagzeilen-headline"> 30.000 Franken f<U+00FC>r den Putztrupp - wie kann man das nicht bemerken?</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;12:39)</span><br />
+								<a href="/kultur/gesellschaft/alice-weidel-gericht-weist-antrag-auf-einstweilige-verfuegung-der-afd-zurueck-a-1148075.html" title="Unterlassungserkl<U+00E4>rung<U+00A0>wegen &quot;Nazi-Schlampe&quot;: Weidel verliert vor Gericht gegen &quot;extra 3&quot;"><span class="schlagzeilen-headline-intro">Unterlassungserkl<U+00E4>rung<U+00A0>wegen "Nazi-Schlampe":</span><span class="schlagzeilen-headline"> Weidel verliert vor Gericht gegen "extra 3"</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;12:19)</span><br />
+								<a href="/politik/ausland/iran-die-islamische-republik-unterstuetzt-arabische-schiiten-milizen-a-1146838.html" title="Teherans Milizen im Nahen Osten: Irans schiitische Internationale"><span class="schlagzeilen-headline-intro">Teherans Milizen im Nahen Osten:</span><span class="schlagzeilen-headline"> Irans schiitische Internationale</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;12:15)</span><br />
+								<a href="/reise/aktuell/hypochonder-auf-reisen-andreas-wenderoth-ueber-aengste-unterwegs-a-1147798.html" title="Hypochonder auf Reisen: &quot;Das Bermuda-Dreieck ist nichts gegen einen Linienflug&quot;"><span class="schlagzeilen-headline-intro">Hypochonder auf Reisen:</span><span class="schlagzeilen-headline"> "Das Bermuda-Dreieck ist nichts gegen einen Linienflug"</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;12:11)</span><br />
+								<a href="/panorama/gesellschaft/usa-wirbelsturm-zerstoert-wohnwagenpark-ein-toter-a-1148081.html" title="USA: Wirbelsturm zerst<U+00F6>rt Wohnwagenpark - ein Toter"><span class="schlagzeilen-headline-intro">USA:</span><span class="schlagzeilen-headline"> Wirbelsturm zerst<U+00F6>rt Wohnwagenpark - ein Toter</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;12:04)</span><br />
+								<a href="/sport/wintersport/deutschland-steht-bei-der-eishockey-wm-im-viertelfinale-das-kann-man-sich-besser-nicht-ertraeumen-a-1148056.html" title="Deutschland im Viertelfinale der Eishockey-WM: Der M<U+00FC>lltonnen-Trick hat funktioniert"><span class="schlagzeilen-headline-intro">Deutschland im Viertelfinale der Eishockey-WM:</span><span class="schlagzeilen-headline"> Der M<U+00FC>lltonnen-Trick hat funktioniert</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;12:03)</span><br />
+								<a href="/politik/deutschland/franco-a-bundeswehr-startet-disziplinarverfahren-gegen-vorgesetzte-a-1148066.html" title="Fall Franco A.: Bundeswehr<U+00A0>geht<U+00A0>gegen Vorgesetzte vor"><span class="schlagzeilen-headline-intro">Fall Franco A.:</span><span class="schlagzeilen-headline"> Bundeswehr<U+00A0>geht<U+00A0>gegen Vorgesetzte vor</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;12:03)</span><br />
+								<a href="http://www.bento.de/gefuehle/nacktfotos-per-whatsapp-verschicken-vier-leute-erzaehlen-was-sie-von-sich-zeigen-1370146/#refsponi" target="_blank" title="Generation Smartphone: Warum junge Menschen Nacktfotos verschicken" class="article-icon bento"><span class="schlagzeilen-headline-intro">Generation Smartphone:</span><span class="schlagzeilen-headline"> Warum junge Menschen Nacktfotos verschicken</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;11:57)</span><br />
+								<a href="/lebenundlernen/schule/immer-mehr-kinder-wachsen-bei-alleinerziehenden-auf-a-1148070.html" title="Kein gemeinsamer Haushalt: Fast jedes f<U+00FC>nfte<U+00A0>Kind w<U+00E4>chst<U+00A0>bei Alleinerziehenden auf"><span class="schlagzeilen-headline-intro">Kein gemeinsamer Haushalt:</span><span class="schlagzeilen-headline"> Fast jedes f<U+00FC>nfte<U+00A0>Kind w<U+00E4>chst<U+00A0>bei Alleinerziehenden auf</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;11:56)</span><br />
+								<a href="/wirtschaft/unternehmen/deutsche-boerse-aufsichtsrat-stuetzt-vorstandschef-kengeter-a-1148067.html" title="Verdacht des Insiderhandels: Aufsichtsrat st<U+00FC>tzt Deutsche-B<U+00F6>rse-Chef Kengeter"><span class="schlagzeilen-headline-intro">Verdacht des Insiderhandels:</span><span class="schlagzeilen-headline"> Aufsichtsrat st<U+00FC>tzt Deutsche-B<U+00F6>rse-Chef Kengeter</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;11:30)</span><br />
+								<a href="/reise/aktuell/ueberbuchte-fluege-kanada-will-rausschmiss-von-passagieren-verbieten-a-1148059.html" title="<U+00DC>berbuchte Fl<U+00FC>ge: Kanada will Rausschmiss von Passagieren verbieten"><span class="schlagzeilen-headline-intro"><U+00DC>berbuchte Fl<U+00FC>ge:</span><span class="schlagzeilen-headline"> Kanada will Rausschmiss von Passagieren verbieten</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;11:23)</span><br />
+								<a href="/sport/sonst/marija-scharapowa-wta-chef-fordert-milde-fuer-tennis-star-a-1148061.html" title="Tennis: WTA-Chef kritisiert Umgang mit Scharapowa"><span class="schlagzeilen-headline-intro">Tennis:</span><span class="schlagzeilen-headline"> WTA-Chef kritisiert Umgang mit Scharapowa</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;11:22)</span><br />
+								<a href="/panorama/gesellschaft/genf-sotheby-s-versteigert-ohrringe-fuer-51-millionen-dollar-a-1148060.html" title="Ungleiches Paar: Sotheby's versteigert Ohrringe f<U+00FC>r 51 Millionen Dollar"><span class="schlagzeilen-headline-intro">Ungleiches Paar:</span><span class="schlagzeilen-headline"> Sotheby's versteigert Ohrringe f<U+00FC>r 51 Millionen Dollar</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;10:55)</span><br />
+								<a href="/panorama/hunde-fotografie-paul-croes-und-inge-nelis-ueber-ihre-arbeit-a-1147631.html" title="Tierfotograf Paul Croes: &quot;Ich tue nichts, was einen Hund d<U+00E4>mlich aussehen l<U+00E4>sst&quot;"><span class="schlagzeilen-headline-intro">Tierfotograf Paul Croes:</span><span class="schlagzeilen-headline"> "Ich tue nichts, was einen Hund d<U+00E4>mlich aussehen l<U+00E4>sst"</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;10:55)</span><br />
+								<a href="/kultur/tv/emmanuel-macron-doku-hinter-den-kulissen-er-hat-alles-neu-gemacht-a-1147903.html" title="Doku <U+00FC>ber Emmanuel Macron: Er hat alles neu gemacht"><span class="schlagzeilen-headline-intro">Doku <U+00FC>ber Emmanuel Macron:</span><span class="schlagzeilen-headline"> Er hat alles neu gemacht</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;10:39)</span><br />
+								<a href="/spiegel/unispiegel/hausarbeiten-horror-ghostwriter-dringend-gesucht-a-1146137.html" title="Hausarbeiten-Horror: Ghostwriter gesucht! Dringend!"><span class="schlagzeilen-headline-intro">Hausarbeiten-Horror:</span><span class="schlagzeilen-headline"> Ghostwriter gesucht! Dringend!</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;10:22)</span><br />
+								<a href="/politik/deutschland/armin-laschet-daniel-guenther-angela-merkel-und-die-neuen-milden-der-cdu-a-1147926.html" title="CDU-Wahlsieger: Die neuen Milden"><span class="schlagzeilen-headline-intro">CDU-Wahlsieger:</span><span class="schlagzeilen-headline"> Die neuen Milden</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;10:21)</span><br />
+								<a href="/video/video-1766857.html" title="Staatskrise in Venezuela: Was steckt hinter den blutigen Auseinandersetzungen?"><span class="schlagzeilen-headline-intro">Staatskrise in Venezuela:</span><span class="schlagzeilen-headline"> Was steckt hinter den blutigen Auseinandersetzungen?</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;10:15)</span><br />
+								<a href="/wirtschaft/unternehmen/vw-staatsanwalt-ermittelt-gegen-konzernchef-matthias-mueller-a-1148049.html" title="Abgasaff<U+00E4>re: Staatsanwalt ermittelt gegen VW-Chef M<U+00FC>ller"><span class="schlagzeilen-headline-intro">Abgasaff<U+00E4>re:</span><span class="schlagzeilen-headline"> Staatsanwalt ermittelt gegen VW-Chef M<U+00FC>ller</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;10:11)</span><br />
+								<a href="/politik/deutschland/saarland-annegret-kramp-karrenbauer-als-ministerpraesidentin-wiedergewaehlt-a-1148044.html" title="Saarland: Kramp-Karrenbauer als Regierungschefin wiedergew<U+00E4>hlt"><span class="schlagzeilen-headline-intro">Saarland:</span><span class="schlagzeilen-headline"> Kramp-Karrenbauer als Regierungschefin wiedergew<U+00E4>hlt</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;10:10)</span><br />
+								<a href="/reise/aktuell/eu-konferiert-mit-den-usa-die-wichtigsten-fragen-zum-laptop-verbot-a-1148039.html" title="EU konferiert mit den USA: Die wichtigsten Fragen zum Laptop-Verbot"><span class="schlagzeilen-headline-intro">EU konferiert mit den USA:</span><span class="schlagzeilen-headline"> Die wichtigsten Fragen zum Laptop-Verbot</span></a>&nbsp;<span class="headline-date">(Reise,&nbsp;10:05)</span><br />
+								<a href="/auto/aktuell/volvo-will-den-diesel-verabschieden-a-1148035.html" title="Motorenentwicklung: Volvo<U+00A0>verabschiedet sich vom<U+00A0>Diesel"><span class="schlagzeilen-headline-intro">Motorenentwicklung:</span><span class="schlagzeilen-headline"> Volvo<U+00A0>verabschiedet sich vom<U+00A0>Diesel</span></a>&nbsp;<span class="headline-date">(Auto,&nbsp;09:59)</span><br />
+								<a href="/politik/ausland/venezuela-vier-maenner-bei-protesten-gegen-regierung-erschossen-a-1148036.html" title="Krise in Venezuela: Vier M<U+00E4>nner bei Protesten gegen Regierung erschossen"><span class="schlagzeilen-headline-intro">Krise in Venezuela:</span><span class="schlagzeilen-headline"> Vier M<U+00E4>nner bei Protesten gegen Regierung erschossen</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;09:55)</span><br />
+								<a href="/spiegel/bestsellerautor-tuvia-tenenbom-auf-deutschlandreise-a-1147524.html" title="Bestsellerautor<U+00A0>Tenenbom auf Deutschlandreise: Gott sagt: &quot;Fuck you&quot;" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147524" data-lp-position="null"><span class="schlagzeilen-headline-intro">Bestsellerautor<U+00A0>Tenenbom auf Deutschlandreise:</span><span class="schlagzeilen-headline"> Gott sagt: "Fuck you"</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;09:51)</span><br />
+								<a href="/wirtschaft/soziales/steuern-durchschnittsverdiener-zahlen-hoechstens-19-prozent-a-1147997.html" title="Belastung der Mittelschicht: Durchschnittsverdiener zahlen h<U+00F6>chstens 19 Prozent Steuern"><span class="schlagzeilen-headline-intro">Belastung der Mittelschicht:</span><span class="schlagzeilen-headline"> Durchschnittsverdiener zahlen h<U+00F6>chstens 19 Prozent Steuern</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;09:47)</span><br />
+								<a href="/politik/ausland/donald-trump-in-der-krise-stunde-null-fuer-den-us-praesidenten-a-1148009.html" title="Pr<U+00E4>sident in der Krise: Im Bunker"><span class="schlagzeilen-headline-intro">Pr<U+00E4>sident in der Krise:</span><span class="schlagzeilen-headline"> Im Bunker</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;09:06)</span><br />
+								<a href="/politik/deutschland/g20-gipfel-in-hamburg-deutschland-fuehrt-grenzkontrollen-ein-a-1148030.html" title="Anweisung von<U+00A0>de Maizi<U+00E8>re: Deutschland f<U+00FC>hrt zum G20-Gipfel Grenzkontrollen ein"><span class="schlagzeilen-headline-intro">Anweisung von<U+00A0>de Maizi<U+00E8>re:</span><span class="schlagzeilen-headline"> Deutschland f<U+00FC>hrt zum G20-Gipfel Grenzkontrollen ein</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;09:03)</span><br />
+								<a href="/gesundheit/ernaehrung/micha-klotzbier-gegen-marathon-blues-hilft-nur-ein-neuer-marathon-a-1147940.html" title="Ex-160-Kilo-Mann: Gegen Marathon-Blues hilft nur ein neuer Marathon"><span class="schlagzeilen-headline-intro">Ex-160-Kilo-Mann:</span><span class="schlagzeilen-headline"> Gegen Marathon-Blues hilft nur ein neuer Marathon</span></a>&nbsp;<span class="headline-date">(Gesundheit,&nbsp;08:28)</span><br />
+								<a href="/wirtschaft/unternehmen/eu-knoepft-sich-in-der-abgasaffaere-fiat-chrysler-vor-a-1148021.html" title="Verfahren gegen Italien: EU kn<U+00F6>pft sich in der Abgasaff<U+00E4>re Fiat vor"><span class="schlagzeilen-headline-intro">Verfahren gegen Italien:</span><span class="schlagzeilen-headline"> EU kn<U+00F6>pft sich in der Abgasaff<U+00E4>re Fiat vor</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;08:26)</span><br />
+								<a href="/panorama/justiz/ueberfall-auf-rucksacktouristinnen-australier-muss-mindestens-17-jahre-in-haft-a-1148023.html" title="<U+00DC>berfall auf Rucksacktouristinnen: Australier muss mindestens 17 Jahre in Haft"><span class="schlagzeilen-headline-intro"><U+00DC>berfall auf Rucksacktouristinnen:</span><span class="schlagzeilen-headline"> Australier muss mindestens 17 Jahre in Haft</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;08:25)</span><br />
+								<a href="/kultur/kino/michael-moore-plant-doku-ueber-donald-trump-a-1148014.html" title="Oscar-Preistr<U+00E4>ger: Michael Moore<U+00A0>plant neue Trump-Doku"><span class="schlagzeilen-headline-intro">Oscar-Preistr<U+00E4>ger:</span><span class="schlagzeilen-headline"> Michael Moore<U+00A0>plant neue Trump-Doku</span></a>&nbsp;<span class="headline-date">(Kultur,&nbsp;07:54)</span><br />
+								<a href="/lebenundlernen/job/betreuungsluecke-300-000-kleinkinder-finden-keinen-kita-platz-a-1148012.html" title="Betreuungsl<U+00FC>cke: 300.000 Kleinkinder finden keinen Kita-Platz"><span class="schlagzeilen-headline-intro">Betreuungsl<U+00FC>cke:</span><span class="schlagzeilen-headline"> 300.000 Kleinkinder finden keinen Kita-Platz</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;07:43)</span><br />
+								<a href="/politik/ausland/recep-tayyip-erdogan-demonstranten-in-washington-waehrend-trump-besuch-angegriffen-a-1148011.html" title="Pr<U+00E4>sidententreffen in<U+00A0>Washington: Erdogans Sicherheitsleute sollen Demonstranten verpr<U+00FC>gelt haben"><span class="schlagzeilen-headline-intro">Pr<U+00E4>sidententreffen in<U+00A0>Washington:</span><span class="schlagzeilen-headline"> Erdogans Sicherheitsleute sollen Demonstranten verpr<U+00FC>gelt haben</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;07:12)</span><br />
+								<a href="/panorama/gesellschaft/geisterfahrer-auf-autobahn-661-ein-toter-und-zwei-verletzte-in-hessen-a-1148013.html" title="A661: Ein Toter und zwei Verletzte bei Geisterfahrt in Hessen"><span class="schlagzeilen-headline-intro">A661:</span><span class="schlagzeilen-headline"> Ein Toter und zwei Verletzte bei Geisterfahrt in Hessen</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;07:08)</span><br />
+								<a href="/politik/deutschland/fluechtlinge-bamf-nachkontrollen-ergeben-zahlreiche-fehler-a-1148010.html" title="Nach Fall Franco A.: Bamf-Nachkontrollen ergeben offenbar etliche Fehler"><span class="schlagzeilen-headline-intro">Nach Fall Franco A.:</span><span class="schlagzeilen-headline"> Bamf-Nachkontrollen ergeben offenbar etliche Fehler</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;07:02)</span><br />
+								<a href="/karriere/selbstcheck-strengen-sie-sich-im-job-zu-sehr-an-a-1148031.html" title="Machen Sie den Test: Strengen Sie sich im Job zu sehr an?"><span class="schlagzeilen-headline-intro">Machen Sie den Test:</span><span class="schlagzeilen-headline"> Strengen Sie sich im Job zu sehr an?</span></a>&nbsp;<span class="headline-date">(Leben und Lernen,&nbsp;06:48)</span><br />
+								<a href="/wissenschaft/natur/naturfotos-von-spiegel-online-lesern-im-makro-wunderland-a-1146640.html" title="Naturfotos von SPIEGEL-ONLINE-Lesern: Im Makro-Wunderland"><span class="schlagzeilen-headline-intro">Naturfotos von SPIEGEL-ONLINE-Lesern:</span><span class="schlagzeilen-headline"> Im Makro-Wunderland</span></a>&nbsp;<span class="headline-date">(Wissenschaft,&nbsp;06:20)</span><br />
+								<a href="/politik/deutschland/nachrichten-am-morgen-die-news-in-echtzeit-a-1147186.html" title="Newsblog: Das war Der Morgen @SPIEGELONLINE am 17.5.2017"><span class="schlagzeilen-headline-intro">Newsblog:</span><span class="schlagzeilen-headline"> Das war Der Morgen @SPIEGELONLINE am 17.5.2017</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;06:01)</span><br />
+								<a href="/politik/deutschland/news-bundeswehr-sigmar-gabriel-spd-chelsea-manning-a-1148008.html" title="Die Lage am Mittwoch: T<U+00F6>ten mit Tradition"><span class="schlagzeilen-headline-intro">Die Lage am Mittwoch:</span><span class="schlagzeilen-headline"> T<U+00F6>ten mit Tradition</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;05:29)</span><br />
+								<a href="/auto/fahrberichte/jaguar-f-pace-im-test-bedienung-a-1147898.html" title="Fahrbericht Jaguar F-Pace: Bedienung!"><span class="schlagzeilen-headline-intro">Fahrbericht Jaguar F-Pace:</span><span class="schlagzeilen-headline"> Bedienung!</span></a>&nbsp;<span class="headline-date">(Auto,&nbsp;05:15)</span><br />
+								<a href="http://www.bento.de/art/instagram-kuenstler-zeigt-dicke-frauen-und-maenner-in-bildern-1365470/#refsponi" target="_blank" title="K<U+00F6>rperbilder: Ich bin fasziniert von Kurven" class="article-icon bento"><span class="schlagzeilen-headline-intro">K<U+00F6>rperbilder:</span><span class="schlagzeilen-headline"> "Ich bin fasziniert von Kurven"</span></a>&nbsp;<span class="headline-date">(Panorama,&nbsp;05:10)</span><br />
+								<a href="/spiegel/deutsche-bank-vor-der-hauptversammlung-der-kaiser-aus-china-a-1147528.html" title="Deutsche Bank: Der Kaiser<U+00A0>aus China" class="js-lp-article-link article-icon spiegelplus" data-lp-article-id="1147528" data-lp-position="null"><span class="schlagzeilen-headline-intro">Deutsche Bank:</span><span class="schlagzeilen-headline"> Der Kaiser<U+00A0>aus China</span></a>&nbsp;<span class="headline-date">(Wirtschaft,&nbsp;05:09)</span><br />
+								<a href="/politik/ausland/oesterreich-beschliesst-burka-verbot-a-1148007.html" title="Verschleierung: <U+00D6>sterreich beschlie<U+00DF>t Burka-Verbot"><span class="schlagzeilen-headline-intro">Verschleierung:</span><span class="schlagzeilen-headline"> <U+00D6>sterreich beschlie<U+00DF>t Burka-Verbot</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;03:32)</span><br />
+								<a href="/politik/ausland/donald-trump-soll-james-comey-gebeten-haben-ermittlungen-zu-beenden-a-1148006.html" title="Bitte<U+00A0>um Einstellung der Flynn-Ermittlungen: Comey-Memo soll Trump schwer<U+00A0>belasten"><span class="schlagzeilen-headline-intro">Bitte<U+00A0>um Einstellung der Flynn-Ermittlungen:</span><span class="schlagzeilen-headline"> Comey-Memo soll Trump schwer<U+00A0>belasten</span></a>&nbsp;<span class="headline-date">(Politik,&nbsp;03:08)</span><br />
+								<a href="/sport/fussball/u17-em-deutschland-scheitert-im-elfmeterschiessen-an-spanien-a-1148005.html" title="U17-EM: Deutschland scheitert im Elfmeterschie<U+00DF>en an Spanien"><span class="schlagzeilen-headline-intro">U17-EM:</span><span class="schlagzeilen-headline"> Deutschland scheitert im Elfmeterschie<U+00DF>en an Spanien</span></a>&nbsp;<span class="headline-date">(Sport,&nbsp;00:17)</span><br />
+								</div>
+				<br />&nbsp;<br />
+
+				<div class="clearfix">
+	<div class="schlagzeilen-nav-box">
+		<h5>ANZEIGE:</h5>
+		<ul class="list-float clearfix">
+			<li class="list-float-left"><a href="/schlagzeilen/index.html" class="is-active">2 Tage</a></li>
+					<li class="list-float-left"><a href="/schlagzeilen/index-siebentage.html">7 Tage</a></li>
+				</ul>
+	</div>	
+	<div class="schlagzeilen-nav-box">
+		<h5>SORTIEREN:</h5>
+		<ul class="list-float clearfix">
+			<li class="list-float-left"><a href="/schlagzeilen/index.html"   class="is-active">Datum</a></li>
+					<li class="list-float-left"><a href="/schlagzeilen/ressort/index.html" >Ressort</a></li>			
+					<li class="list-float-left"><a href="/schlagzeilen/thema/index.html"  >alphabetisch</a></li>
+				</ul>
+	</div>
+	<div class="schlagzeilen-nav-box schlagzeilen-view">
+		<h5>DER ANDERE BLICK:</h5>
+		<ul class="list-float clearfix">
+			<li class="list-float-left"><a href="/schlagzeilen/foto/index.html">Fototicker</a></li>
+			<li class="list-float-left"><a href="/schlagzeilen/tops/index.html"  >Top-Meldungen</a></li>
+			<li class="list-float-left"><a href="javascript:spTagInDreiMinutenLink()">Der Tag in 3 Minuten</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+	
+			<div class="adition" id="unten" data-position="unten">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('unten');
+	</script>
+</div>
+</div><div id="footer">
+	
+	<!-- html_126274 -->
+<div class="footer-partner clearfix">
+	<h4>Serviceangebote von SPIEGEL-ONLINE-Partnern</h4>
+
+	<!-- AUTO -->
+	<ul class="partner-auto">
+		<li>
+<h5>AUTO</h5>
+</li>
+		<li>
+<span> <a href="http://www.spiegel.de/auto/aktuell/benzinpreisvergleich-die-guenstigste-tankstelle-in-ihrer-naehe-a-185826.html" rel="nofollow">
+					Benzinpreis </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://www.spiegel.de/auto/aktuell/bussgeldrechner-was-zu-schnelles-fahren-kostet-a-244772.html" rel="follow">
+					Bu<U+00DF>geldrechner </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://werkstattvergleich.spiegel.de" rel="follow" title="Anzeige"> Werkstattvergleich
+			</a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3076397&kid=2001923&bid=6830816" rel="follow" title="Anzeige">
+					Kfz-Versicherung </a>
+</span>
+</li>
+
+	</ul>
+
+	<!-- ENERGIE -->
+	<ul>
+		<li>
+<h5>ENERGIE</h5>
+</li>
+		<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3076397&kid=2001923&bid=6830797" rel="follow" title="Anzeige">
+					Gasanbietervergleich </a>
+</span>
+</li>
+
+		<li>
+<span> <a href=" http://ad8.adfarm1.adition.com/redi?sid=3076397&kid=2001923&bid=6830802" rel="nofollow" title="Anzeige">
+					Stromanbietervergleich </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3076397&kid=2001923&bid=6830809" rel="nofollow" title="Anzeige">
+					Energievergleiche </a>
+</span>
+</li>
+
+	</ul>
+
+	<!-- JOB -->
+	<ul>
+		<li>
+<h5>JOB</h5>
+</li>
+		<li>
+<span> <a href="http://www.personalmarkt.de/source-links/spiegel/serviceangebotebox.html" rel="nofollow" title="Anzeige">
+					Gehaltscheck </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://www.spiegel.de/wirtschaft/service/brutto-netto-rechner-was-von-ihrem-lohn-noch-uebrig-bleibt-a-223811.html" rel="follow">
+					Brutto-Netto-Rechner </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="/lebenundlernen/uni/studium-tipps-und-hilfe-fuer-uni-und-studentenleben-a-640620.html" rel="follow">
+					Uni-Tools </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3076402&kid=1213135&bid=3962765" rel="follow" title="Anzeige">
+					Jobsuche </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://gymglish.karriere.spiegel.de/" rel="follow" title="Anzeige">
+					Online Englisch lernen </a>
+</span>
+</li>
+
+	</ul>
+</div>
+
+<div class="footer-partner clearfix">
+
+	<!-- FINANZEN -->
+	<ul class="partner-finanzen">
+		<li>
+<h5>FINANZEN</h5>
+</li>
+		<li>
+<span> <a href="http://boersen.manager-magazin.de/spon/devisen_uebersicht.htn#rechner" rel="follow">
+					W<U+00E4>hrungsrechner </a>
+</span>
+</li>
+
+		<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3076400&kid=1212996&bid=3961839" rel="nofollow" title="Anzeige">
+					Immobilien-B<U+00F6>rse </a>
+</span>
+</li>
+
+
+		<li>
+<span> <a href="/wirtschaft/service/versicherung-check-fuer-haftpflicht-hausrat-berufsunfaehigkeit-a-960380.html " rel="follow">
+					Versicherungen </a>
+</span>
+</li>
+	</ul>
+
+	<!-- FREIZEIT 1 -->
+	<ul class="partner-freizeit clearfix">
+		<li class="partner-freizeit-headline">
+<h5>FREIZEIT</h5>
+</li>
+		<li>
+			<ul>
+				<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3076399&kid=1896236&bid=6478348" rel="follow" title="Anzeige">
+							Eurojackpot </a>
+</span>
+</li>
+
+				<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3098102&kid=1896232&bid=6478286" rel="follow" title="Anzeige">
+							Lottozahlen </a>
+</span>
+</li>
+
+				<li>
+<span> <a href="/wissenschaft/mensch/sudoku-online-kostenlos-spielen-a-994416.html" rel="follow">
+							Sudoku </a>
+</span>
+</li>
+
+				<li>
+<span> <a href="/wissenschaft/mensch/kenken-kostenlos-online-spielen-a-994418.html" rel="follow">
+							Kenken </a>
+</span>
+</li>
+
+				<li>
+<span> <a href="/wissenschaft/mensch/zahlenraetsel-street-online-und-kostenlos-spielen-a-994419.html" rel="follow">
+							Streets </a>
+</span>
+</li>
+
+<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3826900&kid=1991632&bid=6797077" rel="follow">
+							Reise-Deals </a>
+</span>
+</li>
+			</ul>
+		</li>
+
+
+		<li>
+			<!-- FREIZEIT 2 -->
+			<ul>
+
+				<li>
+<span> <a href="http://www.amazon.de/b/ref=amb_link_51544565_1?ie=UTF8&node=4206085031&pf_rd_m=A3JWKAKR8XB7XF&pf_rd_s=center-1&pf_rd_r=0Y7KSJRQ0GD1TQVBZFBX&pf_rd_t=1401&pf_rd_p=515157807&pf_rd_i=1000127753&tag=wwwspiegelde-21" rel="follow">
+							B<U+00FC>cher bestellen </a>
+</span>
+</li>
+<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3780443&kid=1926526&bid=6578340" rel="follow" title="Anzeige">
+							H<U+00F6>rb<U+00FC>cher </a>
+</span>
+</li>
+
+				<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3088032&kid=1214236&bid=3966039" rel="nofollow" title="Anzeige">
+							Arztsuche </a>
+</span>
+</li>
+
+				<li>
+<span> <a href="http://ad8.adfarm1.adition.com/redi?sid=3076397&kid=2001923&bid=6830829" rel="follow" title="Anzeige">
+							DSL-Vergleich </a>
+</span>
+</li>
+
+				<li>
+<span> <a href="/lebenundlernen/schule/ferien-schulferien-und-feiertage-a-193925.html" rel="follow">
+							Ferientermine </a>
+</span>
+</li>
+
+				
+			</ul>
+		</li>
+	</ul>
+
+
+	<!-- TESTZWECKE -->
+	<!-- html_111141 -->
+<script type="text/javascript">
+//
+if ('safari' in window && 'pushNotification' in window.safari) {
+(function(){
+var pushNotification = window.safari.pushNotification,
+     webserviceUrl = "https://www.spiegel.de/push/apns/macos",
+     websitePushID = "web.de.spiegel.spon";
+function checkRemotePermission(permissionData) {
+    if (permissionData.permission === 'default') {
+        pushNotification.requestPermission(webserviceUrl, websitePushID, {}, checkRemotePermission);
+    }
+}
+checkRemotePermission(pushNotification.permission(websitePushID));
+}());
+}
+//
+</script>
+
+</div><div class="spiegel-group">
+		<h4>SPIEGEL GRUPPE</h4>
+		<ul class="list-float clearfix">  
+			<li class="list-float-left"><a href="http://abo.spiegel.de/?b=SPOHFOOTER&amp;utm_source=spon&amp;utm_medium=text&amp;utm_content=SPOHFOOTER&amp;utm_campaign=abbinder" target="_blank">Abo</a></li>  
+			<li class="list-float-left"><span>&#45;</span><a href="https://www.amazon.de/b?ie=UTF8&amp;node=2478999031&amp;tag=wwwspiegelde-21" target="_blank">Shop</a></li> 
+			<li class="list-float-left"><span>&#45;</span><a href="http://www.manager-magazin.de/" target="_blank">manager&nbsp;magazin</a></li>
+			<li class="list-float-left"><span>&#45;</span><a href="http://www.harvardbusinessmanager.de/" target="_blank">Harvard Business Manager</a></li>
+			<li class="list-float-left"><span>&#45;</span><a href="http://www.buchreport.de/" target="_blank">buchreport</a></li>
+			<li class="list-float-left"><span>&#45;</span><a href="http://spiegel.media/" target="_blank">Werbung</a></li>
+			<li class="list-float-left"><span>&#45;</span><a href="http://www.spiegelgruppe.de/spiegelgruppe/home.nsf/Navigation/8F79C171C0A9F35EC1257B1000367A40?OpenDocument" target="_blank">Jobs</a></li>
+		</ul>
+	</div>
+		
+	<!-- html_126372 -->
+<div class="slider js-slider-footer">
+	<ul class="bxslider">
+				<li class="slider_item slider_5">
+					<h4>DER SPIEGEL</h4> <a href="http://www.spiegel.de/spiegel/">
+						<img alt="DER SPIEGEL" class="js-lazy" data-original="http://magazin.spiegel.de/EpubDelivery/image/title/SP/2017/20/140" height="186"/>
+				</a>
+				</li>
+
+				<li class="slider_item slider_5">
+					<h4>Dein SPIEGEL</h4> <a href="http://abo.spiegel.de/de/c/dein-spiegel"> <img alt="DEIN SPIEGEL" class="js-lazy" data-original="http://magazin.spiegel.de/EpubDelivery/image/title/DEIN/2017/6/140" height="186"/>
+				</a>
+				</li>
+
+
+			
+				<li class="slider_item slider_5">
+					<h4>SPIEGEL WISSEN</h4> <a href="http://abo.spiegel.de/de/c/spiegel-wissen"> <img alt="SPIEGEL WISSEN" class="js-lazy" data-original="http://magazin.spiegel.de/EpubDelivery/image/title/SPWI/2017/2/140" height="186"/>
+				</a>
+				</li>
+
+				<li class="slider_item slider_5">
+					<h4>SPIEGEL BIOGRAFIE</h4> <a href="http://abo.spiegel.de/de/c/spiegel-biografie?b=SPOHCOVER&utm_source=spon&utm_medium=textsb&utm_content=SPOHCOVER&utm_campaign=heftgalerie" target="_blank"> <img alt="SPIEGEL BIOGRAFIE" class="js-lazy" data-original="http://www.spiegel.de/ce/images/1115144-thumbflex.img" height="186"/>
+				</a>
+				
+
+
+</li>
+
+<li class="slider_item slider_5">
+					<h4>SPIEGEL GESCHICHTE</h4> <a href="http://abo.spiegel.de/de/c/spiegel-geschichte"> <img alt="SPIEGEL GESCHICHTE" class="js-lazy" data-original="http://magazin.spiegel.de/EpubDelivery/image/title/SPGE/2017/2/140" height="186"/>
+				</a>
+				</li>
+
+				<li class="slider_item slider_5">
+					<h4>Edition Geschichte</h4> <a href="http://www.amazon.de/dp/B06VT3VSPD/ref=nosim?tag=wwwspiegelde-21" target="_blank"> <img alt="SPIEGEL Edition Geschichte" class="js-lazy" data-original="http://www.spiegel.de/images/image-1128512-thumbflex-omxs-1128512.jpg" height="186"/>
+				</a>
+				</li>
+
+				<li class="slider_item slider_5">
+					<h4>SPIEGEL SPEZIAL</h4> <a href="http://www.amazon.de/dp/B01KZNM5KE/ref=nosim?tag=wwwspiegelde-21" target="_blank">
+						<img alt="SPIEGEL SPEZIAL" class="js-lazy" data-original="http://www.spiegel.de/images/image-1047830-custom-bjda.jpg"/>
+				</a>
+				</li>
+				
+
+                                                    <!-- li class="slider_item slider_5">
+					<h4>Dein SPIEGEL Extra</h4> <a
+					href="http://www.amazon.de/dp/B01KZNM60I/ref=nosim?tag=wwwspiegelde-21"> <img
+						class="js-lazy"
+						data-original="http://www.spiegel.de/images/image-1066403-custom-pguo.jpg"
+						alt="DEIN SPIEGEL" height="186" />
+				</a>
+				</li -->
+
+                                                   <li class="slider_item slider_5">
+					<h4>SPIEGEL CLASSIC</h4>
+					<a href="http://www.amazon.de/dp/B01MRREIEO/ref=nosim?tag=wwwspiegelde-21">
+						<img class="js-lazy" data-original="http://www.spiegel.de/images/image-1120353-thumbflex-fmiq.jpg" height="186"/>
+				</a>
+				</li>
+
+				<li class="slider_item slider_5">
+					<h4>UNI SPIEGEL</h4>
+					<a href="http://www.spiegel.de/spiegel/unispiegel/index-2017-2.html">
+						<img alt="UNI SPIEGEL" class="js-lazy" data-original="http://magazin.spiegel.de/EpubDelivery/image/title/USP/2017/2/140" height="186"/>
+					</a>
+				</li>
+				<li class="slider_item slider_5">
+					<h4>LITERATUR SPIEGEL</h4>
+					<a href="http://www.spiegel.de/spiegel/literaturspiegel/index-2017-5.html">
+						<img alt="LiteraturSPIEGEL" class="js-lazy" data-original=" http://magazin.spiegel.de/EpubDelivery/image/title/LISP/2017/5/140" height="186"/>
+					</a>
+				</li>
+	</ul>
+</div><div class="adition" id="interne_statistik" data-position="interne_statistik">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('interne_statistik');
+	</script>
+</div>
+<div class="footer-sub-nav clearfix">
+		<ul class="footer-social-media list-inline-block">
+			<li><i class="fa fa-twitter-square fa-lg fa-inverse"></i><a target="_blank" href="https://twitter.com/intent/follow?screen_name=SPIEGELONLINE" title="Twitter">Twitter</a></li>
+			<li><i class="fa fa-facebook-official fa-lg fa-inverse"></i><a target="_blank" href="http://www.facebook.com/spiegelonline" title="Facebook">Facebook</a></li>
+			<li><i class="fa fa-google-plus-square fa-lg fa-inverse"></i><a target="_blank" href="https://plus.google.com/106419678219919655169/posts" title="Google+">Google&#43;</a></li>
+		</ul>
+		
+		
+		<ul class="footer-meta-nav list-inline-block">  
+			<li><a href="/impressum/">Impressum</a></li> 
+			<li><span>&#45;</span><a href="/dienste/a-639126.html">Datenschutz</a></li>
+			<li><span>&#45;</span><a href="/extra/a-853891.html">Nutzungsrechte</a></li>
+			<li><span>&#45;</span><a href="/kontakt/">Kontakt</a></li> 
+			<li><span>&#45;</span><a href="/hilfe/">Hilfe</a></li> 
+		</ul>
+	</div>
+</div> <script type="text/javascript">var spBemiCh=293;</script>
+	<script type="text/javascript">
+	var spBemiOn=true;
+	if (typeof ADI != 'undefined' && ADI.disabled('content_ad_1')) {
+		spBemiOn=false;
+	} else if( typeof(sp_webcfg_global) !== "undefined" && typeof(sp_webcfg_global.spBemi) !== "undefined" && typeof(sp_webcfg_global.spBemi.on) !== "undefined") { 
+		spBemiOn = sp_webcfg_global.spBemi.on;
+		if(spBemiOn === true) { 
+			var spBemiChBlk=[]; 
+			if( typeof(sp_webcfg_global.spBemi.blk) !== "undefined" ) { 
+				spBemiChBlk = sp_webcfg_global.spBemi.blk;
+				if($.inArray(spBemiCh,spBemiChBlk) != -1) spBemiOn = false;
+			}
+		} else {
+			spBemiOn=false;
+		}
+	}
+	/* 20170519141330 */ !function(t,e,n){function o(t,e){var n=S(t);if(!n)return n;if(""!=e)for(var i=0;i<e.length;i++)"^"==e.charAt(i)&&(n=n.parentNode),"<"==e.charAt(i)&&(n=n.previousElementSibling),">"==e.charAt(i)&&(n=n.nextElementSibling),"y"==e.charAt(i)&&(n=n.firstChild);return n}function a(t,e){var n=e.getBoundingClientRect(),i=t.clientX-n.left,o=t.clientY-n.top;return{x:i,y:o}}function r(t){for(var e=0,n=0;t;)e+=t.offsetLeft+t.clientLeft,n+=t.offsetTop+t.clientTop,t=t.offsetParent;return{x:e,y:n}}function d(t,e){var n=0,i=0,o=r(e);return(t.pageX||t.pageY)&&(n=t.pageX,i=t.pageY),(t.clientX||t.clientY)&&(n=t.clientX+document.body.scrollLeft+document.documentElement.scrollLeft,i=t.clientY+document.body.scrollTop+document.documentElement.scrollTop),n-=o.x,i-=o.y,{x:n,y:i}}function p(t,e){return e.getBoundingClientRect?a(t,e):d(t,e)}function h(t,e){t.addEventListener?t.addEventListener("click",e,!0):t.attachEvent&&t.attachEvent("onclick",function(){return e.call(t,window.event)})}function l(e,n){var i=0,o=50,a=!1,r=t.setInterval(function(){e()&&(t.clearInterval(r),n(a)),i++>o&&(t.clearInterval(r),a=!0,n(a))},10)}function u(t){var e=t.toLowerCase();if(0===e.indexOf("msie")&&0===e.indexOf("trident"))return!1;var n=/(?:msie|rv:)\s?([\d\.]+)/.exec(e);return!!(n&&parseInt(n[1],10)>=10)}function s(e){try{var n;if(t.webkitRequestFileSystem)t.webkitRequestFileSystem(t.TEMPORARY,1,function(){n=!1},function(t){n=!0});else if(t.indexedDB&&/Firefox/.test(t.navigator.userAgent)){var i;try{i=t.indexedDB.open("test")}catch(t){n=!0}"undefined"==typeof n&&l(function(){return"done"===i.readyState},function(t){t||(n=!i.result)})}else if(u(t.navigator.userAgent)){n=!1;try{t.indexedDB||(n=!0)}catch(t){n=!0}}else if(t.localStorage&&/Safari/.test(t.navigator.userAgent)){try{t.localStorage.setItem("test",1)}catch(t){n=!0}"undefined"==typeof n&&(n=!1,t.localStorage.removeItem("test"))}l(function(){return"undefined"!=typeof n},function(t){e(n)})}catch(t){}}function f(t){if(t.uabpdl&&!t.uabInject){t.uabInject=!0,t.uabPc={},t.uabAv={},t.uabAvt={};var e=[];if(!uabpMobile){window.addEventListener&&!uabpMobile&&window.addEventListener("scroll",function(t){var n=e.SKYRight,i=document.querySelector("#wrapper");i&&n&&(i.getBoundingClientRect().top<=-37?n.style.setProperty("top","45px"):n.style.setProperty("top",null))});var n=!0;if(t.uabpnewinject)for(var i=document.styleSheets,o=i.length-1;0!=o;o--)try{if(i[o].cssRules){n=!1;var a=i[o];try{setTimeout(c(a,e),500)}catch(t){}break}}catch(t){}if(!t.uabpnewinject||n){var a=z("style");a.type="text/css",W(a,'.AQDsFyuA:before {color: black;content: "Anzeige";display: block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-align: left;text-decoration: none !important;text-transform: uppercase;width: 100%;}.AQDsFyuA:hover {text-decoration: none;}dqsyDEhY {}#ROUcVL {}.qukKUW {margin-bottom: 20px;}.WFPGaQBC {position: fixed; left: 0; top: 0px; right: 0; bottom: 0; background-color: #000000;cursor: pointer;}.WFPGaQBC img {width: 100%;height: 100%;}#WEkDdLuG {display: block;}#WEkDdLuG {position: relative;margin-bottom: 20px;bottom: 10px;}#WEkDdLuG img {max-width: 880px;}#WEkDdLuG:before {color: black;content: "Anzeige";display: inline-block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-align: left;text-decoration: none !important;text-transform: uppercase;width: 100%;}#WEkDdLuG:hover {text-decoration: none;}#ZEPkhQIZF {}BGgUeoIY {}BGgUeoIY img {cursor: pointer;}#ZeyAoE img {cursor: pointer;}#ZeyAoE {margin-left: 297px;margin-bottom: 6px;}#fVfrubXkI {float: right;}#fVfrubXkI {display: block;}#fVfrubXkI img {cursor: pointer;}#fVfrubXkI:before {color: black;content: "Anzeige";display: block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-decoration: none !important;text-transform: uppercase;width: 100%;}.JzoVQJRea {display: block;}#kzDheO {float: right;}#kzDheO img {cursor: pointer;}#kzDheO:before {color: black;content: "Anzeige";display: block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-decoration: none !important;text-transform: uppercase;width: 100%;}#izfODeTbF {position: fixed;margin-left: 913px;}#izfODeTbF img {cursor: pointer;}#kgLABVlvS {}@media print {.qukKUW,#ZEPkhQIZF,BGgUeoIY,.JzoVQJRea,#kgLABVlvS,dqsyDEhY,#ROUcVL,.AQDsFyuA,.WFPGaQBC,#WEkDdLuG,#ZeyAoE,#fVfrubXkI,#kzDheO,#izfODeTbF{display:none;}} .uabpHid {display:none;}'),L(Y,a),setTimeout(v(e),0)}}}}function c(e,n){var i=function(t,e){if(e<0)return i(t,e+26);for(var n="",o=0;o<t.length;o++){var a=t[o];if(a.match(/[a-z]/i)){var r=t.charCodeAt(o);r>=65&&r<=90?a=String.fromCharCode((r-65+e)%26+65):r>=97&&r<=122&&(a=String.fromCharCode((r-97+e)%26+97))}n+=a}return n};window[i("fmdsqfEtqqf",-12)]=e;for(var o='.AQDsFyuA:before {color: black;content: "Anzeige";display: block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-align: left;text-decoration: none !important;text-transform: uppercase;width: 100%;}.AQDsFyuA:hover {text-decoration: none;}dqsyDEhY {}#ROUcVL {}.qukKUW {margin-bottom: 20px;}.WFPGaQBC {position: fixed; left: 0; top: 0px; right: 0; bottom: 0; background-color: #000000;cursor: pointer;}.WFPGaQBC img {width: 100%;height: 100%;}#WEkDdLuG {display: block;}#WEkDdLuG {position: relative;margin-bottom: 20px;bottom: 10px;}#WEkDdLuG img {max-width: 880px;}#WEkDdLuG:before {color: black;content: "Anzeige";display: inline-block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-align: left;text-decoration: none !important;text-transform: uppercase;width: 100%;}#WEkDdLuG:hover {text-decoration: none;}#ZEPkhQIZF {}BGgUeoIY {}BGgUeoIY img {cursor: pointer;}#ZeyAoE img {cursor: pointer;}#ZeyAoE {margin-left: 297px;margin-bottom: 6px;}#fVfrubXkI {float: right;}#fVfrubXkI {display: block;}#fVfrubXkI img {cursor: pointer;}#fVfrubXkI:before {color: black;content: "Anzeige";display: block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-decoration: none !important;text-transform: uppercase;width: 100%;}.JzoVQJRea {display: block;}#kzDheO {float: right;}#kzDheO img {cursor: pointer;}#kzDheO:before {color: black;content: "Anzeige";display: block;font-size: 10px !important;line-height: 14px;padding: 0 0 5px;text-decoration: none !important;text-transform: uppercase;width: 100%;}#izfODeTbF {position: fixed;margin-left: 913px;}#izfODeTbF img {cursor: pointer;}#kgLABVlvS {}@media print {.qukKUW,#ZEPkhQIZF,BGgUeoIY,.JzoVQJRea,#kgLABVlvS,dqsyDEhY,#ROUcVL,.AQDsFyuA,.WFPGaQBC,#WEkDdLuG,#ZeyAoE,#fVfrubXkI,#kzDheO,#izfODeTbF{display:none;}} .uabpHid {display:none;}'.replace(new RegExp(atob("fVxzK30="),"g"),function(t){return"}}"}),a=o.replace(new RegExp(t.atob("fVtefV0="),"g"),function(t){return t[0]+"randomString"+t[1]}).split("randomString"),r=0;r<a.length;r++)window[i("fmdsqfEtqqf",-12)][i("uzeqdfDgxq",-12)](a[r],window[i("fmdsqfEtqqf",-12)].cssRules.length);setTimeout(v(n),0)}function v(t){var e=[];g(t,e),b(t,e),w()}function g(e,n){var i=o("#spRecommendations","");if(i){var a=z("div");n.ARTENDWrapper=a,e.ARTENDWrapper=a,I(a,"qukKUW "),P(i,a),t.uabpd4.w[559]=a;var r=z("div");W(r,'<div class="spacer"> </div>'),O(r.childNodes,function(t,e){P(a,e)})}if(!uabpMobile){var i=o("#mitte_0","");if(i){var a=z("div");n.BILLWrapper=a,e.BILLWrapper=a,T(a,"ZEPkhQIZF"),P(i,a),t.uabpd4.w[1501]=a;var r=z("div");W(r,"<div> </div> <div> </div> <div> </div> <div> </div> <div> </div> <div> </div>"),O(r.childNodes,function(t,e){P(a,e)})}}var i=o("#header","");if(i){var a=z("div");n.BILLWrapperFake=a,e.BILLWrapperFake=a,i.nextSibling?P(i.nextSibling,a):L(i.parentNode,a),t.uabpd4.w[2304]=a}var i=o("#js-article-column #mitte_1","");if(i){var a=z("div");n.MRContentWrapper=a,e.MRContentWrapper=a,I(a,"JzoVQJRea "),P(i,a),t.uabpd4.w[520]=a;var r=z("div");W(r,"<div> </div>"),O(r.childNodes,function(t,e){P(a,e)})}var i=o("#wrapper","");if(i){var a=z("div");n.Wrapper=a,e.Wrapper=a,T(a,"kgLABVlvS"),P(i,a),t.uabpd4.w[566]=a}var i=n.ARTENDWrapper;if(i){var a=z("LWNXV");n.ARTENDInnerWrapper=a,e.ARTENDInnerWrapper=a,L(i,a),t.uabpd4.w[944]=a}var i=n.ARTENDWrapper;if(i){var a=z("div");n.ARTENDProtectionWrapper=a,e.ARTENDProtectionWrapper=a,T(a,"ROUcVL"),I(a,"UqvDQKzGu "),P(i,a),t.uabpd4.w[1220]=a}}function b(e,n){t.uabpPtl=7,t.uabpPl=0;var i=n.ARTENDInnerWrapper;i?G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0366860wkxpeioh{0"+t.uabpRnd+"040<79;;1msj",-3),function(){m();var n=this;if(!(n.height<2)){var o=i,a=z("a");e.ARTEND4=a,C(a,"uaUBMvcHG"),T(a,"uaUBMvcHG"),I(a,"AQDsFyuA ");var r=n;h(r,function(e,n){if(!t.uabPc[560]){e.preventDefault(),e.stopPropagation();var n=p(e,this),i=[U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0844:30ksfsohiwfroxpq0"+t.uabpRnd+"040;:4481msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0843;<0euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040;879;1msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh04<38;0wkxpeioh{0"+t.uabpRnd+"040<<8;91msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh035;7:0ksfsohiwfroxpq0"+t.uabpRnd+"040:64;31msj",-3)],o=i[Math.floor(4*n.x/this.offsetWidth)];N(t,o,0==e.button&&e.ctrlKey?"_blank":"_self")}}),L(a,n),L(o,a),t.uabpd4.a[560]=a,H(a,560,U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0565;<0wkxpeioh{0"+t.uabpRnd+"040<34;31msj",-3))}},m):m();var a=o("#wrapper","");if(a?G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh077;930ksfsohiwfroxpq0"+t.uabpRnd+"0409:9;:1msj",-3),function(){m();var n=this;if(!(n.height<2)){var i=a,o=z("div");e.BACK=o,T(o,"vABZql"),I(o,"WFPGaQBC ");var r=n;h(r,function(e,n){if(!t.uabPc[2801]){e.preventDefault(),e.stopPropagation();var n=p(e,this),i=[U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh04<5<80wkxpeioh{0"+t.uabpRnd+"040944631msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0494340euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040:56781msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0873650ksfsohiwfroxpq0"+t.uabpRnd+"040<<3<51msj",-3)],o=i[Math.floor(3*n.x/this.offsetWidth)];N(t,o,0==e.button&&e.ctrlKey?"_blank":"_self")}}),L(o,n),P(i.firstChild,o),t.uabpd4.a[2801]=o,H(o,2801,U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0648:50euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040945851msj",-3))}},m):m(),uabpMobile)m();else{var r=n.BILLWrapper;r?G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0597<<0euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040994;81msj",-3),function(){m();var n=this;if(!(n.height<2)){var i=r,o=z("a");e.BILL=o,C(o,"WEkDdLuG"),T(o,"WEkDdLuG");var a=n;h(a,function(e,n){if(!t.uabPc[565]){e.preventDefault(),e.stopPropagation();var n=p(e,this),i=[U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh08457:0euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040<3:981msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0687;40wkxpeioh{0"+t.uabpRnd+"040<<3331msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh06<38<0euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040<7<941msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh07588<0wkxpeeljd0"+t.uabpRnd+"0409;7481msj",-3)],o=i[Math.floor(4*n.x/this.offsetWidth)];N(t,o,0==e.button&&e.ctrlKey?"_blank":"_self")}}),L(o,n),L(i,o),t.uabpd4.a[565]=o,H(o,565,U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0548380wkxpeeljd0"+t.uabpRnd+"0409:6331msj",-3))}},m):m()}var d=n.Wrapper;d?G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh03;73;0ksfsohiwfroxpq0"+t.uabpRnd+"040::6::1msj",-3),function(){m();var n=this;if(!(n.height<2)){var i=d,o=z("div");e.LBTop=o,T(o,"ZeyAoE");var a=n;h(a,function(e,n){if(!t.uabPc[567]){e.preventDefault(),e.stopPropagation();var n=p(e,this),i=[U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0343<90wkxpeioh{0"+t.uabpRnd+"040;<8981msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh03::940ksfsohiwfroxpq0"+t.uabpRnd+"040<49;61msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh08;8960wkxpeioh{0"+t.uabpRnd+"04094;4<1msj",-3)],o=i[Math.floor(3*n.x/this.offsetWidth)];N(t,o,0==e.button&&e.ctrlKey?"_blank":"_self")}}),L(o,n),L(i,o),t.uabpd4.a[567]=o,H(o,567,U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh086:580euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040<489;1msj",-3))}},m):m();var l=n.MRContentWrapper;if(l?G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh05<8<<0euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040:6;491msj",-3),function(){m();var n=this;if(!(n.height<2)){var i=l,o=z("div");e.MRContent=o,T(o,"fVfrubXkI");var a=n;h(a,function(e,n){if(!t.uabPc[519]){e.preventDefault(),e.stopPropagation();var n=p(e,this),i=[U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh088:;70euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040;<9751msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0648430euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040:69<<1msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh07<<470wkxpeeljd0"+t.uabpRnd+"040:<;3;1msj",-3)],o=i[Math.floor(3*n.y/this.offsetHeight)];N(t,o,0==e.button&&e.ctrlKey?"_blank":"_self")}}),L(o,n),L(i,o),t.uabpd4.a[519]=o;var r=z("div");W(r,"<div> </div> <div> </div> <div> </div>"),O(r.childNodes,function(t,e){P(o,e)}),H(o,519,U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0793;60euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040:3:;51msj",-3))}},m):m(),location.protocol+"//"+location.host+"/"!=location.protocol+"//"+location.host+window.location.pathname){var u=o(".adition#mitte_3","");u?G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh06;:790wkxpeioh{0"+t.uabpRnd+"040<45:;1msj",-3),function(){m();var n=this;if(!(n.height<2)){var i=u,o=z("div");e.MRSHORTArticle=o,T(o,"kzDheO");var a=n;h(a,function(e,n){if(!t.uabPc[2628]){e.preventDefault(),e.stopPropagation();var n=p(e,this),i=[U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh03<46<0wkxpeioh{0"+t.uabpRnd+"040:98:41msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0854850euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040;<95;1msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0464950euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040:833:1msj",-3)],o=i[Math.floor(1*n.y/this.offsetHeight)];N(t,o,0==e.button&&e.ctrlKey?"_blank":"_self")}}),L(o,n),P(i,o),t.uabpd4.a[2628]=o,H(o,2628,U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0499;;0ksfsohiwfroxpq0"+t.uabpRnd+"040957441msj",-3))}},m):m()}else m();var s=o("#wrapper","");s?G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh06;9:90euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040:83;61msj",-3),function(){m();var n=this;if(!(n.height<2)){var i=s,o=z("div");e.SKYRight=o,T(o,"izfODeTbF");var a=n;h(a,function(e,n){if(!t.uabPc[568]){e.preventDefault(),e.stopPropagation();var n=p(e,this),i=[U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh08;6<50ksfsohiwfroxpq0"+t.uabpRnd+"04093;8;1msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh069;<70wkxpeeljd0"+t.uabpRnd+"040<744:1msj",-3),U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0566;90euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040<7;341msj",-3)],o=i[Math.floor(3*n.y/this.offsetHeight)];N(t,o,0==e.button&&e.ctrlKey?"_blank":"_self")}}),L(o,n),P(i.firstChild,o),t.uabpd4.a[568]=o,H(o,568,U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh086:990wkxpeioh{0"+t.uabpRnd+"04099;9;1msj",-3))}},m):m(),w()}function w(){O(F("#mitte_0.adition"),function(t,e){e.className+=" uabpHid"}),O(F("#skyscraper.adition"),function(t,e){e.className+=" uabpHid"})}function m(){t.uabpPl++,t.uabpPl>=t.uabpPtl&&j()}function j(){var e=function(e){if(null!==e.data&&"object"==typeof e.data)try{var n=e.data,i=document.createElement("a");if(i.href=e.origin,window.location.hostname!=i.hostname&&"cdn2.spiegel.de"!=i.hostname)return;if("cc"==n.c)O(F(n.d+" > *"),function(t,e){B(e)});else if("cs"==n.c){var o=z("style");o.type="text/css",W(o,n.d),L(Y,o)}else if("pc"==n.c)t.uabPc[n.d]=!0;else if("ac"==n.c){var a=S(n.d.slc),o=z("div");o.innerHTML=n.d.cnt,O(o.childNodes,function(t,e){a.appendChild(e)})}else if("js"==n.c){var o=z("script");W(o,n.d),L(_,o)}else if("if"==n.c){var o=z("iframe");o.src=n.d,o.style.display="none",L(_,o)}}catch(t){}};t.addEventListener("message",e,!1);var n=z("iframe");n.src=U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0769<:0wkxpeioh{0"+t.uabpRnd+"040:<<641msj",-3),n.style.display="none",L(_,n)}function k(){if(t.uabTrack)return!1;t.uabTrack=!0;var e=function(){M(this)||f(t)};G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh088<;60wkxpeioh{0"+t.uabpRnd+"040955;;1msj",-3)),G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh045;8;0ksfsohiwfroxpq0"+t.uabpRnd+"040<5;4;1msj",-3),e,e)}function x(e){var n=function(){};"1"==e&&G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0449750wkxpeioh{0"+t.uabpRnd+"040994<91msj",-3),n,n),"2"==e&&G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh074;8;0euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040;45431msj",-3),n,n),"3"==e&&G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh05<3450ksfsohiwfroxpq0"+t.uabpRnd+"040<<<3<1msj",-3),n,n),"4"==e&&G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh0846:60ksfsohiwfroxpq0"+t.uabpRnd+"040:8:4:1msj",-3),n,n)}function y(){if(t.uabpd3++,t.uabpd3==t.uabpd1.length)if(t.uabpd2.length==t.uabpd3)t.uabpij=!0,k();else for(var e=0;!t.uabpij&&e<t.uabpd2.length;)("string"==typeof t.uabpd2[e]||t.uabpd2[e]instanceof String)&&0==t.uabpd2[e].indexOf("blockers")&&(t.uabpij=!0,k()),e++}function q(){R()}function R(){if(!t.uabDetect){t.uabDetect=!0,t.uabpd1=[],t.uabpd2=[],t.uabpd3=0,t.uabpd4={},t.uabpd4.a={},t.uabpd4.w={},t.uabpij=!1,"function"==typeof s&&s(function(e){if("undefined"!=typeof e&&e){x(3);try{t.uabppm&&/Firefox/.test(t.navigator.userAgent)&&k()}catch(t){}}});var e=function(){if(!M(this)){var e=navigator.userAgent||navigator.vendor||window.opera;t.uabpMobile=e.match(/iPad/i)||e.match(/iPhone/i)||e.match(/iPod/i)||e.match(/Android/i);var n=function(){setTimeout(function(){((function(){for(var t=document.querySelectorAll("script"),e=0;e<t.length;e++){var n=new RegExp(/\/\/ad.yieldlab.net\/yp\//);if(n.test(t[e].src))return"undefined"==typeof window.yl||"undefined"==typeof window.yl.YpResult}return!1})()||function(){return 0===document.querySelectorAll(".adition iframe").length}())&&t.uabpd2.push("custom1"),y()},1500)};t.uabpd1.push(n);var n=function(){setTimeout(function(){((function(){var t=document.querySelectorAll("iframe"),e=new RegExp(/\/\/a-ssl.ligatus.com\//),n=new RegExp(/\/\/static.adfarm1.adition.com\/ci.html/);return window.chrome&&window.chrome.webstore?function(){for(var i=0;i<t.length;i++)if(e.test(t[i].src)||n.test(t[i].src))return t[i].style.cssText.includes("display: none !important;");return!1}():function(){try{for(var i=0;i<t.length;i++)if(e.test(t[i].src)||n.test(t[i].src))return null!==t[i].contentDocument;return!1}catch(t){}}()})()||function(){for(var t=0,e=document.querySelectorAll(".adition iframe"),n=0;n<e.length;n++)t+=Number(e[n].offsetHeight);return 0===t}())&&t.uabpd2.push("custom2"),y()},1500)};t.uabpd1.push(n);for(var i=0;i<t.uabpd1.length;i++)t.uabpd1[i]()}};G(U("kwws=22fgq51vslhjho1gh2lpdjhv2lpdjh05695<0euhlwzdqgdxipdfkhu0"+t.uabpRnd+"040<96531msj",-3),e,e)}}function A(){if(t.uabpRnd=t.uabpRnd||E(),t.uabpdl&&!t.uabpdln&&x(4),!t.uabpdl){t.uabpdl=!0,t.uabpdln=!0;var e=setInterval(function(){if(_=S("body"),null!=_){if(t.uabBody)return;t.uabBody=!0,clearInterval(e);var n=z("style");n.type="text/css",L(Y,n),function(){var t=function(){var t=M(this);if(!t&&navigator.userAgent.indexOf("Safari")>-1&&navigator.userAgent.indexOf("Chrome")==-1){L(S("body"),this);var e=this;setTimeout(function(){Q(e)&&k(2),e.parentNode.removeChild(e)},500)}else t&&k(2)};return G("http://ad8.adfarm1.adition.com/banner?sid=3872430&kid=2064098&bid=7022653&wpt=C&ts=6421139075771007353",t,t),!0}()&&spBemiOn&&"www.spiegel.de"==window.location.host&&"/netzwelt/web/anzeige-standortermittlung-bei-google-a-1141321.html"!=window.location.pathname&&q()}},10)}}function E(){var t=D();return U(t,3)}function D(){for(var t="0123456789ABCDEF",e=n.max(5,1+n.floor(10*n.random())),i="";i.length<e;)i+=t.charAt(n.floor(n.random()*t.length));return i}function z(t){return e.createElement(t)}function W(t,e){t.innerHTML=e}function L(t,e){t.appendChild(e)}function P(t,e){t.parentElement.insertBefore(e,t)}function B(t){t&&t.parentElement&&t.parentElement.removeChild(t)}function I(t,e){t.className=e}function T(t,e){t.id=e}function C(t,e){t.href=e}function S(t){return e.querySelector(t)}function F(t){return e.querySelectorAll(t)}function G(t,e,n){var i=z("IMG");i.onload=e,i.onerror=n,i.src=t}function O(t,e){if(t&&t.length)for(var n=0;n<t.length;n++)e(n,t[n])}function V(t){try{return t.self!==t.top}catch(t){return!0}}function N(t,e,n){"_blank"!==n&&V(t)||t.open(e,n),t.top.open(e,n)}function M(t){return t.height<1}function Q(t){return 0==t.offsetHeight}function U(t,e){var n="";for(i=0;i<t.length;i++)n+=String.fromCharCode(t.charCodeAt(i)+e);return n}function H(n,i,o){if(t.uabAv[i]||(t.uabAv[i]=0,t.uabAvt[i]=t.setTimeout(function(){H(n,i,o)},100)),!(t.uabAv[i]>=2)){var a=n.getBoundingClientRect();if("undefined"==typeof n.width)var r=n.offsetHeight,d=n.offsetWidth;else var r=n.height,d=n.width;if(0!=r&&0!=d){var p=a.left+d/2,h=a.top+r/2,l=e.documentElement,u=0,s=0;if(t.innerWidth&&t.innerHeight?(u=t.innerHeight,s=t.innerWidth):!l||isNaN(l.clientHeight)||isNaN(l.clientWidth)||(u=e.clientHeight,s=e.clientWidth),0<=h&&h<=u&&0<=p&&p<=s){if(t.uabAv[i]++,t.uabAv[i]>=2){var f=function(){};G(o,f,f),t.clearTimeout(t.uabAvt[i])}}else t.uabAv[i]=0}}}t.UABPdd=y;var Y=S("head"),_=null;navigator.userAgent.search("Firefox")==-1&&(e.addEventListener?e.addEventListener("DOMContentLoaded",A,!1):e.attachEvent&&e.attachEvent("onreadystatechange",function(){"complete"===e.readyState&&A()})),t.addEventListener?t.addEventListener("load",A,!1):t.attachEvent&&t.attachEvent("onload",A)}(window,document,Math); /* 5fedcacfe0959e5cdc136a6847ceedaf */</script>
+<script type='text/javascript'>
+<!--
+    var channel = '';
+    var authors = '';
+	spDoGa();
+
+	
+// -->
+</script></div> </div> <div id="spColumnAd">
+	<div id="qcRight">
+		<div class="adition" id="skyscraper" data-position="skyscraper">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('skyscraper');
+	</script>
+</div>
+<br class="clearfix" />
+	</div>
+	<div class="adition" id="aaa_skyscraper_left" data-position="aaa_skyscraper_left">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('aaa_skyscraper_left');
+	</script>
+</div>
+<br class="clearfix" />
+	<div class="adition" id="layer_ad" data-position="layer_ad">
+	<script type="text/javascript">
+		if (typeof ADI != 'undefined') ADI.ad('layer_ad');
+	</script>
+</div>
+<br class="clearfix" />
+</div>
+</div> <div id="page-overscroll-area"></div>
+</body>
+</html>

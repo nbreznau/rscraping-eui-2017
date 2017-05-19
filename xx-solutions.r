@@ -150,6 +150,7 @@ ls("package:pageviews")
 
 trump_views <- article_pageviews(project = "en.wikipedia", article = "Donald Trump", user_type = "user", start = "2016010100", end = "2017051500")
 head(trump_views)
+save(trump_views, file = "trump_pageviews.RData")
 clinton_views <- article_pageviews(project = "en.wikipedia", article = "Hillary Clinton", user_type = "user", start = "2016010100", end = "2017051500")
 
 plot(trump_views$date, trump_views$views, col = "red", type = "l")
@@ -162,7 +163,8 @@ browseURL("http://openweathermap.org/current")
 browseURL("http://openweathermap.org/api")
 # 5. make a call to the API to find out the current weather conditions in Firenze!
 
-apikey <- "&appid=42c7829f663f87eb05d2f12ab11f2b5d"
+load("/Users/munzerts/rkeys.RDa")
+apikey <- paste0("&appid=", openweathermap)
 endpoint <- "http://api.openweathermap.org/data/2.5/find?"
 city <- "Firenze, Italy"
 metric <- "&units=metric"

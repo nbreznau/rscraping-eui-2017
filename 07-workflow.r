@@ -187,5 +187,6 @@ system("launchctl load ~/Library/LaunchAgents/spiegelheadlines.plist")
 system("launchctl start spiegelheadlines")
 system("launchctl list")
 
+# 5. stop and unload it when desired
 system("launchctl stop spiegelheadlines")
 system("launchctl unload ~/Library/LaunchAgents/spiegelheadlines.plist")

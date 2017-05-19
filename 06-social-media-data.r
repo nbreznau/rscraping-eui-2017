@@ -39,6 +39,7 @@ wd <- getwd()
 ## name assigned to created app
 appname <- "TwitterToR"
 ## api key (example below is not a real key)
+load("/Users/munzerts/rkeys.RDa")
 key <- TwitterToR_twitterkey
 ## api secret (example below is not a real key)
 secret <- TwitterToR_twittersecret

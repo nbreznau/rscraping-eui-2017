@@ -277,7 +277,7 @@ for (i in 1:length(list_files_path)) {
 dat <- data.frame(authors = authors, title = title, numViews = numViews, datePublish = datePublish)
 head(dat)
 
-# download statistics
+# plot download statistics
 dattop <- dat[order(dat$numViews, decreasing = TRUE),]
 dattop[1:10,]
 summary(dat$numViews)
@@ -318,7 +318,7 @@ hits_text <- html_nodes(url_parsed, css = ".r a") %>% html_text()
 hits_links <- html_nodes(url_parsed, css = ".r a") %>% html_attr("href") 
 
 
-## another example: WorNet Search
+## another example: WordNet Search
 # inspect webpage
 url <- "http://wordnetweb.princeton.edu/perl/webwn"
 browseURL(url)

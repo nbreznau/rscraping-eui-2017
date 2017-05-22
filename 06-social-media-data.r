@@ -35,7 +35,7 @@ wd <- getwd()
   # rtweet: connects to both REST and Streaming API, nice data formats, still under active development
 
 
-
+library(rtweet)
 ## name assigned to created app
 appname <- "TwitterToR"
 ## api key (example below is not a real key)
@@ -65,10 +65,11 @@ twitter_stream_ger <- stream_tweets(q = q, timeout = 30, token = twitter_token)
 # set up directory and JSON dump
 rtweet.folder <- "data/rtweet-data"
 dir.create(rtweet.folder)
-streamname <- "gerparties"
+streamname <- "clintontrump"
 filename <- file.path(rtweet.folder, paste0(streamname, "_", format(Sys.time(), "%F-%H-%M-%S"), ".json"))
 
 # create file with stream's meta data
+streamtime <- format(Sys.time(), "%F-%H-%M-%S")
 metadata <- paste0(
   "q = ", q, "\n",
   "streamtime = ", streamtime, "\n",
@@ -78,7 +79,7 @@ cat(metadata, file = metafile)
 
 # sink stream into JSON file
 stream_tweets(q = q, parse = FALSE,
-              timeout = 300,
+              timeout = 30,
               file_name = filename)
 
 # parse from json file
@@ -95,7 +96,7 @@ users_data(rt) %>% names()
 
 ## mining tweets with the rtweet package ------
 
-rt <- parse_stream("data/rtweet-data/clintontrump_2017-05-17-17-24-05.json")
+rt <- parse_stream("data/rtweet-data/clintontrump_2017-05-19-16-27-32.json")
 clinton <- str_detect(rt$text, regex("hillary|clinton", ignore_case = TRUE))
 trump <- str_detect(rt$text, regex("donald|trump", ignore_case = TRUE))
 mentions_df <- data.frame(clinton,trump)

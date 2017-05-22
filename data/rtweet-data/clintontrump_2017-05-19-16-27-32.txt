@@ -1,0 +1,3 @@
+q = clinton,trump,hillaryclinton,imwithher,realdonaldtrump,maga,electionday
+streamtime = 2017-05-19-16-28-30
+filename = data/rtweet-data/clintontrump_2017-05-19-16-27-32.json
